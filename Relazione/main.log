@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.25)  9 APR 2024 16:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.25)  9 APR 2024 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -183,48 +183,67 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@cols=\count277
 \TX@ftn=\toks23
 )
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count278
+\LTcapwidth=\dimen161
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@gbox=\box61
+\LT@cols=\count279
+\LT@rows=\count280
+\c@LT@tables=\count281
+\c@LT@chunks=\count282
+\LT@p@ftn=\toks24
+)
 (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip55
-\multirow@cntb=\count278
-\multirow@dima=\skip56
-\bigstrutjot=\dimen161
+\multirow@colwidth=\skip59
+\multirow@cntb=\count283
+\multirow@dima=\skip60
+\bigstrutjot=\dimen162
 )
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count279
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count284
+\l__pdf_internal_box=\box62
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
-\scratchdimen=\dimen162
-\scratchbox=\box58
-\nofMPsegments=\count281
-\nofMParguments=\count282
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count283
-\MPscratchDim=\dimen163
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count285
+\scratchdimen=\dimen163
+\scratchbox=\box63
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen164
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -234,12 +253,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count286
+\c@lstlisting=\count291
 
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks26
-\inpenc@posthook=\toks27
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
 )
 (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -254,11 +273,11 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 13.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
@@ -352,31 +371,519 @@ Overfull \vbox (111.39987pt too high) has occurred while \output is active []
 [2])
 Chapter 2.
 (./paragraph/uc_breve.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
+Overfull \hbox (16.04506pt too wide) in paragraph at lines 13--13
 []|\OT1/cmr/m/n/10 Descrizione
  []
 
 
-Underfull \hbox (badness 7451) in paragraph at lines 9--9
-\OT1/cmr/m/n/10 dati del la-vo-
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 breve
  []
 
 
-Underfull \hbox (badness 6125) in paragraph at lines 9--9
-\OT1/cmr/m/n/10 ra-tori e even-
+Overfull \hbox (27.8229pt too wide) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/10 Organizzatore| 
  []
 
-) (./paragraph/uc.tex
+
+Overfull \hbox (2.39224pt too wide) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/10 Gestisce
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 il per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 son-ale:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 Ge-stire
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 il per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 son-ale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 sig-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 nifica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 in-serire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 i dati
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 la-vo-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 tori e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 even-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 tual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 mente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 mod-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 fi-car-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 li/e-lim-
+ []
+
+
+Overfull \hbox (2.39224pt too wide) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/10 Gestisce
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 il per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 son-ale:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 Ge-stire
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 il per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 son-ale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 sig-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 nifica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 in-serire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 i dati
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 la-vo-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 tori e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 even-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 tual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 mente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 mod-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 fi-car-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 li/e-lim-
+ []
+
+
+Overfull \hbox (2.39224pt too wide) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/10 Gestisce
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 il per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 son-ale:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 Ge-stire
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 il per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 son-ale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 sig-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 nifica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 in-serire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 i dati
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 la-vo-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 tori e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 even-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 tual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 mente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 mod-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 fi-car-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 li/e-lim-
+ []
+
+
+Overfull \hbox (8.26729pt too wide) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/10 Personale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 di
+ []
+
+
+Overfull \hbox (2.39224pt too wide) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/10 Gestisce
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 il per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 son-ale:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 Ge-stire
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 il per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 son-ale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 sig-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 nifica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 in-serire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 i dati
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 la-vo-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 tori e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 even-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 tual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 mente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 mod-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 fi-car-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 li/e-lim-
+ []
+
+
+Overfull \hbox (2.39224pt too wide) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/10 Gestisce
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 il per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 son-ale:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 Ge-stire
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 il per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 son-ale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 sig-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 nifica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 in-serire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 i dati
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 la-vo-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 tori e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 even-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 tual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 mente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 mod-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 fi-car-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\OT1/cmr/m/n/10 li/e-lim-
+ []
+
+) [3
+
+]
+Overfull \vbox (896.59995pt too high) has occurred while \output is active []
+
+
+[4]
+Chapter 3.
+(./paragraph/uc.tex
 Overfull \hbox (499.0487pt too wide) in alignment at lines 18--18
 [][][][] 
  []
 
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 18--19
-[][] 
- []
-
-) [3
+) [5
 
 ] (./main.aux)
  ***********
@@ -385,10 +892,10 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4837 strings out of 476076
- 76618 string characters out of 5793775
+ 4937 strings out of 476076
+ 77961 string characters out of 5793775
  1938187 words of memory out of 5000000
- 26883 multiletter control sequences out of 15000+600000
+ 26980 multiletter control sequences out of 15000+600000
  562017 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,9n,79p,249b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -396,10 +903,10 @@ Here is how much of TeX's memory you used:
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (4 pages, 58815 bytes).
+Output written on main.pdf (6 pages, 60214 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
