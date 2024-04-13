@@ -46,7 +46,7 @@ Data fine
 --
 Data inizio
 Data fine
-Caposala</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -62,7 +62,7 @@ Caposala</panel_attributes>
 Nome Chef
 Assegnata ad evento 
 Cuochi 
-Proprietà dell'azienda 
+//Proprietà dell'azienda 
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -78,9 +78,9 @@ Proprietà dell'azienda
 --
 Nome 
 Cognome
-Esperienza in cucina in anni
-Riconoscimenti 
-Coordina cucina 
+//Esperienza in cucina in anni
+//Riconoscimenti 
+//Coordina cucina 
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -153,5 +153,48 @@ m1=0..n
 m2=0..1
 associazione &gt;</panel_attributes>
     <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>640</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Cuoco
+--
+Nome
+Cognome
+//Esperienza in anni </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>520</y>
+      <w>130</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+associazione &gt;</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>500</y>
+      <w>220</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+associazione &gt;</panel_attributes>
+    <additional_attributes>10.0;30.0;200.0;20.0</additional_attributes>
   </element>
 </diagram>

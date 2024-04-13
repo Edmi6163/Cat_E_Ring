@@ -27,12 +27,12 @@
     <id>Relation</id>
     <coordinates>
       <x>360</x>
-      <y>190</y>
+      <y>200</y>
       <w>30</w>
-      <h>650</h>
+      <h>680</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;630.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;660.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -40,10 +40,10 @@
       <x>640</x>
       <y>180</y>
       <w>30</w>
-      <h>650</h>
+      <h>710</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;630.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;690.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -104,19 +104,6 @@ listaOrganizzataTurniCucina</panel_attributes>
     <panel_attributes>lt=-&gt;&gt;&gt;
 2.listaCompitiDaSvolgere(titoloEvento)</panel_attributes>
     <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>740</x>
-      <y>350</y>
-      <w>320</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
@@ -302,7 +289,7 @@ listaCompiti</panel_attributes>
     <coordinates>
       <x>290</x>
       <y>370</y>
-      <w>430</w>
+      <w>440</w>
       <h>290</h>
     </coordinates>
     <panel_attributes>ALT
@@ -346,6 +333,19 @@ bg=#ffaaaa
 -.
 fg=#D3001B
 layer=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>290</x>
+      <y>410</y>
+      <w>430</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>LOOP
+fg=blue
+bg=#8CB4FF</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
