@@ -1,200 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="15.1">
-  <zoom_level>10</zoom_level>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>150</x>
-      <y>250</y>
-      <w>140</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Evento
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>30</x><y>250</y><w>140</w><h>80</h></coordinates><panel_attributes>Evento
 --
 Nome
 Data 
 Tipo evento 
 
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>450</x>
-      <y>250</y>
-      <w>140</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Turno 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>250</y><w>140</w><h>80</h></coordinates><panel_attributes>Turno 
 --
 Svolto da 
 Data inizio 
 Data fine 
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>850</x>
-      <y>230</y>
-      <w>140</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>Servizio
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>430</y><w>140</w><h>100</h></coordinates><panel_attributes>Servizio
 --
 Data inizio
 Data fine
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>850</x>
-      <y>430</y>
-      <w>180</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>Cucina
+Caposala</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>440</y><w>180</w><h>90</h></coordinates><panel_attributes>Cucina
 --
+//Modificare freccia com una a punta binava 
 Nome Chef
 Assegnata ad evento 
 Cuochi 
-//Proprietà dell'azienda 
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>860</x>
-      <y>630</y>
-      <w>140</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>Chef
+Proprietà dell'azienda 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>610</y><w>140</w><h>110</h></coordinates><panel_attributes>Chef
 --
 Nome 
 Cognome
-//Esperienza in cucina in anni
-//Riconoscimenti 
-//Coordina cucina 
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>280</x>
-      <y>270</y>
-      <w>190</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
+Esperienza in cucina in anni
+Riconoscimenti 
+Coordina cucina 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>270</y><w>190</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=0..1
-associazione &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>580</x>
-      <y>270</y>
-      <w>290</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
+associazione &gt;</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>520</y><w>250</w><h>110</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=0..1
-associazione &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>550</x>
-      <y>450</y>
-      <w>320</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=0..n
-m2=0..1
-associazione &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>550</x>
-      <y>320</y>
-      <w>130</w>
-      <h>170</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=0..n
-m2=0..1
-associazione &gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>930</x>
-      <y>510</y>
-      <w>130</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=0..n
-m2=0..1
-associazione &gt;</panel_attributes>
-    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>610</x>
-      <y>640</y>
-      <w>140</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>Cuoco
+associazione &gt;</panel_attributes><additional_attributes>230;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>320</y><w>80</w><h>130</h></coordinates><panel_attributes>lt=-&gt;&gt;
+evento</panel_attributes><additional_attributes>10;110;40;10</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>320</y><w>130</w><h>140</h></coordinates><panel_attributes>lt=-&gt;&gt;
+evento</panel_attributes><additional_attributes>110;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>20</y><w>140</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+evento</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>70</y><w>140</w><h>70</h></coordinates><panel_attributes>Menù
 --
-Nome
-Cognome
-//Esperienza in anni </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>650</x>
-      <y>520</y>
-      <w>130</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=0..n
-m2=0..1
-associazione &gt;</panel_attributes>
-    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>650</x>
-      <y>500</y>
-      <w>220</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=0..n
-m2=0..1
-associazione &gt;</panel_attributes>
-    <additional_attributes>10.0;30.0;200.0;20.0</additional_attributes>
-  </element>
-</diagram>
+attributo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>70</y><w>140</w><h>70</h></coordinates><panel_attributes>Ricetta
+--
+attributo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>70</y><w>140</w><h>70</h></coordinates><panel_attributes>Foglio riepilogativo
+--
+attributo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>70</y><w>140</w><h>70</h></coordinates><panel_attributes>Ricettario
+--
+attributo</panel_attributes><additional_attributes></additional_attributes></element></diagram>
