@@ -5,7 +5,7 @@
     <id>UMLActor</id>
     <coordinates>
       <x>360</x>
-      <y>10</y>
+      <y>0</y>
       <w>60</w>
       <h>120</h>
     </coordinates>
@@ -17,7 +17,7 @@
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>100</y>
+      <y>90</y>
       <w>40</w>
       <h>1740</h>
     </coordinates>
@@ -28,7 +28,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>660</x>
-      <y>60</y>
+      <y>50</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -40,7 +40,7 @@
     <id>Relation</id>
     <coordinates>
       <x>700</x>
-      <y>110</y>
+      <y>100</y>
       <w>40</w>
       <h>1720</h>
     </coordinates>
@@ -51,7 +51,7 @@
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>170</y>
+      <y>160</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -63,7 +63,7 @@
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>210</y>
+      <y>200</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -75,7 +75,7 @@ foglio riepilogativo</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>340</y>
+      <y>330</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -87,7 +87,7 @@ foglio riepilogativo</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>360</y>
+      <y>350</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -99,7 +99,7 @@ compiti ordinati in base alla difficoltà </panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>430</y>
+      <y>420</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -111,7 +111,7 @@ compiti ordinati in base alla difficoltà </panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>450</y>
+      <y>440</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -123,7 +123,7 @@ compiti ordinati in base alla priorità</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>510</y>
+      <y>500</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -135,7 +135,7 @@ compiti ordinati in base alla priorità</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>630</y>
+      <y>620</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -147,7 +147,7 @@ compiti ordinati in base alla priorità</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>660</y>
+      <y>650</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -159,7 +159,7 @@ compiti assegnati ai dipendenti in base al turno</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>540</y>
+      <y>530</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -171,7 +171,7 @@ compito ordinato in base alla tempistica</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>730</y>
+      <y>720</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -183,7 +183,7 @@ compito ordinato in base alla tempistica</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>760</y>
+      <y>750</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -195,7 +195,7 @@ compito assegnato sul tabellone</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>860</y>
+      <y>850</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -207,7 +207,7 @@ compito assegnato sul tabellone</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>890</y>
+      <y>880</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
@@ -219,7 +219,7 @@ foglio riepilogativo consultato e modfiicato</panel_attributes>
     <id>UMLNote</id>
     <coordinates>
       <x>0</x>
-      <y>50</y>
+      <y>40</y>
       <w>170</w>
       <h>610</h>
     </coordinates>
@@ -237,13 +237,51 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>380</x>
-      <y>240</y>
+      <y>230</y>
       <w>360</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 titolo aggiunto/ modificato in un secondo momento
 fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;340.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>550</y>
+      <w>360</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+7) consultaListaTurni()</panel_attributes>
+    <additional_attributes>10.0;20.0;340.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>630</y>
+      <w>360</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+consultaFoglioRiepologativo()
+</panel_attributes>
+    <additional_attributes>10.0;20.0;340.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>720</y>
+      <w>360</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+piuFogliRiepilogativi(foglioRiepilogativo ,titolo?)
+</panel_attributes>
     <additional_attributes>10.0;20.0;340.0;20.0</additional_attributes>
   </element>
 </diagram>

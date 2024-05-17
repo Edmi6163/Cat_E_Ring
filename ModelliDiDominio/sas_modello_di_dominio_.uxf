@@ -142,14 +142,14 @@ Tempi cottura: numero
       <x>140</x>
       <y>460</y>
       <w>210</w>
-      <h>90</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>Cuoco
 --
 Nome: testo
 Cognome: testo
 Anni di esperienza: numero 
-</panel_attributes>
+Esperto :si/no</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
