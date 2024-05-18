@@ -263,7 +263,7 @@ turnoModificato</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-10. consultaListaCompitiServizio</panel_attributes>
+10. consultaListaCompitiServizio(evento)</panel_attributes>
     <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
   </element>
   <element>
@@ -467,7 +467,7 @@ lw=2
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-15. modificaListaTurni(orario,location)</panel_attributes>
+15. modificaListaTurni(orario,luogo)</panel_attributes>
     <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
   </element>
   <element>
@@ -557,14 +557,14 @@ turnoModificato</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
+      <x>170</x>
       <y>1820</y>
-      <w>310</w>
+      <w>350</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-19. modificaTurniELuogoXEmergenza(turni)</panel_attributes>
-    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
+19. modificaTurniELuogoXEmergenza(turni,luogo)</panel_attributes>
+    <additional_attributes>30.0;20.0;310.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -639,7 +639,7 @@ fg=#9E1C8C</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-13a.1a modificaTurnoEsistente
+13a.1a modificaTurnoEsistente(turno)
 fg=#9E1C8C</panel_attributes>
     <additional_attributes>280.0;20.0;10.0;20.0</additional_attributes>
   </element>
