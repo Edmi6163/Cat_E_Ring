@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>90</y>
+      <w>460</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>FoglioReipilogativoManager
+--
+*event sender methods*
++addReceiver(er:FoglioReipilogativoEventReceiver)
++removeReceiver(er:FoglioReipilogativoEventReceiver)
+- notifyTurnoAdded(tr:Turno)
+- notifyMenùAdded(mn:Menù)
+- notifyRicettaAdded(ri:Ricetta)
+- notifyFoglioReipilogativoCreated(fr:FoglioReipilogativo)
+- notifyFoglioReipilogativoDeleted(fr:FoglioReipilogativo)
+- notifyFoglioReipilogativoRearranged(fr:FoglioReipilogativo)
+- 
+--
+*Operations methods*
++createFoglioReipilogativo(titolo?:testo):FoglioReipilogativo
++modifieFrTitle(nuovoTitolo:testo)
++modifieFrContex(fr:FoglioReipilogativo)
++copyFr(fr:FoglioReipilogativo) :FoglioReipilogativo
++deleteFr(fr:FoglioReipilogativo)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>130</y>
+      <w>350</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>FoglioReipilogativo
+--
+-instance vars
+-(usually private)
+--
+_+static methods if any_
+_-can be public or private_
+--
+-private methods
+-usually for internal management
+-can be omitted
+--
++public metohds
+/+can have abstract methods/
+--
+*Can have several method sections*
++ other methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>0</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Chef
+--
+-Titolo: String 
+-NomeEvento: String
+-Portate: int 
+-Note: String 
+-Pubblicato: boolean
+--
++createChef(
+--
+-private methods
+-usually for internal management
+-can be omitted
+--
++public metohds
+/+can have abstract methods/
+--
+*Can have several method sections*
++ other methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>540</y>
+      <w>960</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Compito
+--
+- Assegnato_a: String
+- Tipo:boolean //inserire business rule
+- Difficoltà :int
+--
+*Operations methods*
++orderCompitoByDifficulty(compito:Compito):ArrayList&lt;Compito&gt;
++orderCompitoByPriority(compito:Compito)ArrayList&lt;Compito&gt;:
++orderCompitoByTiming(compito:Compito):ArrayList&lt;Compito&gt;
++assignedCompito(tipoCompito:boolean,nome?:Dipendete , cognome?:Dipendente , turno:Turno,compito:Compito ):ArrayList&lt;Compito&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>850</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Ricetta
+--
+-instance vars
+-(usually private)
+--
+_+static methods if any_
+_-can be public or private_
+--
+-private methods
+-usually for internal management
+-can be omitted
+--
++public metohds
+/+can have abstract methods/
+--
+*Can have several method sections*
++ other methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>840</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Dipendente
+--
+-instance vars
+-(usually private)
+--
+_+static methods if any_
+_-can be public or private_
+--
+-private methods
+-usually for internal management
+-can be omitted
+--
++public metohds
+/+can have abstract methods/
+--
+*Can have several method sections*
++ other methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
