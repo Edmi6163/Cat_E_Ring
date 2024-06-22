@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>100</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>ANormalClass
+--
+-instance vars
+-(usually private)
+--
+_+static methods if any_
+_-can be public or private_
+--
+-private methods
+-usually for internal management
+-can be omitted
+--
++public metohds
+/+can have abstract methods/
+--
+*Can have several method sections*
++ other methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
