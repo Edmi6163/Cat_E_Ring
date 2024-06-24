@@ -4,165 +4,161 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>30</x>
-      <y>80</y>
+      <x>180</x>
+      <y>0</y>
       <w>460</w>
       <h>340</h>
     </coordinates>
-    <panel_attributes>FoglioReipilogativoManager
+    <panel_attributes>SummaryDocumentManager
 --
 *event sender methods*
-+addReceiver(er:FoglioReipilogativoEventReceiver)
-+removeReceiver(er:FoglioReipilogativoEventReceiver)
-- notifyTurnoAdded(tr:Turno)
++addReceiver(er:SummaryDocumentEventReceiver)
++removeReceiver(er:SummaryDocumentEventReceiver)
+- notifyShiftWorkAdded(ws:WorkShift)
 - notifyMenùAdded(mn:Menù)
-- notifyRicettaAdded(ri:Ricetta)
-- notifyFoglioReipilogativoCreated(fr:FoglioReipilogativo)
-- notifyFoglioReipilogativoDeleted(fr:FoglioReipilogativo)
-- notifyFoglioReipilogativoRearranged(fr:FoglioReipilogativo)
+- notifyRecipeAdded(ri:Recipe )
+- notifySummaryDocumentCreated(sd:SummaryDocument)
+- notifySummaryDocumentDeleted(sd:SummaryDocument)
+- notifySummaryDocumentRearranged(sd:SummaryDocument)
 
 --
 *Operations methods*
-+createFoglioReipilogativo(titolo?:testo):FoglioReipilogativo
-+modifieFrTitle(nuovoTitolo:testo)
-+modifieFrContex(fr:FoglioReipilogativo)
-+copyFr(fr:FoglioReipilogativo) :FoglioReipilogativo
-+deleteFr(fr:FoglioReipilogativo)
++createSummaryDocument(title?:String):SummaryDocument
++modifieSummaryDocumentTitle(newTitle:String)
++modifieSummaryDocumentContex(sd:SummaryDocument)
++copySummaryDocument(sd:SummaryDocument) :SummaryDocument
++deleteSummaryDocument(sd:SummaryDocument)
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
-      <y>100</y>
+      <x>750</x>
+      <y>20</y>
       <w>350</w>
       <h>350</h>
     </coordinates>
-    <panel_attributes>FoglioReipilogativo
+    <panel_attributes>SummaryDocument
 --
-- Turni: String
-- Menù: String
-- Ricetta: String 
-- Preparazione Avanzata: boolean
-- Quantità preparazione avanzata:int</panel_attributes>
+- shiftWork: String
+- nenù: String
+- recipe: String 
+- advancedPreparation: boolean
+- quantityForAdvancedPreparation:int </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1010</x>
-      <y>170</y>
-      <w>260</w>
+      <x>1160</x>
+      <y>90</y>
+      <w>360</w>
       <h>230</h>
     </coordinates>
     <panel_attributes>Chef
 --
-
+-name:String
+-surname:String
+-kitchenCoordinator:String
 --
-+createChef(
---
--private methods
--usually for internal management
--can be omitted
---
-+public metohds
-/+can have abstract methods/
---
-*Can have several method sections*
-+ other methods</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>580</x>
-      <y>510</y>
-      <w>960</w>
-      <h>240</h>
-    </coordinates>
-    <panel_attributes>Compito
---
-- Assegnato_a: String
-- Tipo:boolean //inserire business rule
-- Difficoltà :int
---
-*Operations methods*
-+orderCompitoByDifficulty(compito:Compito):ArrayList&lt;Compito&gt;
-+orderCompitoByPriority(compito:Compito)ArrayList&lt;Compito&gt;:
-+orderCompitoByTiming(compito:Compito):ArrayList&lt;Compito&gt;
-+assignedCompito(tipoCompito:boolean,nome?:Dipendete , cognome?:Dipendente , turno:Turno,compito:Compito ):ArrayList&lt;Compito&gt;
++createChef(name:String,surname?:String):Chef
++addKitchenCoordination(kitchen:String):Chef
++removeKitchenCoordination(chef:Chef)
++onScoreboard(chef:Chef)
++
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>820</y>
-      <w>260</w>
-      <h>230</h>
+      <x>610</x>
+      <y>420</y>
+      <w>960</w>
+      <h>240</h>
     </coordinates>
-    <panel_attributes>Ricetta
+    <panel_attributes>Task
 --
--instance vars
--(usually private)
+- assigned_to String
+- typeTask:boolean //inserire business rule
+- difficulty :int
 --
-_+static methods if any_
-_-can be public or private_
---
--private methods
--usually for internal management
--can be omitted
---
-+public metohds
-/+can have abstract methods/
---
-*Can have several method sections*
-+ other methods</panel_attributes>
+*Operations methods*
++orderTaskByDifficulty(task:Task):ArrayList&lt;Task&gt;
++orderTaskByPriority(task:Task)ArrayList&lt;Task&gt;:
++orderTaskByTiming(task:Task):ArrayList&lt;Task&gt;
++assignTask(typeTask:boolean,name?:Employer , surname?:Employer, shiftWork:ShiftWord,task:Task ):ArrayList&lt;Task&gt;
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>210</x>
-      <y>810</y>
-      <w>260</w>
-      <h>230</h>
+      <x>620</x>
+      <y>690</y>
+      <w>440</w>
+      <h>150</h>
     </coordinates>
-    <panel_attributes>Dipendente
+    <panel_attributes>Recipe
 --
--instance vars
--(usually private)
---
-_+static methods if any_
-_-can be public or private_
---
--private methods
--usually for internal management
--can be omitted
---
-+public metohds
-/+can have abstract methods/
---
-*Can have several method sections*
-+ other methods</panel_attributes>
+-name:String
+-cookingTime :float
+-ingredients:String
+-quantityOfIngredients: ArrayList&lt;ingredients:String ,qty:int&gt;
+-freshDish:boolean
+-difficulty:String
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>90</x>
-      <y>540</y>
+      <x>0</x>
+      <y>630</y>
       <w>260</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Employer
+--
+-name :String
+-surname :String
+/da valutare se servono queste info
+-expert:boolean
+-taskAssigned :boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>430</y>
+      <w>420</w>
       <h>90</h>
     </coordinates>
-    <panel_attributes>FoglioReipilogativoReceiver
+    <panel_attributes>SummaryDocumentReceiver
 {interface}
 --
-+updateFrCreated(fr:FoglioReipilogativo)
-+updateFrDeleted(fr:FoglioReipilogativo)
++updateSummaryDocumentCreated(sd:SummaryDocument)
++updateSummaryDocumentDeleted(sd:SummaryDocument)
 +update</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1140</x>
+      <y>700</y>
+      <w>260</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Cook
+--
+-name:String
+-surname:String
+-experienceInYears:int
+-cookExpert:boolean
+-</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
