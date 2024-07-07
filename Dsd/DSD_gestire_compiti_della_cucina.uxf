@@ -358,10 +358,10 @@ sd</panel_attributes>
     <coordinates>
       <x>792</x>
       <y>792</y>
-      <w>171</w>
+      <w>180</w>
       <h>72</h>
     </coordinates>
-    <panel_attributes>setCurrentSummyDoc(s)</panel_attributes>
+    <panel_attributes>setCurrentSummyDoc(sd)</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -439,10 +439,10 @@ fg=blue
     <coordinates>
       <x>783</x>
       <y>873</y>
-      <w>243</w>
+      <w>252</w>
       <h>63</h>
     </coordinates>
-    <panel_attributes>notifySummaryDocumentCreated(s) </panel_attributes>
+    <panel_attributes>notifySummaryDocumentCreated(sd) </panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -455,18 +455,6 @@ fg=blue
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>387</x>
-      <y>1080</y>
-      <w>333</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-sd</panel_attributes>
-    <additional_attributes>350.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
@@ -619,5 +607,17 @@ create</panel_attributes>
     <panel_attributes>lt=-&gt;&gt;&gt;
 create</panel_attributes>
     <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>387</x>
+      <y>1080</y>
+      <w>333</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+currentSummaryDocument</panel_attributes>
+    <additional_attributes>10.0;20.0;350.0;20.0</additional_attributes>
   </element>
 </diagram>
