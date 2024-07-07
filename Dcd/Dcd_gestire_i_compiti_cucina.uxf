@@ -17,6 +17,7 @@
 - notifyShiftWorkAdded(ws:WorkShift)
 - notifyMenùAdded(mn:Menù)
 - notifyRecipeAdded(ri:Recipe )
+- notigyTaskAdded(t:Task)
 - notifySummaryDocumentCreated(sd:SummaryDocument)
 - notifySummaryDocumentDeleted(sd:SummaryDocument)
 - notifySummaryDocumentRearranged(sd:SummaryDocument)
@@ -26,6 +27,7 @@
 +createSummaryDocument(title?:String,event:Event):SummaryDocument
 +modifieSummaryDocumentTitle(newTitle:String)
 +modifieSummaryDocumentContex(sd:SummaryDocument)
++addItem(task?:Task)
 +copySummaryDocument(sd:SummaryDocument) :SummaryDocument
 +deleteSummaryDocument(sd:SummaryDocument)
 </panel_attributes>
@@ -49,13 +51,13 @@
 --
 +createSummaryDocument(title?:String):SummaryDocument
 +modifieSummaryDocumentTitle(newTitle:String):SummaryDocuemnt
-+addContext(workshift?:WorkShift , recipe?:Recipe):SummaryDocument
++addContext(workshift?:WorkShift , recipe?:Recipe,task?:Task):SummaryDocument
 +modifieContext(summaryDocument:SummaryDocument):summaryDocument
 +deleteSummaryDocument(summeryDocument:Summarydocument)
 +copyDocument()
 +moreSummaryDocument()
 +getSummaryDocument():SummaryDocument
-</panel_attributes>
++addTask(task:Task)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -144,14 +146,15 @@
       <x>462</x>
       <y>759</y>
       <w>462</w>
-      <h>99</h>
+      <h>121</h>
     </coordinates>
     <panel_attributes>SummaryDocumentReceiver
 {interface}
 --
 +updateSummaryDocumentCreated(sd:SummaryDocument)
 +updateSummaryDocumentDeleted(sd:SummaryDocument)
-+updateSummaryDocumentModifie(sd:SummaryDocument)</panel_attributes>
++updateSummaryDocumentModifie(sd:SummaryDocument)
++updateTask(sd:SummaryDocument,task:Task)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
