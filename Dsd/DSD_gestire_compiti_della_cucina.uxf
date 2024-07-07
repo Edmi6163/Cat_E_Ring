@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>135</x>
-      <y>144</y>
+      <x>369</x>
+      <y>0</y>
       <w>54</w>
       <h>27</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>135</x>
-      <y>171</y>
+      <x>369</x>
+      <y>27</y>
       <w>81</w>
       <h>54</h>
     </coordinates>
@@ -26,20 +26,20 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>162</x>
-      <y>216</y>
+      <x>387</x>
+      <y>72</y>
       <w>108</w>
-      <h>684</h>
+      <h>1080</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 (implements)</panel_attributes>
-    <additional_attributes>10.0;740.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;1180.0;20.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>387</x>
-      <y>171</y>
+      <x>621</x>
+      <y>27</y>
       <w>180</w>
       <h>54</h>
     </coordinates>
@@ -50,8 +50,8 @@ SummaryDocumentManager</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>783</x>
-      <y>171</y>
+      <x>1017</x>
+      <y>27</y>
       <w>180</w>
       <h>54</h>
     </coordinates>
@@ -62,8 +62,8 @@ UserManager</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1521</x>
-      <y>180</y>
+      <x>1755</x>
+      <y>36</y>
       <w>180</w>
       <h>54</h>
     </coordinates>
@@ -74,44 +74,44 @@ SummaryDocumentReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>468</x>
-      <y>216</y>
+      <x>693</x>
+      <y>72</y>
       <w>108</w>
-      <h>684</h>
+      <h>1080</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 (implements)</panel_attributes>
-    <additional_attributes>10.0;740.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;1180.0;20.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>864</x>
-      <y>216</y>
-      <w>108</w>
+      <x>1098</x>
+      <y>72</y>
+      <w>27</w>
       <h>270</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
-(implements)</panel_attributes>
+</panel_attributes>
     <additional_attributes>10.0;280.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1602</x>
-      <y>225</y>
+      <x>1836</x>
+      <y>81</y>
       <w>108</w>
-      <h>675</h>
+      <h>1035</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 (implements)</panel_attributes>
-    <additional_attributes>10.0;730.0;10.0;10.0</additional_attributes>
+    <additional_attributes>20.0;1130.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>9</x>
-      <y>207</y>
+      <x>243</x>
+      <y>63</y>
       <w>1530</w>
       <h>36</h>
     </coordinates>
@@ -122,8 +122,8 @@ SummaryDocumentReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>162</x>
-      <y>234</y>
+      <x>396</x>
+      <y>90</y>
       <w>333</w>
       <h>36</h>
     </coordinates>
@@ -134,8 +134,8 @@ createSummaryDocument(title?:String,event:Event)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>477</x>
-      <y>261</y>
+      <x>711</x>
+      <y>117</y>
       <w>405</w>
       <h>36</h>
     </coordinates>
@@ -146,8 +146,8 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>468</x>
-      <y>252</y>
+      <x>702</x>
+      <y>108</y>
       <w>18</w>
       <h>297</h>
     </coordinates>
@@ -157,8 +157,8 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>864</x>
-      <y>270</y>
+      <x>1098</x>
+      <y>126</y>
       <w>18</w>
       <h>27</h>
     </coordinates>
@@ -168,8 +168,8 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>477</x>
-      <y>279</y>
+      <x>711</x>
+      <y>135</y>
       <w>405</w>
       <h>36</h>
     </coordinates>
@@ -178,22 +178,10 @@ user</panel_attributes>
     <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>18</x>
-      <y>333</y>
-      <w>1665</w>
-      <h>612</h>
-    </coordinates>
-    <panel_attributes>ALT [!user.isChef()]
-fg=#27990b</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>162</x>
-      <y>333</y>
+      <x>396</x>
+      <y>189</y>
       <w>324</w>
       <h>36</h>
     </coordinates>
@@ -204,37 +192,432 @@ throws UseCaseLogicExcpetion</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>9</x>
-      <y>369</y>
-      <w>1692</w>
+      <x>0</x>
+      <y>324</y>
+      <w>1683</w>
       <h>27</h>
     </coordinates>
     <panel_attributes>lt=.
 fg=#27990b</panel_attributes>
-    <additional_attributes>1860.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>1850.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>9</x>
-      <y>423</y>
-      <w>1692</w>
+      <x>0</x>
+      <y>378</y>
+      <w>1683</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 
 fg=#27990b</panel_attributes>
-    <additional_attributes>1860.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>1850.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>513</y>
+      <x>1107</x>
+      <y>369</y>
       <w>216</w>
       <h>27</h>
     </coordinates>
-    <panel_attributes>s:summaryDocuments</panel_attributes>
+    <panel_attributes>sd:summaryDocuments</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>711</x>
+      <y>369</y>
+      <w>414</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+createSummaryDocument(title?:String,
+event:event):SummaryDocument</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1197</x>
+      <y>387</y>
+      <w>27</w>
+      <h>477</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;510.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1197</x>
+      <y>396</y>
+      <w>18</w>
+      <h>387</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1278</x>
+      <y>396</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1377</x>
+      <y>405</y>
+      <w>117</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>this.title = title</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1278</x>
+      <y>459</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1206</x>
+      <y>495</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1305</x>
+      <y>504</y>
+      <w>135</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>this.event = event</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1206</x>
+      <y>558</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>693</x>
+      <y>765</y>
+      <w>513</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+sd</panel_attributes>
+    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>702</x>
+      <y>828</y>
+      <w>117</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>792</y>
+      <w>171</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>setCurrentSummyDoc(s)</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>693</x>
+      <y>846</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>693</x>
+      <y>954</y>
+      <w>1179</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+sd</panel_attributes>
+    <additional_attributes>10.0;20.0;1290.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>603</x>
+      <y>954</y>
+      <w>1314</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>For each er 
+fg=blue
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1845</x>
+      <y>963</y>
+      <w>36</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>702</x>
+      <y>918</y>
+      <w>18</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>711</x>
+      <y>900</y>
+      <w>99</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>783</x>
+      <y>873</y>
+      <w>243</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>notifySummaryDocumentCreated(s) </panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>693</x>
+      <y>864</y>
+      <w>117</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>387</x>
+      <y>1080</y>
+      <w>333</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+sd</panel_attributes>
+    <additional_attributes>350.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>252</x>
+      <y>162</y>
+      <w>1701</w>
+      <h>1026</h>
+    </coordinates>
+    <panel_attributes>ALT [!user.isChef()]
+fg=#27990b</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>702</x>
+      <y>783</y>
+      <w>117</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>1098</x>
+      <y>405</y>
+      <w>189</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>OPT
+[tiltle !=null] 
+lw=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1206</x>
+      <y>585</y>
+      <w>135</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+create</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1323</x>
+      <y>585</y>
+      <w>162</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Tasks:Arraylist&lt;Task&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1206</x>
+      <y>630</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+create</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1314</x>
+      <y>630</y>
+      <w>198</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>WorkShift:Arraylist&lt;Workshift&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1206</x>
+      <y>666</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+create</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1314</x>
+      <y>666</y>
+      <w>198</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Recepi:Arraylist&lt;Workshift&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1314</x>
+      <y>711</y>
+      <w>198</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Menù:Arraylist&lt;Menù&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1206</x>
+      <y>711</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+create</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1314</x>
+      <y>747</y>
+      <w>252</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>AdvancedPrep:Arraylist&lt;boolean,int&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1206</x>
+      <y>747</y>
+      <w>117</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+create</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
   </element>
 </diagram>
