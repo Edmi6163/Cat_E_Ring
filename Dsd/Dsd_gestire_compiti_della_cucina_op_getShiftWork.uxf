@@ -84,23 +84,23 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>480</x>
-      <y>260</y>
+      <y>220</y>
       <w>30</w>
-      <h>620</h>
+      <h>660</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;600.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;640.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>150</x>
-      <y>260</y>
+      <y>220</y>
       <w>40</w>
-      <h>640</h>
+      <h>680</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>20.0;10.0;10.0;620.0</additional_attributes>
+    <additional_attributes>20.0;10.0;10.0;660.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
