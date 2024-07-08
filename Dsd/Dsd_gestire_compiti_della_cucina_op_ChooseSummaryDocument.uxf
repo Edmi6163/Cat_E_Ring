@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>50</y>
+      <y>70</y>
       <w>90</w>
       <h>60</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>20</y>
+      <y>40</y>
       <w>60</w>
       <h>30</h>
     </coordinates>
@@ -27,7 +27,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>440</x>
-      <y>60</y>
+      <y>80</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -39,7 +39,7 @@ SummaryDocumentManager</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>830</x>
-      <y>60</y>
+      <y>80</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -51,7 +51,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>20</x>
-      <y>110</y>
+      <y>130</y>
       <w>40</w>
       <h>670</h>
     </coordinates>
@@ -62,7 +62,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>30</x>
-      <y>150</y>
+      <y>170</y>
       <w>520</w>
       <h>40</h>
     </coordinates>
@@ -74,7 +74,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>120</y>
+      <y>140</y>
       <w>30</w>
       <h>640</h>
     </coordinates>
@@ -85,7 +85,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>170</y>
+      <y>190</y>
       <w>430</w>
       <h>40</h>
     </coordinates>
@@ -97,7 +97,7 @@ getCurrentUser()</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>20</x>
-      <y>190</y>
+      <y>210</y>
       <w>1850</w>
       <h>430</h>
     </coordinates>
@@ -109,7 +109,7 @@ fg=#27990b</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>200</y>
+      <y>220</y>
       <w>430</w>
       <h>40</h>
     </coordinates>
@@ -121,7 +121,7 @@ user</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>40</x>
-      <y>220</y>
+      <y>240</y>
       <w>500</w>
       <h>40</h>
     </coordinates>
@@ -133,7 +133,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>920</x>
-      <y>120</y>
+      <y>140</y>
       <w>30</w>
       <h>650</h>
     </coordinates>
@@ -144,7 +144,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>920</x>
-      <y>240</y>
+      <y>260</y>
       <w>150</w>
       <h>40</h>
     </coordinates>
@@ -155,7 +155,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1040</x>
-      <y>250</y>
+      <y>270</y>
       <w>160</w>
       <h>100</h>
     </coordinates>
@@ -166,7 +166,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>920</x>
-      <y>310</y>
+      <y>330</y>
       <w>150</w>
       <h>40</h>
     </coordinates>
@@ -178,7 +178,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1210</x>
-      <y>70</y>
+      <y>90</y>
       <w>150</w>
       <h>30</h>
     </coordinates>
@@ -189,7 +189,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1270</x>
-      <y>90</y>
+      <y>110</y>
       <w>30</w>
       <h>610</h>
     </coordinates>
@@ -200,7 +200,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>280</y>
+      <y>300</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -211,7 +211,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>650</x>
-      <y>290</y>
+      <y>310</y>
       <w>160</w>
       <h>70</h>
     </coordinates>
@@ -222,7 +222,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>320</y>
+      <y>340</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -234,7 +234,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>30</x>
-      <y>350</y>
+      <y>370</y>
       <w>520</w>
       <h>40</h>
     </coordinates>
@@ -246,7 +246,7 @@ currentSummaryDocument</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>30</x>
-      <y>230</y>
+      <y>250</y>
       <w>1350</w>
       <h>260</h>
     </coordinates>
@@ -262,7 +262,7 @@ fg=#761C8C
     <id>Relation</id>
     <coordinates>
       <x>30</x>
-      <y>260</y>
+      <y>280</y>
       <w>510</w>
       <h>40</h>
     </coordinates>

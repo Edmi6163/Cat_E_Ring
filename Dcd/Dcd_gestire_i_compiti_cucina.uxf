@@ -44,7 +44,7 @@
     <panel_attributes>SummaryDocument
 --
 - shiftWork: String
-- nenù: String
+- menù: String
 - recipe: String 
 - advancedPreparation: boolean
 - quantityForAdvancedPreparation:int 
