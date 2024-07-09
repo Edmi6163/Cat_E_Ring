@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>10</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>70</x>
-      <y>70</y>
-      <w>90</w>
-      <h>60</h>
+      <x>56</x>
+      <y>104</y>
+      <w>72</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>70</x>
-      <y>40</y>
-      <w>60</w>
-      <h>30</h>
+      <x>56</x>
+      <y>80</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>UI</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>510</x>
-      <y>80</y>
-      <w>200</w>
-      <h>60</h>
+      <x>408</x>
+      <y>112</y>
+      <w>160</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>sumDocMgr:
 SummaryDocumentManager</panel_attributes>
@@ -38,10 +38,10 @@ SummaryDocumentManager</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>990</x>
-      <y>80</y>
-      <w>200</w>
-      <h>60</h>
+      <x>792</x>
+      <y>112</y>
+      <w>160</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>userMgr:
 UserManager</panel_attributes>
@@ -50,21 +50,21 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>130</y>
-      <w>40</w>
-      <h>670</h>
+      <x>72</x>
+      <y>144</y>
+      <w>24</w>
+      <h>544</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>20.0;10.0;10.0;650.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;660.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
-      <y>170</y>
-      <w>520</w>
-      <h>40</h>
+      <x>80</x>
+      <y>184</y>
+      <w>416</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 addTask(task)</panel_attributes>
@@ -73,21 +73,21 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>140</y>
-      <w>30</w>
-      <h>640</h>
+      <x>472</x>
+      <y>160</y>
+      <w>24</w>
+      <h>560</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;620.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;680.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>190</y>
-      <w>520</w>
-      <h>40</h>
+      <x>472</x>
+      <y>200</y>
+      <w>416</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 getCurrentUser()</panel_attributes>
@@ -96,10 +96,10 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>220</y>
-      <w>510</w>
-      <h>40</h>
+      <x>472</x>
+      <y>224</y>
+      <w>408</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 user</panel_attributes>
@@ -108,22 +108,22 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>110</x>
+      <x>80</x>
       <y>240</y>
-      <w>500</w>
-      <h>40</h>
+      <w>408</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throws UseCaseLogicExcpetion</panel_attributes>
-    <additional_attributes>10.0;20.0;480.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>130</y>
-      <w>30</w>
-      <h>150</h>
+      <x>864</x>
+      <y>152</y>
+      <w>24</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
@@ -131,10 +131,10 @@ throws UseCaseLogicExcpetion</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>320</y>
-      <w>200</w>
-      <h>40</h>
+      <x>584</x>
+      <y>304</y>
+      <w>160</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 addTask(task)</panel_attributes>
@@ -143,10 +143,10 @@ addTask(task)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>910</x>
-      <y>320</y>
-      <w>100</w>
-      <h>30</h>
+      <x>728</x>
+      <y>304</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>t:Task</panel_attributes>
     <additional_attributes/>
@@ -154,10 +154,10 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>950</x>
-      <y>340</y>
-      <w>30</w>
-      <h>250</h>
+      <x>760</x>
+      <y>320</y>
+      <w>24</w>
+      <h>200</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
@@ -165,10 +165,10 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>950</x>
-      <y>360</y>
-      <w>150</w>
-      <h>40</h>
+      <x>760</x>
+      <y>336</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
@@ -176,10 +176,10 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>370</y>
-      <w>130</w>
-      <h>100</h>
+      <x>856</x>
+      <y>344</y>
+      <w>104</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>this.task = task</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
@@ -187,10 +187,10 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>950</x>
-      <y>430</y>
-      <w>150</w>
-      <h>40</h>
+      <x>760</x>
+      <y>392</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 </panel_attributes>
@@ -199,10 +199,10 @@ addTask(task)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1230</x>
-      <y>80</y>
-      <w>230</w>
-      <h>30</h>
+      <x>984</x>
+      <y>112</y>
+      <w>184</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>taskList:ArrayList&lt;Task&gt;</panel_attributes>
     <additional_attributes/>
@@ -210,21 +210,21 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1320</x>
-      <y>100</y>
-      <w>30</w>
-      <h>660</h>
+      <x>1048</x>
+      <y>128</y>
+      <w>32</w>
+      <h>592</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;640.0</additional_attributes>
+    <additional_attributes>20.0;10.0;10.0;720.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>490</y>
-      <w>250</w>
-      <h>40</h>
+      <x>584</x>
+      <y>440</y>
+      <w>200</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 t</panel_attributes>
@@ -233,10 +233,10 @@ t</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>550</y>
-      <w>760</w>
-      <h>40</h>
+      <x>472</x>
+      <y>488</y>
+      <w>608</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 add(t)</panel_attributes>
@@ -245,10 +245,10 @@ add(t)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>570</y>
-      <w>760</w>
-      <h>40</h>
+      <x>472</x>
+      <y>504</y>
+      <w>608</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 taskList</panel_attributes>
@@ -257,10 +257,10 @@ taskList</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>690</y>
-      <w>530</w>
-      <h>40</h>
+      <x>72</x>
+      <y>600</y>
+      <w>424</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 currentSummaryDocument</panel_attributes>
@@ -269,10 +269,10 @@ currentSummaryDocument</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>730</x>
-      <y>80</y>
-      <w>200</w>
-      <h>60</h>
+      <x>584</x>
+      <y>112</y>
+      <w>160</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>sumDocMgr.
 currentSummaryDocument
@@ -282,21 +282,21 @@ currentSummaryDocument
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>130</y>
-      <w>30</w>
-      <h>600</h>
+      <x>584</x>
+      <y>152</y>
+      <w>24</w>
+      <h>560</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;580.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;680.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>280</y>
-      <w>170</w>
-      <h>40</h>
+      <x>472</x>
+      <y>272</y>
+      <w>136</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 addItem(task)</panel_attributes>
@@ -305,10 +305,10 @@ addItem(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>510</y>
-      <w>170</w>
-      <h>40</h>
+      <x>472</x>
+      <y>456</y>
+      <w>136</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 t</panel_attributes>
@@ -317,10 +317,10 @@ t</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>90</x>
-      <y>170</y>
-      <w>1850</w>
-      <h>560</h>
+      <x>72</x>
+      <y>184</y>
+      <w>1480</w>
+      <h>448</h>
     </coordinates>
     <panel_attributes>ALT [!user.isChef()]
 fg=#27990b</panel_attributes>
@@ -329,10 +329,10 @@ fg=#27990b</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>850</x>
-      <y>370</y>
-      <w>360</w>
-      <h>110</h>
+      <x>680</x>
+      <y>344</y>
+      <w>288</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>ALT
 task!=null
@@ -346,10 +346,10 @@ fg=#761C8C
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>460</x>
-      <y>200</y>
-      <w>1200</w>
-      <h>520</h>
+      <x>368</x>
+      <y>208</y>
+      <w>960</w>
+      <h>416</h>
     </coordinates>
     <panel_attributes>ALT
 sumDocMgr.currentSummaryDocument!=null
@@ -363,10 +363,10 @@ fg=#20A9DB
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>730</x>
-      <y>290</y>
-      <w>20</w>
-      <h>240</h>
+      <x>584</x>
+      <y>280</y>
+      <w>16</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -374,10 +374,10 @@ fg=#20A9DB
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>950</x>
-      <y>350</y>
-      <w>20</w>
-      <h>170</h>
+      <x>760</x>
+      <y>328</y>
+      <w>16</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -385,10 +385,10 @@ fg=#20A9DB
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1640</x>
-      <y>690</y>
-      <w>20</w>
-      <h>20</h>
+      <x>1312</x>
+      <y>600</y>
+      <w>16</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -396,10 +396,10 @@ fg=#20A9DB
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>590</y>
-      <w>140</w>
-      <h>60</h>
+      <x>544</x>
+      <y>520</y>
+      <w>112</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>notifyTaskAdd(t)</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -407,10 +407,10 @@ fg=#20A9DB
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>580</y>
-      <w>110</w>
-      <h>40</h>
+      <x>480</x>
+      <y>512</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
@@ -418,10 +418,10 @@ fg=#20A9DB
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>610</y>
-      <w>120</w>
-      <h>40</h>
+      <x>472</x>
+      <y>536</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 </panel_attributes>
@@ -430,10 +430,10 @@ fg=#20A9DB
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1560</x>
-      <y>70</y>
-      <w>200</w>
-      <h>60</h>
+      <x>1248</x>
+      <y>104</y>
+      <w>160</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>er:
 SummaryDocumentReceiver</panel_attributes>
@@ -442,10 +442,10 @@ SummaryDocumentReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1640</x>
-      <y>120</y>
-      <w>30</w>
-      <h>740</h>
+      <x>1312</x>
+      <y>144</y>
+      <w>24</w>
+      <h>592</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;720.0</additional_attributes>
@@ -453,10 +453,10 @@ SummaryDocumentReceiver</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>590</x>
-      <y>640</y>
-      <w>1660</w>
-      <h>60</h>
+      <x>400</x>
+      <y>552</y>
+      <w>1176</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>for each er in receivers
 fg=blue
@@ -466,10 +466,10 @@ fg=blue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>670</y>
-      <w>1070</w>
-      <h>40</h>
+      <x>472</x>
+      <y>584</y>
+      <w>856</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 updateTask(sumDocMgr.currentSummaryDocument,t)</panel_attributes>
@@ -478,10 +478,10 @@ updateTask(sumDocMgr.currentSummaryDocument,t)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>190</x>
-      <y>40</y>
-      <w>20</w>
-      <h>60</h>
+      <x>152</x>
+      <y>80</y>
+      <w>16</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -490,9 +490,9 @@ updateTask(sumDocMgr.currentSummaryDocument,t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>0</x>
-      <y>10</y>
-      <w>520</w>
-      <h>40</h>
+      <y>56</y>
+      <w>416</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 getCurrentUser()</panel_attributes>
@@ -502,9 +502,9 @@ getCurrentUser()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>0</x>
-      <y>40</y>
-      <w>510</w>
-      <h>40</h>
+      <y>80</y>
+      <w>408</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 user</panel_attributes>

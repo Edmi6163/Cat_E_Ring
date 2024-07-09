@@ -4,8 +4,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
-      <y>207</y>
+      <x>270</x>
+      <y>261</y>
       <w>27</w>
       <h>603</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>207</y>
+      <x>621</x>
+      <y>261</y>
       <w>27</w>
       <h>603</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
-      <y>216</y>
+      <x>270</x>
+      <y>270</y>
       <w>378</w>
       <h>36</h>
     </coordinates>
@@ -38,8 +38,8 @@ deleteSummaryDocument(summaryDocument)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>540</x>
-      <y>234</y>
+      <x>621</x>
+      <y>288</y>
       <w>18</w>
       <h>495</h>
     </coordinates>
@@ -49,10 +49,10 @@ deleteSummaryDocument(summaryDocument)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>0</x>
-      <y>351</y>
-      <w>1224</w>
-      <h>360</h>
+      <x>81</x>
+      <y>405</y>
+      <w>1602</w>
+      <h>378</h>
     </coordinates>
     <panel_attributes>alt 
 
@@ -73,8 +73,8 @@ fontsize=11
   <element>
     <id>Text</id>
     <coordinates>
-      <x>9</x>
-      <y>423</y>
+      <x>90</x>
+      <y>477</y>
       <w>207</w>
       <h>45</h>
     </coordinates>
@@ -87,8 +87,8 @@ fontsize=11</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
-      <y>360</y>
+      <x>270</x>
+      <y>414</y>
       <w>369</w>
       <h>36</h>
     </coordinates>
@@ -99,8 +99,8 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
-      <y>423</y>
+      <x>270</x>
+      <y>477</y>
       <w>369</w>
       <h>36</h>
     </coordinates>
@@ -111,8 +111,8 @@ throw MenuException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>558</x>
-      <y>603</y>
+      <x>639</x>
+      <y>657</y>
       <w>567</w>
       <h>45</h>
     </coordinates>
@@ -124,8 +124,8 @@ updateSummaryDocumentDeleted(summaryDocument)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1107</x>
-      <y>207</y>
+      <x>1188</x>
+      <y>261</y>
       <w>27</w>
       <h>639</h>
     </coordinates>
@@ -136,8 +136,8 @@ updateSummaryDocumentDeleted(summaryDocument)
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1107</x>
-      <y>621</y>
+      <x>1188</x>
+      <y>675</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -148,8 +148,8 @@ updateSummaryDocumentDeleted(summaryDocument)
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>360</x>
-      <y>594</y>
+      <x>441</x>
+      <y>648</y>
       <w>801</w>
       <h>63</h>
     </coordinates>
@@ -161,8 +161,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1035</x>
-      <y>171</y>
+      <x>1116</x>
+      <y>225</y>
       <w>279</w>
       <h>45</h>
     </coordinates>
@@ -174,8 +174,8 @@ summaryDocumentEventReceiver
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>423</x>
-      <y>171</y>
+      <x>504</x>
+      <y>225</y>
       <w>261</w>
       <h>45</h>
     </coordinates>
@@ -186,8 +186,8 @@ MenuManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>738</x>
-      <y>171</y>
+      <x>819</x>
+      <y>225</y>
       <w>252</w>
       <h>45</h>
     </coordinates>
@@ -199,8 +199,8 @@ UserManager
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>162</x>
-      <y>153</y>
+      <x>243</x>
+      <y>207</y>
       <w>81</w>
       <h>63</h>
     </coordinates>
@@ -210,8 +210,8 @@ UserManager
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>846</x>
-      <y>207</y>
+      <x>927</x>
+      <y>261</y>
       <w>27</w>
       <h>603</h>
     </coordinates>
@@ -222,8 +222,8 @@ UserManager
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>549</x>
-      <y>243</y>
+      <x>630</x>
+      <y>297</y>
       <w>315</w>
       <h>36</h>
     </coordinates>
@@ -234,8 +234,8 @@ getCurrentUser( )</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>549</x>
-      <y>279</y>
+      <x>630</x>
+      <y>333</y>
       <w>324</w>
       <h>36</h>
     </coordinates>
@@ -246,8 +246,8 @@ user</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>846</x>
-      <y>261</y>
+      <x>927</x>
+      <y>315</y>
       <w>18</w>
       <h>36</h>
     </coordinates>
@@ -258,8 +258,8 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>549</x>
-      <y>513</y>
+      <x>630</x>
+      <y>567</y>
       <w>405</w>
       <h>54</h>
     </coordinates>
@@ -270,10 +270,57 @@ notifySummaryDocumentDeleted(summaryDocument)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>549</x>
-      <y>549</y>
+      <x>630</x>
+      <y>603</y>
       <w>18</w>
       <h>99</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1422</x>
+      <y>225</y>
+      <w>324</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>listSummyDoc:ArrayList&lt;SummeryDocument&gt;
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>540</y>
+      <w>963</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+remove(summaryDocument)</panel_attributes>
+    <additional_attributes>10.0;20.0;1050.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1575</x>
+      <y>252</y>
+      <w>36</w>
+      <h>630</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;680.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1575</x>
+      <y>549</y>
+      <w>27</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>

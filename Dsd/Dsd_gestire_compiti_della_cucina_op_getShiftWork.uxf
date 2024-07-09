@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>170</y>
+      <x>270</x>
+      <y>220</y>
       <w>90</w>
       <h>60</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>140</y>
+      <x>270</x>
+      <y>190</y>
       <w>60</w>
       <h>30</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>170</y>
+      <x>540</x>
+      <y>220</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -38,8 +38,8 @@ SummaryDocumentManager</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>700</x>
-      <y>170</y>
+      <x>840</x>
+      <y>220</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -50,8 +50,8 @@ UserManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>970</x>
-      <y>190</y>
+      <x>1110</x>
+      <y>240</y>
       <w>310</w>
       <h>30</h>
     </coordinates>
@@ -61,8 +61,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1100</x>
-      <y>210</y>
+      <x>1240</x>
+      <y>260</y>
       <w>30</w>
       <h>650</h>
     </coordinates>
@@ -72,8 +72,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>220</y>
+      <x>920</x>
+      <y>270</y>
       <w>30</w>
       <h>630</h>
     </coordinates>
@@ -83,8 +83,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>220</y>
+      <x>620</x>
+      <y>270</y>
       <w>30</w>
       <h>660</h>
     </coordinates>
@@ -94,8 +94,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
-      <y>220</y>
+      <x>290</x>
+      <y>270</y>
       <w>40</w>
       <h>680</h>
     </coordinates>
@@ -105,8 +105,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>240</y>
+      <x>300</x>
+      <y>290</y>
       <w>350</w>
       <h>40</h>
     </coordinates>
@@ -117,8 +117,8 @@ getWorkShiftList()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>260</y>
+      <x>620</x>
+      <y>310</y>
       <w>330</w>
       <h>40</h>
     </coordinates>
@@ -129,8 +129,8 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>290</y>
+      <x>620</x>
+      <y>340</y>
       <w>330</w>
       <h>40</h>
     </coordinates>
@@ -141,8 +141,8 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>300</y>
+      <x>300</x>
+      <y>350</y>
       <w>340</w>
       <h>40</h>
     </coordinates>
@@ -153,8 +153,8 @@ throws UseCaseLogicExcpetion</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>320</y>
+      <x>630</x>
+      <y>370</y>
       <w>640</w>
       <h>40</h>
     </coordinates>
@@ -165,8 +165,8 @@ getwWList()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>360</y>
+      <x>620</x>
+      <y>410</y>
       <w>650</w>
       <h>40</h>
     </coordinates>
@@ -177,8 +177,8 @@ listWorkShift</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>390</y>
+      <x>300</x>
+      <y>440</y>
       <w>350</w>
       <h>40</h>
     </coordinates>
@@ -189,8 +189,8 @@ listWorkShift</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>30</x>
-      <y>270</y>
+      <x>170</x>
+      <y>320</y>
       <w>1110</w>
       <h>270</h>
     </coordinates>

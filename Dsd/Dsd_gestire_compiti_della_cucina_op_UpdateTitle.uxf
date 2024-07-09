@@ -248,16 +248,16 @@ SummaryDocumentReceiver</panel_attributes>
       <x>1520</x>
       <y>240</y>
       <w>30</w>
-      <h>550</h>
+      <h>640</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;530.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;620.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
       <x>500</x>
-      <y>540</y>
+      <y>560</y>
       <w>1660</w>
       <h>50</h>
     </coordinates>
@@ -270,12 +270,12 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>660</x>
-      <y>550</y>
+      <y>570</y>
       <w>890</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-updateSummaryDocumentModife(sd)</panel_attributes>
+updateSummaryDocumentModifie(sd)</panel_attributes>
     <additional_attributes>10.0;20.0;870.0;20.0</additional_attributes>
   </element>
   <element>
@@ -305,13 +305,60 @@ fg=#27990b</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>180</x>
+      <x>170</x>
       <y>340</y>
-      <w>500</w>
+      <w>510</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throws UseCaseLogicExcpetion</panel_attributes>
-    <additional_attributes>10.0;20.0;480.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1660</x>
+      <y>200</y>
+      <w>360</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>listSummyDoc:ArrayList&lt;SummeryDocument&gt;
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>530</y>
+      <w>1230</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+evento</panel_attributes>
+    <additional_attributes>10.0;20.0;1210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1870</x>
+      <y>230</y>
+      <w>30</w>
+      <h>670</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;650.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1870</x>
+      <y>540</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
   </element>
 </diagram>
