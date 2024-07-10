@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1250</x>
+      <y>180</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Recepi
+--
+-instance vars
+-(usually private)
+--
+_+static methods if any_
+_-can be public or private_
+--
+-private methods
+-usually for internal management
+-can be omitted
+--
++public metohds
+/+can have abstract methods/
+--
+*Can have several method sections*
++ other methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>180</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>ShiftWork
+--
+-instance vars
+-(usually private)
+--
+_+static methods if any_
+_-can be public or private_
+--
+-private methods
+-usually for internal management
+-can be omitted
+--
++public metohds
+/+can have abstract methods/
+--
+*Can have several method sections*
++ other methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>170</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>ShiftWorkManager
+--
+-instance vars
+-(usually private)
+--
+_+static methods if any_
+_-can be public or private_
+--
+-private methods
+-usually for internal management
+-can be omitted
+--
++public metohds
+/+can have abstract methods/
+--
+*Can have several method sections*
++ other methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>550</y>
+      <w>390</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>ShiftWorkReceiver
+{interface}
+--
+*Only has abstract public methods*
+/+ methods/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>760</y>
+      <w>390</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Event
+--
+listsummaryDocuement:Arraylist&lt;SummaryDocument&gt;
+--
++setState(es:EventState) 
++modeEvent():void
++changeButton():void
++getInfoEvent():Event</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>790</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>EventState
+{interface}
+--
++modeEvent():void
++changeButton():void
++getEventInfo():Event</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>1060</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>EventStart
+--
++modeEvent():void
++changeButton():void
++getEventInfo():Event</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>1060</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>EventEnd
+--
++modeEvent():void
++changeButton():void
++getEventInfo():Event</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>930</x>
+      <y>1060</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>EventReccurent
+--
++modeEvent():void
++changeButton():void
++getEventInfo():Event</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>880</y>
+      <w>290</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+(implements)</panel_attributes>
+    <additional_attributes>10.0;10.0;270.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>880</y>
+      <w>140</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+(implements)</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>880</y>
+      <w>190</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+(implements)</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>820</y>
+      <w>220</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+(contains)
+m1=0..1</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1140</x>
+      <y>510</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Cook
+--
+-instance vars
+-(usually private)
+--
+_+static methods if any_
+_-can be public or private_
+--
+-private methods
+-usually for internal management
+-can be omitted
+--
++public metohds
+/+can have abstract methods/
+--
+*Can have several method sections*
++ other methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
