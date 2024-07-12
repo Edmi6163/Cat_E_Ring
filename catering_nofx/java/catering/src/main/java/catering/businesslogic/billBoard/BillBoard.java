@@ -10,14 +10,40 @@ public class BillBoard {
   private String name;
   private String surname;
   private Recipe recipe;
-
- public BillBoard(Task task, ShiftWork shiftWork, String name, String surname, Recipe recipe){
-    this.task = task;
-    this.ShiftWork = shiftWork;
-    this.name = name;
-    this.surname = surname;
-    this.recipe = recipe;
+  private static BillBoard instance;
+  private BillBoard()
+  {
+      this.task = null;
+        this.ShiftWork = null;
+        this.name = "";
+        this.surname = "";
+        this.recipe = null;
   }
+    public static BillBoard getInstance()
+    {
+        if(instance == null)
+        {
+            instance = new BillBoard();
+        }
+        return instance;
+    }
+
+
+
+
+ public static void  BillBoardInit(Task task, ShiftWork shiftWork, String name, String surname, Recipe recipe){
+    if(instance == null)
+    {
+        instance = new BillBoard();
+    }
+    instance.task = task;
+    instance.ShiftWork = shiftWork;
+    instance.name = name;
+    instance.surname = surname;
+    instance.recipe = recipe;
+  }
+
+
 
 
   public Task getTask() {

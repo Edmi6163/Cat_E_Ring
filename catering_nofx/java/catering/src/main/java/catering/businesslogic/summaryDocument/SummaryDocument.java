@@ -1,5 +1,9 @@
 package catering.businesslogic.summaryDocument;
 
+import catering.businesslogic.recipe.Recipe;
+import catering.businesslogic.shiftWork.ShiftWork;
+import catering.businesslogic.task.Task;
+
 import java.util.ArrayList;
 
 public class SummaryDocument {
@@ -30,9 +34,9 @@ public class SummaryDocument {
     this.title = newTitle;
   }
 
-  public void addContext(WorkShift workshift, Recipe recipe, Task task) {
-    if (workshift != null) {
-      this.shiftWork = workshift.toString(); 
+  public void addContext(ShiftWork shiftWork, Recipe recipe, Task task) {
+    if (shiftWork!= null) {
+      this.shiftWork = shiftWork.toString();
     }
     if (recipe != null) {
       this.recipe = recipe.toString(); 

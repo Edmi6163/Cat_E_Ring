@@ -1,6 +1,12 @@
 package catering.businesslogic.summaryDocument;
 
+import catering.businesslogic.billBoard.BillBoard;
+import catering.businesslogic.event.Event;
+import catering.businesslogic.menu.Menu;
+import catering.businesslogic.recipe.Recipe;
+import catering.businesslogic.shiftWork.ShiftWork;
 import catering.businesslogic.summaryDocument.*;
+import catering.businesslogic.task.Task;
 
 import java.util.ArrayList;
 
@@ -15,7 +21,7 @@ public class SummaryDocumentManager {
         receivers.remove(er);
     }
 
-    private void notifyShiftWorkAdded(WorkShift ws) {
+    private void notifyShiftWorkAdded(ShiftWork ws) {
         receivers.forEach(receiver -> receiver.updateShiftWorkAdded(ws));
     }
 

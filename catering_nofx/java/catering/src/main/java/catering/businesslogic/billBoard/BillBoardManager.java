@@ -38,8 +38,9 @@ public static BillBoardManager getInstance(){
  * @return the new aray list with the last task added
  */ 
 public ArrayList<BillBoard> add(Task task, String name, String surname,int priority,ShiftWork shiftWork){
-  BillBoard newTask = new BillBoard(task, shiftWork,name,surname,null);
-  billBoards.add(newTask);
+  BillBoard.BillBoardInit(task, shiftWork,name,surname,null);
+  BillBoard billBoard = BillBoard.getInstance();
+  billBoards.add(task);
   notifyReceivers(task);
   return new ArrayList<>(billBoards); 
 }
