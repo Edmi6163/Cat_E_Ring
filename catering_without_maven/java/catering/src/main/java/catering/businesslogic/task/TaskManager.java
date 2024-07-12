@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import businesslogic.*;
+import businesslogic.task.*;
+import businesslogic.shiftWork.*;
 
 public class TaskManager {
 	String assignedTo;
