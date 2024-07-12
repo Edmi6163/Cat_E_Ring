@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d379fe1-b97a-4553-91eb-25e04cfd5860" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/CatERingApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing1b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing1c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing2a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing2b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing2c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing2d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing2ef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing4a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing4b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/TestCatERing4c.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/CatERing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/UseCaseLogicException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/event/EventInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/event/EventItemInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/event/EventManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/event/ServiceInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/menu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/menu/MenuEventReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/menu/MenuException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/menu/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/menu/MenuManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/menu/Section.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/recipe/Recipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/recipe/RecipeManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/shiftWork/ShiftWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/task/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/task/TaskManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/businesslogic/user/UserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/persistence/BatchUpdateHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/persistence/MenuPersistence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/persistence/PersistenceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/persistence/ResultHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/general/EventsInfoDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/general/events-info-dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/ChooseSectionDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/InsertItemDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/MenuContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/MenuFeaturesDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/MenuList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/MenuManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/choose-section-dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/insert-item-dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/menu-content.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/menu-features-dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/menu-list.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/menu/menu-management.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/catering/ui/start.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/CatERingApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing1b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing1c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing2a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing2b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing2c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing2d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing2ef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing4a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing4b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/TestCatERing4c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/CatERing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/UseCaseLogicException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/event/EventInfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/event/EventInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/event/EventItemInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/event/EventManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/event/ServiceInfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/event/ServiceInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Menu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Menu$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Menu$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Menu$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Menu$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Menu$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Menu$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Menu$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Menu$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/MenuEventReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/MenuException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/MenuItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/MenuItem$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/MenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/MenuManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Section$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Section$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Section$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/menu/Section.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/recipe/Recipe$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/recipe/Recipe$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/recipe/Recipe$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/recipe/Recipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/recipe/RecipeManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/user/User$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/user/User$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/user/User$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/user/User$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/user/User$Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/businesslogic/user/UserManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/persistence/BatchUpdateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/persistence/MenuPersistence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/persistence/PersistenceManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/persistence/ResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/general/EventsInfoDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/general/events-info-dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/ChooseSectionDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/InsertItemDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/MenuContent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/MenuContent$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/MenuContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/MenuFeaturesDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/MenuFeaturesDialog$FeatureRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/MenuFeaturesDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/MenuList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/MenuList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/MenuManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/choose-section-dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/insert-item-dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/menu-content.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/menu-features-dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/menu-list.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/menu/menu-management.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/catering/ui/start.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/java/catering/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catering_without_maven/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Edmi6163"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Edmi6163/lab_progetto_Sas.git",
+    "accountId": "bf91bc7a-0da4-4295-ae88-47053c8e775e"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2j9MXuakxfRS4AJVhmKdGYNgjOR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/francesco/Documents/Università/3_Anno/SAS/lab_progetto_Sas",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d379fe1-b97a-4553-91eb-25e04cfd5860" name="Changes" comment="" />
+      <created>1720794881815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720794881815</updated>
+      <workItem from="1720794882805" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
