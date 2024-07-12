@@ -1,4 +1,15 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>1060</x><y>770</y><w>460</w><h>390</h></coordinates><panel_attributes>SummaryDocumentManager
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1230</x>
+      <y>760</y>
+      <w>460</w>
+      <h>390</h>
+    </coordinates>
+    <panel_attributes>SummaryDocumentManager
 --
 *event sender methods*
 +addReceiver(er:SummaryDocumentEventReceiver)
@@ -21,7 +32,18 @@
 +deleteSummaryDocument(sd:SummaryDocument)
 +getBillBoard():BillBoard
 +add(summaryDocument:SummaryDocument)
-+remove(summaryDocument:SummaryDocument)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1710</x><y>750</y><w>590</w><h>350</h></coordinates><panel_attributes>SummaryDocument
++remove(summaryDocument:SummaryDocument)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1880</x>
+      <y>740</y>
+      <w>590</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>SummaryDocument
 --
 - title:string
 - shiftWork: String
@@ -42,19 +64,42 @@
 +addTask(task:Task)
 +assignTaskTo(
 +add(summaryDocument:SummaryDocument)
-+remove(summaryDocument:SummaryDocument)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1480</x><y>1310</y><w>820</w><h>240</h></coordinates><panel_attributes>Task
++remove(summaryDocument:SummaryDocument)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1650</x>
+      <y>1300</y>
+      <w>820</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Task
 --
 - assignedTo: String
 - typeTask:boolean //inserire business rule
 - difficulty :int
 - shiftWotk:shiftWork
+- recurring:Boolean
 --
 *Operations methods*
 +orderTaskByDifficulty(task:Task):ArrayList&lt;Task&gt;
 +orderTaskByPriority(task:Task)ArrayList&lt;Task&gt;:
 +orderTaskByTiming(task:Task):ArrayList&lt;Task&gt;
 +assignTask(typeTask:boolean,name?:Employer , surname?:Employer, shiftWork:ShiftWord,task:Task ):ArrayList&lt;Task&gt;
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2540</x><y>1640</y><w>440</w><h>150</h></coordinates><panel_attributes>Recipe
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2710</x>
+      <y>1630</y>
+      <w>440</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Recipe
 --
 -name:String
 -cookingTime :float
@@ -62,50 +107,347 @@
 -quantityOfIngredients: ArrayList&lt;ingredients:String ,qty:int&gt;
 -freshDish:boolean
 -difficulty:String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2250</x><y>2060</y><w>270</w><h>120</h></coordinates><panel_attributes>Employer
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2420</x>
+      <y>2050</y>
+      <w>270</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Employer
 --
 -name :String
 -surname :String
 /da valutare se servono queste info
 -expert:boolean
--taskAssigned :boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1040</x><y>1260</y><w>420</w><h>120</h></coordinates><panel_attributes>SummaryDocumentReceiver
+-taskAssigned :boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1210</x>
+      <y>1250</y>
+      <w>420</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>SummaryDocumentReceiver
 {interface}
 --
 +updateSummaryDocumentCreated(sd:SummaryDocument)
 +updateSummaryDocumentDeleted(sd:SummaryDocument)
 +updateSummaryDocumentModifie(sd:SummaryDocument)
-+updateTask(sd:SummaryDocument,task:Task)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2610</x><y>1130</y><w>260</w><h>50</h></coordinates><panel_attributes>User
++updateTask(sd:SummaryDocument,task:Task)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2780</x>
+      <y>1120</y>
+      <w>260</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>User
 --
-+isChef():boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2610</x><y>1250</y><w>270</w><h>230</h></coordinates><panel_attributes>UserManager
++isChef():boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2780</x>
+      <y>1240</y>
+      <w>270</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>UserManager
 --
-+getCurrentUser():User</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>1760</y><w>730</w><h>170</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>1730</y><w>270</w><h>30</h></coordinates><panel_attributes>General Module
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>1800</y><w>260</w><h>60</h></coordinates><panel_attributes>UseCaseLogicException
--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>1800</y><w>260</w><h>60</h></coordinates><panel_attributes>Exception
--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>1810</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
-(extends)</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2590</x><y>1080</y><w>300</w><h>430</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2590</x><y>1050</y><w>140</w><h>30</h></coordinates><panel_attributes>UserManager</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2730</x><y>1170</y><w>80</w><h>100</h></coordinates><panel_attributes>lt=&lt;-
++getCurrentUser():User</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>1750</y>
+      <w>730</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>1720</y>
+      <w>270</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>General Module
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>1790</y>
+      <w>260</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>UseCaseLogicException
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>1790</y>
+      <w>260</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Exception
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>1800</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+(extends)</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2760</x>
+      <y>1070</y>
+      <w>300</w>
+      <h>430</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2760</x>
+      <y>1040</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>UserManager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2900</x>
+      <y>1160</y>
+      <w>90</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
 (contains)
-m1=0..1</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>2290</x><y>1070</y><w>310</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2460</x>
+      <y>1060</y>
+      <w>310</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
 (contains)
-m1=0..1</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1870</x><y>1090</y><w>80</w><h>240</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1</panel_attributes>
+    <additional_attributes>290.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2040</x>
+      <y>1080</y>
+      <w>90</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
 (contains)
-m1=0..1</panel_attributes><additional_attributes>10;220;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1240</x><y>1150</y><w>110</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1</panel_attributes>
+    <additional_attributes>10.0;220.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1410</x>
+      <y>1140</y>
+      <w>130</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
 eventReceivers
-m1=0..n</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1510</x><y>940</y><w>210</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1680</x>
+      <y>930</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
 currentSummaryDocument
-m1=0..1</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>2270</x><y>1540</y><w>80</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+m1=0..1</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2440</x>
+      <y>1530</y>
+      <w>90</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
 (contains)
-m1=0..1</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>2290</x><y>1300</y><w>190</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;50;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2450</x><y>1300</y><w>30</w><h>150</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2290</x><y>1420</y><w>190</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2460</x>
+      <y>1290</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;50.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2620</x>
+      <y>1290</y>
+      <w>30</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2460</x>
+      <y>1410</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
 continuous
-1</panel_attributes><additional_attributes>10;50;170;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>2050</y><w>730</w><h>170</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>2110</y><w>260</w><h>60</h></coordinates><panel_attributes>summaryDocumentException
--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>2110</y><w>260</w><h>60</h></coordinates><panel_attributes>Exception
--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>2020</y><w>270</w><h>30</h></coordinates><panel_attributes>General Module
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>2120</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
-(extends)</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>1120</y><w>260</w><h>100</h></coordinates><panel_attributes>EventState
+1</panel_attributes>
+    <additional_attributes>10.0;50.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>2040</y>
+      <w>730</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>2100</y>
+      <w>260</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>summaryDocumentException
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>2100</y>
+      <w>260</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Exception
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>2010</y>
+      <w>270</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>General Module
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>2110</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+(extends)</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>1110</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>EventState
 {interface}
 --
 +modeEvent():void
 +changeButton():void
-+getEventInfo():Event</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>1090</y><w>390</w><h>150</h></coordinates><panel_attributes>Event
++getEventInfo():Event</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>1080</y>
+      <w>390</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Event
 --
 listsummaryDocuement:Arraylist&lt;SummaryDocument&gt;
 --
@@ -113,44 +455,267 @@ listsummaryDocuement:Arraylist&lt;SummaryDocument&gt;
 +modeEvent():void
 +changeButton():void
 +getInfoEvent():Event
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>1390</y><w>260</w><h>100</h></coordinates><panel_attributes>EventStart
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>1380</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>EventStart
 --
 +modeEvent():void
 +changeButton():void
-+getEventInfo():Event</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>1390</y><w>260</w><h>100</h></coordinates><panel_attributes>EventEnd
++getEventInfo():Event</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>1380</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>EventEnd
 --
 +modeEvent():void
 +changeButton():void
-+getEventInfo():Event</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>930</x><y>1390</y><w>260</w><h>100</h></coordinates><panel_attributes>EventReccurent
++getEventInfo():Event</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1100</x>
+      <y>1380</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>EventReccurent
 --
 +modeEvent():void
 +changeButton():void
-+getEventInfo():Event</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>1210</y><w>170</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;.
-(implements)</panel_attributes><additional_attributes>150;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>1210</y><w>290</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;.
-(implements)</panel_attributes><additional_attributes>10;10;270;180</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>1210</y><w>120</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;.
-(implements)</panel_attributes><additional_attributes>10;10;50;180</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>1150</y><w>220</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
++getEventInfo():Event</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>1200</y>
+      <w>190</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+(implements)</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>940</x>
+      <y>1200</y>
+      <w>290</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+(implements)</panel_attributes>
+    <additional_attributes>10.0;10.0;270.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>1200</y>
+      <w>140</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+(implements)</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>1140</y>
+      <w>220</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
 (contains)
-m1=0..1</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2530</x><y>550</y><w>140</w><h>30</h></coordinates><panel_attributes>BillBoardManager</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2530</x><y>580</y><w>390</w><h>440</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2540</x><y>810</y><w>350</w><h>140</h></coordinates><panel_attributes>BillBoardManager
+m1=0..1</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2710</x>
+      <y>250</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>BillBoardManager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2710</x>
+      <y>280</y>
+      <w>710</w>
+      <h>690</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2720</x>
+      <y>660</y>
+      <w>410</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>BillBoardManager
 --
++BillBoard()
++getIstance():BillBoard{static}
 +add(task:Task?,name?,surname?,priority? 
 workShift:WorkShift):ArrayList&lt;BillBoard&gt;
 +getBillBoard():BillBoard
-+remove(Task:task)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2660</x><y>720</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
++remove(Task:task)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2840</x>
+      <y>530</y>
+      <w>90</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
 (contains)
-m1=1</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>2270</x><y>1260</y><w>170</w><h>70</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;50;150;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2410</x><y>820</y><w>30</w><h>470</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;450;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2410</x><y>810</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
-added on</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2520</x><y>300</y><w>420</w><h>110</h></coordinates><panel_attributes>BillBoardReceiver
+m1=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2440</x>
+      <y>1250</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;50.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2580</x>
+      <y>810</y>
+      <w>30</w>
+      <h>470</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;450.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2580</x>
+      <y>800</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+added on</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2700</x>
+      <y>0</y>
+      <w>420</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>BillBoardReceiver
 {interface}
 --
-+notifyTaskRearranged(Task:task)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2740</x><y>400</y><w>110</w><h>200</h></coordinates><panel_attributes>lt=&lt;-
++notifyTaskRearranged(Task:task)
++notifyItemAddedOnBillBoard(Task:task)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2920</x>
+      <y>100</y>
+      <w>130</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
 eventReceivers
-m1=0..n</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>1990</x><y>580</y><w>70</w><h>190</h></coordinates><panel_attributes>lt=-
-evento</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>560</y><w>1780</w><h>50</h></coordinates><panel_attributes>lt=-
-evento</panel_attributes><additional_attributes>1760;30;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>570</y><w>80</w><h>540</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+m1=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2160</x>
+      <y>570</y>
+      <w>70</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=-
+evento</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>550</y>
+      <w>1780</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+evento</panel_attributes>
+    <additional_attributes>1760.0;30.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>560</y>
+      <w>90</w>
+      <h>540</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
 contains
 0..N
-</panel_attributes><additional_attributes>10;10;10;520</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1470</x><y>1710</y><w>820</w><h>240</h></coordinates><panel_attributes>TaskManager
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;520.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1640</x>
+      <y>1700</y>
+      <w>820</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>TaskManager
 --
 - assignedTo: String
 - typeTask:boolean //inserire business rule
@@ -162,14 +727,80 @@ contains
 +orderTaskByPriority(task:Task)ArrayList&lt;Task&gt;:
 +orderTaskByTiming(task:Task):ArrayList&lt;Task&gt;
 +assignTask(typeTask:boolean,name?:Employer , surname?:Employer, shiftWork:ShiftWord,task:Task ):ArrayList&lt;Task&gt;
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1880</x><y>1540</y><w>100</w><h>190</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
-currentTask</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1790</x><y>1940</y><w>70</w><h>130</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
-evento</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1510</x><y>2050</y><w>420</w><h>120</h></coordinates><panel_attributes>TasktReceiver
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2050</x>
+      <y>1530</y>
+      <w>110</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+currentTask</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1960</x>
+      <y>1930</y>
+      <w>70</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+evento</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1680</x>
+      <y>2040</y>
+      <w>420</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>TasktReceiver
 {interface}
 --
-+updateTaskAssigned(t:Task)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2400</x><y>1670</y><w>30</w><h>410</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;390;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2270</x><y>1660</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1110</x><y>1520</y><w>260</w><h>230</h></coordinates><panel_attributes>ShiftWork
++updateTaskAssigned(t:Task)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2570</x>
+      <y>1660</y>
+      <w>30</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;390.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2440</x>
+      <y>1650</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>1510</y>
+      <w>750</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>ShiftWork
 --
 -startingDate: Date
 -endingDate: Date
@@ -177,9 +808,36 @@ evento</panel_attributes><additional_attributes>10;10;10;110</additional_attribu
 -lowerBoundInitShift: Date
 -upperBoundInitShift: Date
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1240</x><y>1450</y><w>260</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
++orderTaskByDifficulty(task:Task):ArrayList&lt;Task&gt;
++orderTaskByPriority(task:Task)ArrayList&lt;Task&gt;:
++orderTaskByTiming(task:Task):ArrayList&lt;Task&gt;
++assignTask(typeTask:boolean,name?:Employer , surname?:Employer,
+shiftWork:ShiftWord,task:Task ):ArrayList&lt;Task&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1410</x>
+      <y>1440</y>
+      <w>260</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
 (contains)
-m1=1..1</panel_attributes><additional_attributes>10;70;10;20;240;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1800</x><y>150</y><w>620</w><h>220</h></coordinates><panel_attributes>ANormalClass
+m1=1..1</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1970</x>
+      <y>140</y>
+      <w>620</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>ANormalClass
 --
 -instance vars
 -(usually private)
@@ -195,10 +853,32 @@ _-can be public or private_
 /+can have abstract methods/
 --
 *Can have several method sections*
-+ other methods</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2560</x><y>610</y><w>290</w><h>120</h></coordinates><panel_attributes>BillBoard
++ other methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2740</x>
+      <y>310</y>
+      <w>300</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>BillBoard
 --
 -task: Task
 -shiftWork: ShiftWork
 -name: String
 -surname: String
--recipe: Recipe</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+-recipe: Recipe
+- instance:BillBoard
+--
+-BillBoard()
++getIstance():BillBoard{static}
++add(task:Task?,name?,surname?,priority? 
+workShift:WorkShift):ArrayList&lt;BillBoard&gt;
++getBillBoard():BillBoard
++remove(Task:task)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
