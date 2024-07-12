@@ -1,6 +1,8 @@
+package catering.businesslogic.task;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import catering.businesslogic.shiftWork.ShiftWork;
 
 public class TaskManager {
 	String assignedTo;
@@ -26,7 +28,7 @@ public class TaskManager {
 	}
 
 	public static ArrayList<Task> orderTaskByTiming(ArrayList<Task> tasks) {
-		Collections.sort(tasks, Comparator.comparing(task -> task.shiftWork)); 
+		Collections.sort(tasks, Comparator.comparing(task -> task.shiftWork)); //FIXME 
 		return tasks;
 	}
 

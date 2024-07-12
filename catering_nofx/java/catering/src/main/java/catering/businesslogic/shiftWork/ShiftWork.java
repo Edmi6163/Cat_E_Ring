@@ -1,3 +1,5 @@
+package catering.businesslogic.shiftWork;
+
 import java.util.Date;
 
 public class ShiftWork {

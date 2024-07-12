@@ -1,3 +1,5 @@
+package catering.businesslogic.summaryDocument;
+
 import java.util.ArrayList;
 
 public class SummaryDocument {

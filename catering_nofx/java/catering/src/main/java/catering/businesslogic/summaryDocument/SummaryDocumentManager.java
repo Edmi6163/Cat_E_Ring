@@ -1,3 +1,7 @@
+package catering.businesslogic.summaryDocument;
+
+import catering.businesslogic.summaryDocument.*;
+
 import java.util.ArrayList;
 
 public class SummaryDocumentManager {
@@ -44,7 +48,7 @@ public class SummaryDocumentManager {
     }
 
     public SummaryDocument createSummaryDocument(String title, Event event) {
-        SummaryDocument sd = new SummaryDocument(title);
+        SummaryDocument sd = new  SummaryDocument(title,event, null, null, null, false, null);
         notifySummaryDocumentCreated(sd);
         return sd;
     }

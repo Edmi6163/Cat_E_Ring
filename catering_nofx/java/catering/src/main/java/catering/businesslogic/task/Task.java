@@ -1,6 +1,9 @@
+package catering.businesslogic.task;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import catering.businesslogic.shiftWork.ShiftWork;
 
 public class Task {
 	String assignedTo;

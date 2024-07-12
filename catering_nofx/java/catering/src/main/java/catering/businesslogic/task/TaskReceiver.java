@@ -1,3 +1,4 @@
+package catering.businesslogic.task;
 public interface TaskReceiver {
- updateTaskAssigned(Task t); 
+ void updateTaskAssigned(Task t); 
 }
