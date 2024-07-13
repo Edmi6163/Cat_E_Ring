@@ -8,15 +8,16 @@ import java.util.ArrayList;
 
 public class SummaryDocument {
   
-  public String title; 
-  public String shiftWork;
-  public String menu;
-  public String recipe;
-  public boolean advancedPreparation;
-  public Integer quantityForAdvancedPreparation;
-  public ArrayList<SummaryDocument> listSummaryDocument;
+  private String title; 
+  private String shiftWork;
+  private  String menu;
+  private String recipe;
+  private boolean advancedPreparation;
+  private Integer quantityForAdvancedPreparation;
+  private  ArrayList<SummaryDocument> listSummaryDocument;
+  private ArrayList<Task>listTasks;
 
-  public SummaryDocument(String title, String shiftWork, String menu, String recipe, boolean advancedPreparation, Integer quantityForAdvancedPreparation) {
+  public SummaryDocument(String title, String shiftWork, String menu, String recipe, boolean advancedPreparation, Integer quantityForAdvancedPreparation,ArrayList<Task>listTask) {
     this.title = title;
     this.shiftWork = shiftWork;
     this.menu = menu;
@@ -24,13 +25,19 @@ public class SummaryDocument {
     this.advancedPreparation = advancedPreparation;
     this.quantityForAdvancedPreparation = quantityForAdvancedPreparation;
     this.listSummaryDocument = new ArrayList<>();
+    if(listTasks ==null)
+    {
+      this.listTasks = new ArrayList<Task>();
+    }
+    this.listTasks = listTask;
   }
 
   public static SummaryDocument createSummaryDocument(String title) {
-    return new SummaryDocument(title, null, null, null, false, null);
+    return new SummaryDocument(title, null, null, null, false, null,null);
   }
 
-  public void modifieSummaryDocumentTitle(String newTitle) {
+  
+  public void modifySummaryDocumentTitle(String newTitle) {
     this.title = newTitle;
   }
 
@@ -51,7 +58,7 @@ public class SummaryDocument {
   }
 
   public SummaryDocument copyDocument() {
-    return new SummaryDocument(this.title, this.shiftWork, this.menu, this.recipe, this.advancedPreparation, this.quantityForAdvancedPreparation);
+    return new SummaryDocument(this.title, this.shiftWork, this.menu, this.recipe, this.advancedPreparation, this.quantityForAdvancedPreparation,this.listTasks);
   }
 
   public void moreSummaryDocument() {
@@ -62,9 +69,11 @@ public class SummaryDocument {
   }
 
   public void addTask(Task task) {
+    listTasks.add(task); 
   }
-
-  public void assignTaskTo() {
+  public void removeTask(Task task)
+  {
+    listTasks.remove(task);
   }
 
   public void add(SummaryDocument summaryDocument) {
