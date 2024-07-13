@@ -11,16 +11,14 @@ public class BillBoard {
   private String surname;
   private Recipe recipe;
   private static BillBoard instance;
-  private BillBoard()
-  {
-      this.task = null;
+  private BillBoard(){
+        this.task = null;
         this.ShiftWork = null;
         this.name = "";
         this.surname = "";
         this.recipe = null;
   }
-    public static BillBoard getInstance()
-    {
+    public static BillBoard getInstance(){
         if(instance == null)
         {
             instance = new BillBoard();

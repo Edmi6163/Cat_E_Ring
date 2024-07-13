@@ -34,7 +34,7 @@ public static BillBoardManager getInstance(){
  * @param name
  * @param surname
  * @param priority
- * @param shitWork
+ * @param shiftWork
  * @return the new aray list with the last task added
  */ 
 public ArrayList<BillBoard> add(Task task, String name, String surname,int priority,ShiftWork shiftWork){
