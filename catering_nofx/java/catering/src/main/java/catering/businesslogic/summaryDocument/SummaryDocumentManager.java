@@ -11,13 +11,13 @@ import catering.businesslogic.task.Task;
 import java.util.ArrayList;
 
 public class SummaryDocumentManager {
-    private ArrayList<SummaryDocumentEventReceiver> receivers = new ArrayList<>();
+    private ArrayList<SummaryDocumentReceiver> receivers = new ArrayList<>();
 
-    public void addReceiver(SummaryDocumentEventReceiver er) {
+    public void addReceiver(SummaryDocumentReceiver er) {
         receivers.add(er);
     }
 
-    public void removeReceiver(SummaryDocumentEventReceiver er) {
+    public void removeReceiver(SummaryDocumentReceiver er) {
         receivers.remove(er);
     }
 
@@ -54,7 +54,7 @@ public class SummaryDocumentManager {
     }
 
     public SummaryDocument createSummaryDocument(String title, Event event) {
-        SummaryDocument sd = new  SummaryDocument(title,event, null, null, null, false, null);
+        SummaryDocument sd = new  SummaryDocument(title,event, null, null, null, false, null); //FIXME
         notifySummaryDocumentCreated(sd);
         return sd;
     }
@@ -83,7 +83,7 @@ public class SummaryDocumentManager {
     }
 
     /**
-     * bill board is a singleton 
+     * NOTE: bill board is a singleton 
      */
     public BillBoard getBillBoard() {
         return BillBoard.getInstance();

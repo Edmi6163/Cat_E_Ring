@@ -1,7 +1,6 @@
 package catering.businesslogic.event;
 
 import catering.businesslogic.summaryDocument.SummaryDocument;
-import catering.businesslogic.event.*;
 import java.util.ArrayList;
 
 public class EventRecurrent implements EventState {

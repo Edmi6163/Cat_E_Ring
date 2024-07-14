@@ -3,7 +3,7 @@ import catering.businesslogic.menu.Menu;
 import catering.businesslogic.recipe.Recipe;
 import catering.businesslogic.shiftWork.ShiftWork;
 import catering.businesslogic.task.*;
-public interface SummaryDocumentEventReceiver {
+public interface SummaryDocumentReceiver {
     void updateSummaryDocumentCreated(SummaryDocument sd);
     void updateSummaryDocumentDeleted(SummaryDocument sd);
     void updateSummaryDocumentModifie(SummaryDocument sd);
