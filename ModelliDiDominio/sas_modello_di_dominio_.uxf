@@ -874,7 +874,7 @@ bg=PINK</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>261</x>
+      <x>252</x>
       <y>405</y>
       <w>180</w>
       <h>63</h>
@@ -1088,5 +1088,30 @@ m1=0..n
 m2=0..1
 composizione &gt;</panel_attributes>
     <additional_attributes>270.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>801</x>
+      <y>414</y>
+      <w>108</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..1
+&lt; assegnato a </panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>603</x>
+      <y>405</y>
+      <w>225</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
