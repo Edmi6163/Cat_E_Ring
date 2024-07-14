@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>240</x>
-      <y>168</y>
+      <y>96</y>
       <w>72</w>
       <h>48</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>240</x>
-      <y>144</y>
+      <y>72</y>
       <w>48</w>
       <h>24</h>
     </coordinates>
@@ -27,20 +27,20 @@
     <id>Relation</id>
     <coordinates>
       <x>256</x>
-      <y>232</y>
-      <w>424</w>
+      <y>160</y>
+      <w>408</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-modifieShiftWorkServiceEmergency(shiftWork ,location , date)
+modifieShiftWorkServiceEmergency(shiftWorkList ,location , date)
 </panel_attributes>
-    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>248</x>
-      <y>216</y>
+      <y>144</y>
       <w>32</w>
       <h>960</h>
     </coordinates>
@@ -51,7 +51,7 @@ modifieShiftWorkServiceEmergency(shiftWork ,location , date)
     <id>UMLFrame</id>
     <coordinates>
       <x>200</x>
-      <y>304</y>
+      <y>232</y>
       <w>2040</w>
       <h>752</h>
     </coordinates>
@@ -63,7 +63,7 @@ fg=#27990b</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>256</x>
-      <y>312</y>
+      <y>240</y>
       <w>424</w>
       <h>32</h>
     </coordinates>
@@ -75,7 +75,7 @@ throwsUseCaseLogicExecption</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>656</x>
-      <y>280</y>
+      <y>208</y>
       <w>376</w>
       <h>32</h>
     </coordinates>
@@ -87,7 +87,7 @@ user</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>656</x>
-      <y>256</y>
+      <y>184</y>
       <w>368</w>
       <h>32</h>
     </coordinates>
@@ -99,7 +99,7 @@ getCurrentUser()</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1712</x>
-      <y>120</y>
+      <y>48</y>
       <w>160</w>
       <h>48</h>
     </coordinates>
@@ -111,7 +111,7 @@ eventReceiver</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1784</x>
-      <y>160</y>
+      <y>88</y>
       <w>24</w>
       <h>1032</h>
     </coordinates>
@@ -122,19 +122,19 @@ eventReceiver</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>592</x>
-      <y>128</y>
+      <y>56</y>
       <w>160</w>
       <h>48</h>
     </coordinates>
-    <panel_attributes>shiftWorkMgr:
-shiftWorkManager</panel_attributes>
+    <panel_attributes>serviceShiftWorkMgr:
+serviceShiftWorkManager</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>944</x>
-      <y>128</y>
+      <y>56</y>
       <w>160</w>
       <h>48</h>
     </coordinates>
@@ -146,7 +146,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>656</x>
-      <y>168</y>
+      <y>96</y>
       <w>24</w>
       <h>1000</h>
     </coordinates>
@@ -157,7 +157,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1008</x>
-      <y>168</y>
+      <y>96</y>
       <w>24</w>
       <h>200</h>
     </coordinates>
@@ -168,7 +168,7 @@ UserManager</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>992</x>
-      <y>568</y>
+      <y>496</y>
       <w>128</w>
       <h>24</h>
     </coordinates>
@@ -179,7 +179,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1040</x>
-      <y>584</y>
+      <y>512</y>
       <w>24</w>
       <h>240</h>
     </coordinates>
@@ -190,7 +190,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1040</x>
-      <y>592</y>
+      <y>776</y>
       <w>112</w>
       <h>32</h>
     </coordinates>
@@ -201,7 +201,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1040</x>
-      <y>624</y>
+      <y>552</y>
       <w>112</w>
       <h>32</h>
     </coordinates>
@@ -213,18 +213,18 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1128</x>
-      <y>600</y>
+      <y>520</y>
       <w>160</w>
-      <h>56</h>
+      <h>64</h>
     </coordinates>
     <panel_attributes>this.date=shiftWork.date</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>1040</x>
-      <y>672</y>
+      <y>600</y>
       <w>112</w>
       <h>32</h>
     </coordinates>
@@ -236,7 +236,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1128</x>
-      <y>648</y>
+      <y>576</y>
       <w>200</w>
       <h>56</h>
     </coordinates>
@@ -247,7 +247,7 @@ UserManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1040</x>
-      <y>640</y>
+      <y>568</y>
       <w>112</w>
       <h>32</h>
     </coordinates>
@@ -257,22 +257,22 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>648</x>
-      <y>728</y>
-      <w>416</w>
+      <x>664</x>
+      <y>656</y>
+      <w>400</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 shiftWork</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;480.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>568</x>
-      <y>928</y>
+      <x>584</x>
+      <y>824</y>
       <w>1336</w>
-      <h>128</h>
+      <h>96</h>
     </coordinates>
     <panel_attributes>For each er in eventReceiver
 fg=blue
@@ -283,7 +283,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>664</x>
-      <y>968</y>
+      <y>896</y>
       <w>1144</w>
       <h>32</h>
     </coordinates>
@@ -295,21 +295,22 @@ updateShiftWorkModifieEmergency(shiftWork)</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>0</x>
-      <y>296</y>
-      <w>1880</w>
+      <y>224</y>
+      <w>2280</w>
       <h>784</h>
     </coordinates>
     <panel_attributes>If shiftWork.emergency ==true
 
 fg=blue
-bg=#F4F6B6</panel_attributes>
+bg=#F4F6B6
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>656</x>
-      <y>584</y>
+      <y>496</y>
       <w>352</w>
       <h>32</h>
     </coordinates>
@@ -321,7 +322,7 @@ modifieServiceShiftWorkEmergency(shiftWork,location,date)</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1360</x>
-      <y>224</y>
+      <y>152</y>
       <w>272</w>
       <h>32</h>
     </coordinates>
@@ -332,18 +333,18 @@ modifieServiceShiftWorkEmergency(shiftWork,location,date)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1512</x>
-      <y>248</y>
+      <y>176</y>
       <w>32</w>
-      <h>664</h>
+      <h>856</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;20.0;810.0</additional_attributes>
+    <additional_attributes>10.0;10.0;20.0;1050.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>656</x>
-      <y>840</y>
+      <y>768</y>
       <w>888</w>
       <h>32</h>
     </coordinates>
@@ -355,7 +356,7 @@ add(shiftWork)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1040</x>
-      <y>720</y>
+      <y>648</y>
       <w>112</w>
       <h>32</h>
     </coordinates>
@@ -367,7 +368,7 @@ add(shiftWork)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1128</x>
-      <y>696</y>
+      <y>624</y>
       <w>208</w>
       <h>56</h>
     </coordinates>
@@ -378,7 +379,7 @@ add(shiftWork)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1040</x>
-      <y>688</y>
+      <y>616</y>
       <w>112</w>
       <h>32</h>
     </coordinates>
@@ -389,18 +390,7 @@ add(shiftWork)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1520</x>
-      <y>840</y>
-      <w>16</w>
-      <h>16</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>1280</x>
-      <y>784</y>
+      <y>768</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -411,7 +401,7 @@ add(shiftWork)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1040</x>
-      <y>600</y>
+      <y>528</y>
       <w>16</w>
       <h>144</h>
     </coordinates>
@@ -422,7 +412,7 @@ add(shiftWork)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1008</x>
-      <y>264</y>
+      <y>192</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -433,9 +423,9 @@ add(shiftWork)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>656</x>
-      <y>240</y>
+      <y>168</y>
       <w>16</w>
-      <h>16</h>
+      <h>816</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -443,7 +433,7 @@ add(shiftWork)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1792</x>
+      <x>1784</x>
       <y>904</y>
       <w>16</w>
       <h>16</h>
@@ -455,7 +445,7 @@ add(shiftWork)</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>632</x>
-      <y>368</y>
+      <y>280</y>
       <w>968</w>
       <h>96</h>
     </coordinates>
@@ -473,12 +463,151 @@ layer=0</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>656</x>
-      <y>392</y>
-      <w>880</w>
+      <y>320</y>
+      <w>872</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-remove(shiftWork)</panel_attributes>
-    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+remove(shiftWorkList)</panel_attributes>
+    <additional_attributes>10.0;20.0;1070.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>528</x>
+      <y>680</y>
+      <w>1168</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>ALT
+if recurring ==true
+fg=#761C8C
+bg=#e7bfff
+lw=2
+--
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>712</y>
+      <w>1456</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+add(shiftWork)</panel_attributes>
+    <additional_attributes>10.0;30.0;1800.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1816</x>
+      <y>152</y>
+      <w>320</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>recurringServiceShiftWorkLIst:ArrayList&lt;ShiftWork&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1952</x>
+      <y>168</y>
+      <w>24</w>
+      <h>704</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;860.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1952</x>
+      <y>720</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1512</x>
+      <y>328</y>
+      <w>24</w>
+      <h>488</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>664</x>
+      <y>792</y>
+      <w>872</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+serviceShiftWork</panel_attributes>
+    <additional_attributes>10.0;20.0;1070.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>416</x>
+      <y>432</y>
+      <w>1368</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>For each shiftWork in shiftWorkList
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>248</x>
+      <y>952</y>
+      <w>424</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+serviceShiftWorkList</panel_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>248</x>
+      <y>392</y>
+      <w>424</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+throwsShiftWorkExecption
+fg=#D3001B</panel_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>512</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
   </element>
 </diagram>
