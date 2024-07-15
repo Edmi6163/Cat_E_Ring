@@ -1,0 +1,210 @@
+\section*{Contratti per UC "Gestire i compiti della cucina"}
+
+\subsection*{Precondizione generale}
+\begin{itemize}
+    \item L'utente deve essere identificato come un'istanza \textit{ch} di Chef.
+\end{itemize}
+
+\subsection*{1. creaFoglioRiepilogativo(titolo?:testo, evento:Evento)}
+
+\subsubsection*{Precondizioni:}
+\begin{itemize}
+    \item \textit{ch} deve essere incaricato per questo evento.
+\end{itemize}
+
+\subsubsection*{Postcondizioni:}
+\begin{itemize}
+    \item Se l'evento è assegnato a \textit{ch} e non esiste un'istanza di foglio riepilogativo \textit{fr}, viene creata una nuova istanza \textit{fr} di tipo \textit{FoglioRiepilogativo}.
+    \item Se è specificato un titolo, \textit{fr.titolo = titolo}.
+    \item \textit{ch} è proprietario di \textit{fr}.
+\end{itemize}
+
+\subsection*{1a.1 scegliFoglioRiepilogativo(foglioRiepilogativo:FoglioRiepilogativo)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item L'evento a cui si riferisce il foglioRiepilogativo prevede che \textit{ch} sia proprietario.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item Il foglioRiepilogativo selezionato diventa il documento attivo per ulteriori operazioni.
+\end{itemize}
+
+\subsection*{1b.1 modificaTitoloFoglioRiepilogativo(nuovoTitolo:testo)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item Deve già esistere un'istanza di foglio riepilogativo \textit{fr}.
+    \item Se viene specificato il titolo, allora \textit{fr.titolo = titolo}.
+    \item Il nuovo titolo non deve essere già presente su un altro foglio riepilogativo.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item Il nuovo titolo per il foglio riepilogativo \textit{fr} è \textit{fr.titolo = nuovoTitolo}.
+\end{itemize}
+
+\subsection*{1c.1 modificaContenutoFoglioRiepilogativo(foglioRiepilogativo:FoglioRiepilogativo)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item È stata modificata un'istanza \textit{fr} di foglio riepilogativo.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item È stata modificata un'istanza \textit{fr} di foglio riepilogativo.
+    \item \textit{fr.titolo = foglioRiepilogativo.titolo}.
+    \item \textit{fr.turniCucina = foglioRiepilogativo.turniCucina}.
+    \item \textit{fr.ricetta = foglioRiepilogativo.ricetta}.
+    \item \textit{fr.preparazioneAvanzata = foglioRiepilogativo.preparazioneAvanzata}.
+    \item \textit{fr.quantitàPerPreparazioneAvanzata = foglioRiepilogativo.quantitàPerPreparazioneAvanzata}.
+\end{itemize}
+
+\subsection*{1d.1 copiaFoglioRiepilogativo(foglioRiepilogativo:FoglioRiepilogativo)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item Deve esistere un'istanza \textit{fr} di foglio riepilogativo.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item È stata creata un'istanza \textit{fr} di foglio riepilogativo.
+    \item \textit{fr.evento = foglioRiepilogativo.evento}.
+    \item \textit{fr.titolo = foglioRiepilogativo.titolo}.
+    \item \textit{fr.turno = foglioRiepilogativo.turno}.
+    \item \textit{fr.menù = foglioRiepilogativo.menù}.
+    \item \textit{fr.ricetta = foglioRiepilogativo.ricetta}.
+    \item \textit{fr.preparazioneAvanzata = foglioRiepilogativo.preparazioneAvanzata}.
+    \item \textit{fr.quantitàPerPreparazioneAvanzata = foglioRiepilogativo.quantitàPerPreparazioneAvanzata}.
+\end{itemize}
+
+\subsection*{1e.1 cancellaFoglioRiepilogativo(foglioRiepilogativo:FoglioRiepilogativo)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item \textit{ch} è proprietario di \textit{foglioRiepilogativo}.
+    \item \textit{foglioRiepilogativo} non è in uso in alcun Evento.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item Ogni contenuto di \textit{foglioRiepilogativo} (menù, titolo, lista dei turni della cucina, ricetta) viene eliminato.
+\end{itemize}
+
+\subsection*{2. aggiungiCompito(compito:Compito)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item È in corso la definizione di un tabellone composto da istanze di \textit{Compito} \textit{c}.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item Compito aggiunto alla lista dei compiti.
+    \item Compito aggiunto al foglio riepilogativo.
+\end{itemize}
+
+\subsection*{3. ordinaCompitiDifficolta(compito:Compito)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item È in corso la definizione di un tabellone composto da istanze di \textit{Compito} \textit{c}.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item I compiti sono ordinati in base alla difficoltà di esecuzione.
+\end{itemize}
+
+\subsection*{4. ordinaCompitiPriorita(compito:Compito)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item È in corso la definizione di un tabellone composto da istanze di \textit{Compito} \textit{c}.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item I compiti sono ordinati in base alla necessità temporale di completamento.
+\end{itemize}
+
+\subsection*{5. ordinaCompitiTempistiche(compito:Compito)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item È in corso la definizione di un tabellone composto da istanze di \textit{Compito} \textit{c}.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item Ordino compito in base alla lunghezza temporale che esso necessità per essere svolto.
+\end{itemize}
+
+\subsection*{6. piùFogliRiepilativi(foglioRiepilogativo:FoglioRiepilogativo, titolo?:Titolo)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item \textit{ch} è proprietario di questo evento.
+    \item Esiste già un'istanza di \textit{foglioRiepilogativo} \textit{fr} per questo evento.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item Creo una nuova istanza \textit{fr2} di \textit{FoglioRiepilogativo}.
+    \item [Se si specifica il titolo] \textit{fr2.titolo = titolo}.
+    \item \textit{ch} è proprietario di \textit{fr2}.
+\end{itemize}
+
+\subsection*{7. consultaTabellone()}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsection*{8. assegnaCompito(nome?:NomeDipendente, cognome?:CognomeDipendente, compito:Compito)}
+
+\subsubsection*{Precondizione:}
+\begin{itemize}
+    \item È in corso l'assegnamento dei compiti da svolgere (non assegnato a nessun dipendente).
+    \item Se il compito ha tempistiche troppo lunghe rispetto al turno di assegnamento, prolungo il compito al turno successivo disponibile.
+\end{itemize}
+
+\subsubsection*{Postcondizione:}
+\begin{itemize}
+    \item [Se si specifica un nome] \textit{compito.nomeAssegnato = nome}.
+    \item [Se si specifica un cognome] \textit{compito.cognomeAssegnato = cognome}.
+    \item \textit{compito.tipoCompito = tipoCompito}.
+\end{itemize}
+
+\subsection*{9. consultoListaTurniCucina()}
+
+\subsubsection*{Precondizioni:}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Postcondizioni:}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsection*{10. consultoFoglioRiepilogativo(foglioRiepilogativo:FoglioRiepilogativo)}
+
+\subsubsection*{Precondizioni:}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Postcondizioni:}
+\begin{itemize}
+    \item 
+\end{itemize}
