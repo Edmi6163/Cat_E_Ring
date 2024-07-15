@@ -33,6 +33,7 @@ public class SummaryDocument {
     this.listSummaryDocument = new ArrayList<>();
     this.isUse = false;
     this.listTasks = listTask != null ? listTask : new ArrayList<>();
+    this.owner = CatERing.getInstance().getUserManager().getCurrentUser();  // Set the owner to the current user
   }
 
   // Getters and setters
@@ -105,7 +106,7 @@ public class SummaryDocument {
   }
 
   public boolean isOwner(User u) {
-    return u.getId() == this.owner.getId();
+    return this.owner != null && u != null && u.getId() == this.owner.getId();
   }
 
   public static SummaryDocument createSummaryDocument(String title) {
@@ -148,11 +149,14 @@ public class SummaryDocument {
 
     String delRecipe = "DELETE FROM SummaryDocument WHERE recipe = '" + summaryDocument.getRecipe() + "'";
     PersistenceManager.executeUpdate(delRecipe);
-
   }
 
   public SummaryDocument copyDocument() {
-    return new SummaryDocument(this.title, new ArrayList<>(this.shiftWork), new ArrayList<>(this.menu), this.recipe, this.advancedPreparation, this.quantityForAdvancedPreparation, new ArrayList<>(this.listTasks));
+
+      SummaryDocument copy = new SummaryDocument(this.title, new ArrayList<>(this.shiftWork), new ArrayList<>(this.menu), this.recipe, this.advancedPreparation, this.quantityForAdvancedPreparation, new ArrayList<>(this.listTasks));
+      copy.owner = this.owner;  // Ensure the owner is copied over
+      return copy;
+
   }
 
   public SummaryDocument moreSummaryDocument(SummaryDocument summaryDocument) {

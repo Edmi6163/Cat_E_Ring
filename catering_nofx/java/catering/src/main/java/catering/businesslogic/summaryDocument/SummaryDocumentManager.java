@@ -122,7 +122,7 @@ public SummaryDocument insertTask(SummaryDocument sd, Task task) throws UseCaseL
 
     public SummaryDocument copySummaryDocument(SummaryDocument sd) throws UseCaseLogicException,SummaryDocumentException{
         User user = CatERing.getInstance().getUserManager().getCurrentUser();
-        if(user.isChef()) {
+        if(!user.isChef()) {
             throw new UseCaseLogicException();
         }
         if(sd.isUsed() || !sd.isOwner(user)) {

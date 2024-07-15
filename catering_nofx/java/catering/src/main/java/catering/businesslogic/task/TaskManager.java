@@ -8,36 +8,41 @@ import catering.businesslogic.employer.Employer;
 import catering.businesslogic.shiftWorkKitchen.shiftWorkKitchen;
 
 public class TaskManager {
-	String assignedTo;
-	boolean typeTask;
-	int difficulty;
-	shiftWorkKitchen shiftWork;
+	private static TaskManager singleInstance = null;
+	private ArrayList<Task> tasks;
 
-	public TaskManager(String assignedTo, boolean typeTask, int difficulty, shiftWorkKitchen shiftWork) {
-		this.assignedTo = assignedTo;
-		this.typeTask = typeTask;
-		this.difficulty = difficulty;
-		this.shiftWork = shiftWork;
-	}
-	public TaskManager TaskManager() {
-		return this;
+	// Private constructor for singleton
+	private TaskManager() {
+		tasks = new ArrayList<>();
 	}
 
+	// Singleton pattern implementation
+	public static TaskManager getTaskManager() {
+		if (singleInstance == null) {
+			singleInstance = new TaskManager();
+		}
+		return singleInstance;
+	}
+
+	// Order tasks by difficulty
 	public static ArrayList<Task> orderTaskByDifficulty(ArrayList<Task> tasks) {
-		Collections.sort(tasks, Comparator.comparingInt(task -> task.getDifficulty()));
+		Collections.sort(tasks, Comparator.comparingInt(Task::getDifficulty));
 		return tasks;
 	}
 
+	// Order tasks by priority
 	public static ArrayList<Task> orderTaskByPriority(ArrayList<Task> tasks) {
 		Collections.sort(tasks, Comparator.comparing(Task::isTypeTask).reversed());
 		return tasks;
 	}
 
+	// Order tasks by timing
 	public static ArrayList<Task> orderTaskByTiming(ArrayList<Task> tasks) {
-		Collections.sort(tasks, Comparator.comparing(task -> task.getShiftWork().getStartingDate())); // Ensure shiftWorkKitchen has getStartTime()
+		Collections.sort(tasks, Comparator.comparing(task -> task.getShiftWork().getStartingDate())); // Ensure shiftWorkKitchen has getStartingDate()
 		return tasks;
 	}
 
+	// Assign task to an employer
 	public static ArrayList<Task> assignTask(boolean typeTask, Employer name, Employer surname, shiftWorkKitchen shiftWork, Task task) {
 		ArrayList<Task> tasks = new ArrayList<>();
 		String assignedTo = (name != null ? name.toString() : "") + " " + (surname != null ? surname.toString() : "").trim();
@@ -48,11 +53,12 @@ public class TaskManager {
 		return tasks;
 	}
 
-	public TaskManager getTaskManager() {
-		return this;
+	// Add task to the task manager
+	public void addTask(Task task) {
+		tasks.add(task);
 	}
 
-	public void addTask(Task task) {
-		task.addTask(task);
+	public ArrayList<Task> getTask() {
+		return tasks;
 	}
 }
