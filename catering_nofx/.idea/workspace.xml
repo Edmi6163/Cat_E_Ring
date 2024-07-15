@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="corrected java configuration" />
+    <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="corrected java configuration">
+      <change beforePath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_compiti_cucina.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_compiti_cucina.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_turni_della_cucina.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_turni_della_cucina.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dsd/DSD_gestire_compiti_della_cucina.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/DSD_gestire_compiti_della_cucina.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dsd/Dsd_gestire_i_compiti_della_cucina_op_sortTaskByPriority.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/Dsd_gestire_i_compiti_della_cucina_op_sortTaskByPriority.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dsd/Dsd_gestire_i_compiti_della_cucina_op_sortTaskByTiminguxf.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/Dsd_gestire_i_compiti_della_cucina_op_sortTaskByTiminguxf.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +166,7 @@
       <workItem from="1720794744489" duration="137000" />
       <workItem from="1720813790925" duration="1822000" />
       <workItem from="1720873090352" duration="5392000" />
-      <workItem from="1720975541581" duration="38618000" />
+      <workItem from="1720975541581" duration="42057000" />
     </task>
     <task id="LOCAL-00001" summary="corrected java configuration">
       <option name="closed" value="true" />

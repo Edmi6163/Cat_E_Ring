@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>60</x>
-      <y>260</y>
+      <x>0</x>
+      <y>200</y>
       <w>90</w>
       <h>60</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>60</x>
-      <y>230</y>
+      <x>0</x>
+      <y>170</y>
       <w>60</w>
       <h>30</h>
     </coordinates>
@@ -26,20 +26,20 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>80</x>
-      <y>340</y>
+      <x>20</x>
+      <y>280</y>
       <w>530</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-createKitchenShiftWork(date:Date,location:String)</panel_attributes>
+createKitchenShiftWork(date,location)</panel_attributes>
     <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>310</y>
+      <x>10</x>
+      <y>250</y>
       <w>40</w>
       <h>800</h>
     </coordinates>
@@ -49,8 +49,8 @@ createKitchenShiftWork(date:Date,location:String)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>60</x>
-      <y>430</y>
+      <x>0</x>
+      <y>370</y>
       <w>2500</w>
       <h>410</h>
     </coordinates>
@@ -61,8 +61,8 @@ fg=#27990b</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>80</x>
-      <y>440</y>
+      <x>20</x>
+      <y>380</y>
       <w>530</w>
       <h>40</h>
     </coordinates>
@@ -73,8 +73,8 @@ throwsUseCaseLogicExecption</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>400</y>
+      <x>520</x>
+      <y>340</y>
       <w>470</w>
       <h>40</h>
     </coordinates>
@@ -85,8 +85,8 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>370</y>
+      <x>520</x>
+      <y>310</y>
       <w>470</w>
       <h>40</h>
     </coordinates>
@@ -97,8 +97,8 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1570</x>
-      <y>210</y>
+      <x>1510</x>
+      <y>150</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -109,8 +109,8 @@ eventReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1660</x>
-      <y>260</y>
+      <x>1600</x>
+      <y>200</y>
       <w>30</w>
       <h>810</h>
     </coordinates>
@@ -120,8 +120,8 @@ eventReceiver</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>500</x>
-      <y>210</y>
+      <x>440</x>
+      <y>150</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -132,8 +132,8 @@ KitchenShiftWorkManager</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>940</x>
-      <y>210</y>
+      <x>880</x>
+      <y>150</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -144,8 +144,8 @@ UserManager</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1190</x>
-      <y>210</y>
+      <x>1130</x>
+      <y>150</y>
       <w>310</w>
       <h>40</h>
     </coordinates>
@@ -155,8 +155,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>260</y>
+      <x>520</x>
+      <y>200</y>
       <w>30</w>
       <h>800</h>
     </coordinates>
@@ -166,8 +166,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1020</x>
-      <y>260</y>
+      <x>960</x>
+      <y>200</y>
       <w>30</w>
       <h>280</h>
     </coordinates>
@@ -177,8 +177,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1360</x>
-      <y>240</y>
+      <x>1300</x>
+      <y>180</y>
       <w>30</w>
       <h>830</h>
     </coordinates>
@@ -188,8 +188,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>540</y>
+      <x>520</x>
+      <y>480</y>
       <w>450</w>
       <h>40</h>
     </coordinates>
@@ -200,8 +200,8 @@ createKitchenShiftWork(date:Date,location:String)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1010</x>
-      <y>550</y>
+      <x>950</x>
+      <y>490</y>
       <w>160</w>
       <h>30</h>
     </coordinates>
@@ -211,8 +211,8 @@ createKitchenShiftWork(date:Date,location:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>570</y>
+      <x>1010</x>
+      <y>510</y>
       <w>30</w>
       <h>480</h>
     </coordinates>
@@ -222,8 +222,8 @@ createKitchenShiftWork(date:Date,location:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>580</y>
+      <x>1010</x>
+      <y>520</y>
       <w>140</w>
       <h>40</h>
     </coordinates>
@@ -233,7 +233,30 @@ createKitchenShiftWork(date:Date,location:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
+      <x>1010</x>
+      <y>560</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1120</x>
+      <y>530</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>this.date=date</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1010</x>
       <y>620</y>
       <w>140</w>
       <h>40</h>
@@ -245,31 +268,8 @@ createKitchenShiftWork(date:Date,location:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1180</x>
+      <x>1120</x>
       <y>590</y>
-      <w>130</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>this.date=date</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1070</x>
-      <y>680</y>
-      <w>140</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-</panel_attributes>
-    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1180</x>
-      <y>650</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
@@ -279,8 +279,8 @@ createKitchenShiftWork(date:Date,location:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>640</y>
+      <x>1010</x>
+      <y>580</y>
       <w>140</w>
       <h>40</h>
     </coordinates>
@@ -290,8 +290,8 @@ createKitchenShiftWork(date:Date,location:String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>700</y>
+      <x>520</x>
+      <y>640</y>
       <w>520</w>
       <h>40</h>
     </coordinates>
@@ -302,8 +302,8 @@ shiftWork</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>740</y>
+      <x>520</x>
+      <y>680</y>
       <w>810</w>
       <h>40</h>
     </coordinates>
@@ -314,8 +314,8 @@ add(shifWork)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>450</x>
-      <y>800</y>
+      <x>390</x>
+      <y>740</y>
       <w>1410</w>
       <h>110</h>
     </coordinates>
@@ -327,8 +327,8 @@ fg=blue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>840</y>
+      <x>520</x>
+      <y>780</y>
       <w>1100</w>
       <h>40</h>
     </coordinates>
@@ -339,8 +339,8 @@ updateKitchenShiftWorkCreated(shiftWork)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1660</x>
-      <y>850</y>
+      <x>1600</x>
+      <y>790</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
