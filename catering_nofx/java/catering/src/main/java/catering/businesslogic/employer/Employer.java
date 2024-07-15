@@ -1,5 +1,7 @@
 package catering.businesslogic.employer;
 
+import catering.businesslogic.task.Task;
+
 public class Employer {
   private String name;
   private String surname;
@@ -23,5 +25,9 @@ public class Employer {
   }
 
 
+@Override
+public String toString() {
+    return name + " " + surname;
+  }
   
 }

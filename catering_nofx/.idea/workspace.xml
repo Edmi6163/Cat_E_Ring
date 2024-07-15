@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="corrected java configuration">
-      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/SummaryDocumentPersistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dsd/DSD_gestire_compiti_della_cucina.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/DSD_gestire_compiti_della_cucina.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_addItem.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_addItem.uxf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/TEST/Test1a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_assignTask.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_assignTask.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dsd/Dsd_gestire_i_compiti_della_cucina_op_sortTaskByTiminguxf.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/Dsd_gestire_i_compiti_della_cucina_op_sortTaskByTiminguxf.uxf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatERingTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/TEST/TestCatERingTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatRingUC_CompitiCucina.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/TEST/TestCatRingUC_CompitiCucina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatRingUc_SuccesSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/TEST/TestCatRingUc_SuccesSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERingTasks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatRingUC_CompitiCucina.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatRingUc_SuccesSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/billBoard/BillBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/billBoard/BillBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/billBoard/BillBoardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/billBoard/BillBoardManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/employer/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/employer/Employer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocumentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocumentManager.class" afterDir="false" />
     </list>
     <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Test1a.executor": "Run",
     "Application.TestCatERing.executor": "Run",
     "Application.TestCatERing1b.executor": "Run",
     "Application.TestCatERingTasks.executor": "Run",
@@ -73,9 +72,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestCatRingUC_CompitiCucina">
-    <configuration name="TestCatERing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="catering.TestCatERing" />
+  <component name="RunManager" selected="Application.TestCatRingUc_SuccesSequence">
+    <configuration name="Test1a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="catering.businesslogic.TEST.Test1a" />
       <module name="catering" />
       <extension name="coverage">
         <pattern>
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCatRingUc_SuccesSequence" />
+        <item itemvalue="Application.Test1a" />
         <item itemvalue="Application.TestCatRingUC_CompitiCucina" />
         <item itemvalue="Application.TestCatERingTasks" />
-        <item itemvalue="Application.TestCatRingUc_SuccesSequence" />
         <item itemvalue="Application.TestCatERing1b" />
-        <item itemvalue="Application.TestCatERing" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +171,7 @@
       <workItem from="1720794744489" duration="137000" />
       <workItem from="1720813790925" duration="1822000" />
       <workItem from="1720873090352" duration="5392000" />
-      <workItem from="1720975541581" duration="32470000" />
+      <workItem from="1720975541581" duration="38288000" />
     </task>
     <task id="LOCAL-00001" summary="corrected java configuration">
       <option name="closed" value="true" />

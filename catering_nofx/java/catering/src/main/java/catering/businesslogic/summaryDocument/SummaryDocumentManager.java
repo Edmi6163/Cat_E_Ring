@@ -63,12 +63,21 @@ public class SummaryDocumentManager {
         if(!user.isChef()) {
             throw new UseCaseLogicException();
         }
-
-
         SummaryDocument sd = new  SummaryDocument(title, null, null, null, false, null, null);
         this.setCurrentSummaryDocument(sd);
         this.notifySummaryDocumentCreated(sd);
         return sd;
+    }
+    public SummaryDocument moreSummaryDocument(String title, EventInfo ev) throws UseCaseLogicException{
+        User user = CatERing.getInstance().getUserManager().getCurrentUser();
+        if(!user.isChef()) {
+            throw new UseCaseLogicException();
+        }
+        if(title!=null) {
+          return createSummaryDocument(title, ev);
+
+        }
+        return createSummaryDocument("",ev);
     }
     public void deleteSummaryDocument(SummaryDocument sd)throws UseCaseLogicException ,SummaryDocumentException  {
         User user = CatERing.getInstance().getUserManager().getCurrentUser();
@@ -91,6 +100,7 @@ public class SummaryDocumentManager {
 
 
 public SummaryDocument insertTask(SummaryDocument sd, Task task) throws UseCaseLogicException,SummaryDocumentException {
+        BillBoard bb = BillBoard.getInstance();
     User user = CatERing.getInstance().getUserManager().getCurrentUser();
     if (user.isChef()) {
         throw new UseCaseLogicException();
@@ -106,6 +116,7 @@ public SummaryDocument insertTask(SummaryDocument sd, Task task) throws UseCaseL
         throw new UseCaseLogicException();
     }
     sd.addTask(task);
+    bb.addTaskBillBoard(task);
     notifyTaskAdded(sd, task);
     return sd;
 }
@@ -159,12 +170,12 @@ public SummaryDocument insertTask(SummaryDocument sd, Task task) throws UseCaseL
         this.notifySummaryDocumentModifie(sd);
     }
 
-    public void lookUpToSummaryDocument(SummaryDocument sd) throws UseCaseLogicException{
+    public SummaryDocument lookUpToSummaryDocument(SummaryDocument sd) throws UseCaseLogicException{
         User user = CatERing.getInstance().getUserManager().getCurrentUser();
         if(!user.isChef()) {
             throw new UseCaseLogicException();
         }
-        currentSummaryDocument.getSummaryDocument();
+        return  currentSummaryDocument.getSummaryDocument();
     }
 
     /**

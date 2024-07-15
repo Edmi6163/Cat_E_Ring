@@ -1,5 +1,7 @@
 package catering.businesslogic.task;
 
+import java.sql.Date;
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -14,6 +16,20 @@ public class Task {
 	private shiftWorkKitchen shiftWork;
 	private int priority;
 	private ArrayList<Task> tasks;
+
+	public Time getTiming() {
+		return timing;
+	}
+
+	public void setTiming(Time timing) {
+		this.timing = timing;
+	}
+
+	public void setTasks(ArrayList<Task> tasks) {
+		this.tasks = tasks;
+	}
+
+	private Time timing ;
 	public Task(String assignedTo, boolean typeTask, int difficulty, shiftWorkKitchen shiftWork, int priority) {
 		this.assignedTo = assignedTo;
 		this.typeTask = typeTask;

@@ -58,6 +58,24 @@ public class BillBoardManager {
         taskList.sort(Comparator.comparingInt(Task::getDifficulty));
     }
 
+    public ArrayList<Task> orderTaskByPriority(ArrayList<Task> taskList) throws UseCaseLogicException{
+        User user = CatERing.getInstance().getUserManager().getCurrentUser();
+        if (!user.isChef()) {
+            throw new UseCaseLogicException();
+        }
+        taskList.sort(Comparator.comparingInt(Task::getPriority));
+        return taskList;
+    }
+
+    public ArrayList<Task> orderTaskByTiming(ArrayList<Task> taskList) throws UseCaseLogicException{
+
+        User user = CatERing.getInstance().getUserManager().getCurrentUser();
+        if (!user.isChef()) {
+            throw new UseCaseLogicException();
+        }
+        taskList.sort(Comparator.comparing(Task::getTiming));
+        return taskList;
+    }
     private void notifyUpdateTask(SummaryDocument sd, Task task) {
         eventReceivers.forEach(receiver -> receiver.updateTask(task)); // Corrected method call
     }
@@ -70,8 +88,10 @@ public class BillBoardManager {
         billBoards.removeIf(t -> t.equals(task)); // Corrected predicate for comparison
     }
 
-    public void notifyTaskRearranged() {
-        // Implementation needed if required
+    public void notifyTaskRearranged(Task task) {
+       for (BillBoardReceiver receiver : eventReceivers) {
+           receiver.notifyTaskRearranged(task);
+       }
     }
 
     private void notifyReceivers(Task task) {
