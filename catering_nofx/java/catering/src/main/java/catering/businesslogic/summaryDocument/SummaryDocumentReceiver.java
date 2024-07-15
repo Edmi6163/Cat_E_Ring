@@ -4,18 +4,18 @@ import catering.businesslogic.recipe.Recipe;
 import catering.businesslogic.shiftWorkKitchen.shiftWorkKitchen;
 import catering.businesslogic.task.*;
 public interface SummaryDocumentReceiver {
-    void updateSummaryDocumentCreated(SummaryDocument sd);
-    void updateSummaryDocumentDeleted(SummaryDocument sd);
-    void updateSummaryDocumentModifie(SummaryDocument sd);
-    void updateTask(SummaryDocument sd, Task task);
+    public void updateSummaryDocumentCreated(SummaryDocument sd);
+    public  void updateSummaryDocumentDeleted(SummaryDocument sd);
+    public void updateSummaryDocumentModifie(SummaryDocument sd);
+    public void updateTask(SummaryDocument sd, Task task);
 
-    void updateShiftWorkAdded(shiftWorkKitchen ws);
+    public  void updateShiftWorkAdded(shiftWorkKitchen ws);
 
-    void updateMenuAdded(Menu mn);
+    public void updateMenuAdded(Menu mn);
 
-    void updateRecipeAdded(Recipe ri);
+    public  void updateRecipeAdded(Recipe ri);
 
-    void updateTaskAdded(Task t);
+    public void updateTaskAdded(Task t);
 
-    void updateSummaryDocumentRearranged(SummaryDocument sd);
+    public void updateSummaryDocumentRearranged(SummaryDocument sd);
 }

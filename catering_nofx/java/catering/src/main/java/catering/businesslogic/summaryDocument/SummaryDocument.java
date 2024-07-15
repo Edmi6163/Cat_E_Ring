@@ -23,6 +23,15 @@ public class SummaryDocument {
   private boolean isUse;
   private User owner;
 
+  public int getId() {
+    return id;
+  }
+
+  public void setId(int id) {
+    this.id = id;
+  }
+
+  private int id;
   public SummaryDocument(String title, ArrayList<shiftWorkKitchen> shiftWork, ArrayList<Recipe> menu, String recipe, boolean advancedPreparation, Integer quantityForAdvancedPreparation, ArrayList<Task> listTask) {
     this.title = title;
     this.shiftWork = shiftWork != null ? shiftWork : new ArrayList<>();
@@ -150,7 +159,49 @@ public class SummaryDocument {
     String delRecipe = "DELETE FROM SummaryDocument WHERE recipe = '" + summaryDocument.getRecipe() + "'";
     PersistenceManager.executeUpdate(delRecipe);
   }
-
+  public static void saveTitleModift(SummaryDocument summaryDocument) {
+    String updateTitle = "UPDATE SummaryDocument SET title = '" + summaryDocument.getTitle() + "' WHERE title = '" + summaryDocument.getTitle() + "'";
+    PersistenceManager.executeUpdate(updateTitle);
+  }
+  public static void saveCreatedSummaryDocument(SummaryDocument summaryDocument) {
+    String insertSummaryDocument = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "', '" + summaryDocument.isAdvancedPreparation() + "', '" + summaryDocument.getQuantityForAdvancedPreparation() + "', '" + summaryDocument.getListTasks() + "')";
+    PersistenceManager.executeUpdate(insertSummaryDocument);
+  }
+  public static void saveSummaryDocument(SummaryDocument summaryDocument) {
+    String query = "INSERT INTO SummaryDocument (title, recipe, advancedPreparation, quantityForAdvancedPreparation, isUse, owner) VALUES (?, ?, ?, ?, ?, ?)";
+    ArrayList<Object> params = new ArrayList<>();
+    params.add(summaryDocument.getTitle());
+    params.add(summaryDocument.getRecipe());
+    params.add(summaryDocument.isAdvancedPreparation());
+    params.add(summaryDocument.getQuantityForAdvancedPreparation());
+    params.add(summaryDocument.isUsed());
+    params.add(summaryDocument.owner.getUserName());
+    PersistenceManager.executeUpdate(query);
+  }
+public  static void saveSummaryDocuemntNewTitle(SummaryDocument summaryDocument) {
+    String updateTitle = "UPDATE SummaryDocument SET title = '" + summaryDocument.getTitle() + "' WHERE title = '" + summaryDocument.getTitle() + "'";
+    PersistenceManager.executeUpdate(updateTitle);
+  }
+  public static void SavecopyDocument(SummaryDocument summaryDocument) {
+    String copy = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "', '" + summaryDocument.isAdvancedPreparation() + "', '" + summaryDocument.getQuantityForAdvancedPreparation() + "', '" + summaryDocument.getListTasks() + "')";
+    PersistenceManager.executeUpdate(copy);
+  }
+  public static void SavemoreSummaryDocument(SummaryDocument summaryDocument) {
+    String more = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "', '" + summaryDocument.isAdvancedPreparation() + "', '" + summaryDocument.getQuantityForAdvancedPreparation() + "', '" + summaryDocument.getListTasks() + "')";
+    PersistenceManager.executeUpdate(more);
+  }
+  public static void SavegetSummaryDocument(SummaryDocument summaryDocument) {
+    String get = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "', '" + summaryDocument.isAdvancedPreparation() + "', '" + summaryDocument.getQuantityForAdvancedPreparation() + "', '" + summaryDocument.getListTasks() + "')";
+    PersistenceManager.executeUpdate(get);
+  }
+    public static void SaveaddTask(Task task) {
+        String add = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('"  + task.getShiftWork() + "',  ', '" + task.getPriority() + "', '" + task.getAssignedTo() + "', '" + task.getDifficulty()  ;
+        PersistenceManager.executeUpdate(add);
+    }
+    public static void SaveremoveTask(Task task) {
+        String remove = "DELETE FROM SummaryDocument WHERE task = '" + task.toString()+ "'";
+        PersistenceManager.executeUpdate(remove);
+    }
   public SummaryDocument copyDocument() {
 
       SummaryDocument copy = new SummaryDocument(this.title, new ArrayList<>(this.shiftWork), new ArrayList<>(this.menu), this.recipe, this.advancedPreparation, this.quantityForAdvancedPreparation, new ArrayList<>(this.listTasks));
@@ -211,5 +262,14 @@ public class SummaryDocument {
             ", isUse=" + isUse +
             ", owner=" + owner +
             '}';
+  }
+
+
+  public void setUsed(boolean isUse) {
+    this.isUse = isUse;
+  }
+
+  public void setOwner(User owner) {
+    this.owner = owner;
   }
 }

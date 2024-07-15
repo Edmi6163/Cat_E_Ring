@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>256</y>
+      <x>16</x>
+      <y>240</y>
       <w>72</w>
       <h>48</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>232</y>
+      <x>16</x>
+      <y>216</y>
       <w>48</w>
       <h>24</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>352</x>
-      <y>264</y>
+      <x>368</x>
+      <y>248</y>
       <w>160</w>
       <h>48</h>
     </coordinates>
@@ -38,8 +38,8 @@ SummaryDocumentManager</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>736</x>
-      <y>264</y>
+      <x>752</x>
+      <y>248</y>
       <w>160</w>
       <h>48</h>
     </coordinates>
@@ -50,8 +50,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>16</x>
-      <y>296</y>
+      <x>32</x>
+      <y>280</y>
       <w>24</w>
       <h>544</h>
     </coordinates>
@@ -61,8 +61,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>24</x>
-      <y>336</y>
+      <x>40</x>
+      <y>320</y>
       <w>416</w>
       <h>32</h>
     </coordinates>
@@ -73,8 +73,8 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>312</y>
+      <x>432</x>
+      <y>296</y>
       <w>24</w>
       <h>560</h>
     </coordinates>
@@ -84,8 +84,8 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>352</y>
+      <x>432</x>
+      <y>336</y>
       <w>416</w>
       <h>32</h>
     </coordinates>
@@ -96,8 +96,8 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>376</y>
+      <x>432</x>
+      <y>360</y>
       <w>408</w>
       <h>32</h>
     </coordinates>
@@ -108,8 +108,8 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>24</x>
-      <y>392</y>
+      <x>40</x>
+      <y>376</y>
       <w>408</w>
       <h>32</h>
     </coordinates>
@@ -120,8 +120,8 @@ throws UseCaseLogicExcpetion</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>808</x>
-      <y>304</y>
+      <x>824</x>
+      <y>288</y>
       <w>24</w>
       <h>120</h>
     </coordinates>
@@ -131,8 +131,8 @@ throws UseCaseLogicExcpetion</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>456</y>
+      <x>544</x>
+      <y>440</y>
       <w>160</w>
       <h>32</h>
     </coordinates>
@@ -143,8 +143,8 @@ addTask(task)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>672</x>
-      <y>456</y>
+      <x>688</x>
+      <y>440</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -154,8 +154,8 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>704</x>
-      <y>472</y>
+      <x>720</x>
+      <y>456</y>
       <w>24</w>
       <h>200</h>
     </coordinates>
@@ -165,8 +165,8 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>704</x>
-      <y>488</y>
+      <x>720</x>
+      <y>472</y>
       <w>120</w>
       <h>32</h>
     </coordinates>
@@ -176,8 +176,8 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>496</y>
+      <x>816</x>
+      <y>480</y>
       <w>104</w>
       <h>80</h>
     </coordinates>
@@ -187,8 +187,8 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>704</x>
-      <y>544</y>
+      <x>720</x>
+      <y>528</y>
       <w>120</w>
       <h>32</h>
     </coordinates>
@@ -199,8 +199,8 @@ addTask(task)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>928</x>
-      <y>264</y>
+      <x>944</x>
+      <y>248</y>
       <w>184</w>
       <h>24</h>
     </coordinates>
@@ -210,8 +210,8 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>992</x>
-      <y>280</y>
+      <x>1008</x>
+      <y>264</y>
       <w>32</w>
       <h>592</h>
     </coordinates>
@@ -221,8 +221,8 @@ addTask(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>592</y>
+      <x>544</x>
+      <y>576</y>
       <w>200</w>
       <h>32</h>
     </coordinates>
@@ -233,8 +233,8 @@ t</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>640</y>
+      <x>432</x>
+      <y>624</y>
       <w>608</w>
       <h>32</h>
     </coordinates>
@@ -245,8 +245,8 @@ add(t)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>656</y>
+      <x>432</x>
+      <y>640</y>
       <w>608</w>
       <h>32</h>
     </coordinates>
@@ -257,8 +257,8 @@ taskList</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>16</x>
-      <y>752</y>
+      <x>32</x>
+      <y>736</y>
       <w>424</w>
       <h>32</h>
     </coordinates>
@@ -269,8 +269,8 @@ currentSummaryDocument</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>528</x>
-      <y>264</y>
+      <x>544</x>
+      <y>248</y>
       <w>160</w>
       <h>48</h>
     </coordinates>
@@ -282,8 +282,8 @@ currentSummaryDocument
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>304</y>
+      <x>544</x>
+      <y>288</y>
       <w>24</w>
       <h>560</h>
     </coordinates>
@@ -293,8 +293,8 @@ currentSummaryDocument
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>424</y>
+      <x>432</x>
+      <y>408</y>
       <w>136</w>
       <h>32</h>
     </coordinates>
@@ -305,8 +305,8 @@ addItem(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>608</y>
+      <x>432</x>
+      <y>592</y>
       <w>136</w>
       <h>32</h>
     </coordinates>
@@ -317,8 +317,8 @@ t</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>16</x>
-      <y>336</y>
+      <x>32</x>
+      <y>320</y>
       <w>1480</w>
       <h>448</h>
     </coordinates>
@@ -329,8 +329,8 @@ fg=#27990b</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>624</x>
-      <y>496</y>
+      <x>640</x>
+      <y>480</y>
       <w>288</w>
       <h>88</h>
     </coordinates>
@@ -346,8 +346,8 @@ fg=#761C8C
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>312</x>
-      <y>360</y>
+      <x>328</x>
+      <y>344</y>
       <w>960</w>
       <h>416</h>
     </coordinates>
@@ -363,8 +363,8 @@ fg=#20A9DB
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>528</x>
-      <y>432</y>
+      <x>544</x>
+      <y>416</y>
       <w>16</w>
       <h>192</h>
     </coordinates>
@@ -374,8 +374,8 @@ fg=#20A9DB
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>704</x>
-      <y>480</y>
+      <x>720</x>
+      <y>464</y>
       <w>16</w>
       <h>136</h>
     </coordinates>
@@ -385,8 +385,8 @@ fg=#20A9DB
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1256</x>
-      <y>752</y>
+      <x>1272</x>
+      <y>736</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -396,8 +396,8 @@ fg=#20A9DB
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>488</x>
-      <y>672</y>
+      <x>504</x>
+      <y>656</y>
       <w>112</w>
       <h>48</h>
     </coordinates>
@@ -407,8 +407,8 @@ fg=#20A9DB
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>424</x>
-      <y>664</y>
+      <x>440</x>
+      <y>648</y>
       <w>88</w>
       <h>32</h>
     </coordinates>
@@ -418,8 +418,8 @@ fg=#20A9DB
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>688</y>
+      <x>432</x>
+      <y>672</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -430,8 +430,8 @@ fg=#20A9DB
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1192</x>
-      <y>256</y>
+      <x>1208</x>
+      <y>240</y>
       <w>160</w>
       <h>48</h>
     </coordinates>
@@ -442,8 +442,8 @@ SummaryDocumentReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1256</x>
-      <y>296</y>
+      <x>1272</x>
+      <y>280</y>
       <w>24</w>
       <h>592</h>
     </coordinates>
@@ -453,8 +453,8 @@ SummaryDocumentReceiver</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>344</x>
-      <y>704</y>
+      <x>360</x>
+      <y>688</y>
       <w>1176</w>
       <h>56</h>
     </coordinates>
@@ -466,8 +466,8 @@ fg=blue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>736</y>
+      <x>432</x>
+      <y>720</y>
       <w>856</w>
       <h>32</h>
     </coordinates>
@@ -478,10 +478,10 @@ updateTask(sumDocMgr.currentSummaryDocument,t)</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>176</x>
+      <x>184</x>
       <y>160</y>
-      <w>112</w>
-      <h>56</h>
+      <w>224</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>2.addTask
 bg=RED</panel_attributes>

@@ -1,5 +1,5 @@
 
-package catering;
+package catering.businesslogic.TEST;
 
 import catering.businesslogic.CatERing;
 import catering.businesslogic.SummaryDocumentException;

@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="corrected java configuration">
-      <change beforePath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_compiti_cucina.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_compiti_cucina.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_copySd.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_copySd.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_moreSummaryDocument.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_moreSummaryDocument.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dsd/Dsd_gestire_i_compiti_della_cucina_op_sortTaskByPriority.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/Dsd_gestire_i_compiti_della_cucina_op_sortTaskByPriority.uxf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/SummaryDocumentPersistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dsd/DSD_gestire_compiti_della_cucina.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/DSD_gestire_compiti_della_cucina.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_addItem.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_addItem.uxf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatERingTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatERingTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatRingUC_CompitiCucina.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatRingUC_CompitiCucina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatRingUc_SuccesSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatRingUc_SuccesSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERingTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERingTasks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatRingUC_CompitiCucina.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatRingUC_CompitiCucina.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatRingUc_SuccesSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatRingUc_SuccesSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatERingTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/TEST/TestCatERingTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatRingUC_CompitiCucina.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/TEST/TestCatRingUC_CompitiCucina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatRingUc_SuccesSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/TEST/TestCatRingUc_SuccesSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERingTasks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatRingUC_CompitiCucina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatRingUc_SuccesSequence.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocumentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocumentManager.class" afterDir="false" />
     </list>
     <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +79,7 @@
       <module name="catering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="catering.*" />
+          <option name="PATTERN" value="catering.businesslogic.TEST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,7 +92,7 @@
       <module name="catering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="catering.*" />
+          <option name="PATTERN" value="catering.businesslogic.TEST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +101,11 @@
       </method>
     </configuration>
     <configuration name="TestCatERingTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="catering.TestCatERingTasks" />
+      <option name="MAIN_CLASS_NAME" value="catering.businesslogic.TEST.TestCatERingTasks" />
       <module name="catering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="catering.*" />
+          <option name="PATTERN" value="catering.businesslogic.TEST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +114,11 @@
       </method>
     </configuration>
     <configuration name="TestCatRingUC_CompitiCucina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="catering.TestCatRingUC_CompitiCucina" />
+      <option name="MAIN_CLASS_NAME" value="catering.businesslogic.TEST.TestCatRingUC_CompitiCucina" />
       <module name="catering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="catering.*" />
+          <option name="PATTERN" value="catering.businesslogic.TEST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +127,11 @@
       </method>
     </configuration>
     <configuration name="TestCatRingUc_SuccesSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="catering.TestCatRingUc_SuccesSequence" />
+      <option name="MAIN_CLASS_NAME" value="catering.businesslogic.TEST.TestCatRingUc_SuccesSequence" />
       <module name="catering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="catering.*" />
+          <option name="PATTERN" value="catering.businesslogic.TEST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,8 +146,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestCatRingUC_CompitiCucina" />
-        <item itemvalue="Application.TestCatRingUc_SuccesSequence" />
         <item itemvalue="Application.TestCatERingTasks" />
+        <item itemvalue="Application.TestCatRingUc_SuccesSequence" />
         <item itemvalue="Application.TestCatERing1b" />
         <item itemvalue="Application.TestCatERing" />
       </list>
@@ -176,7 +172,7 @@
       <workItem from="1720794744489" duration="137000" />
       <workItem from="1720813790925" duration="1822000" />
       <workItem from="1720873090352" duration="5392000" />
-      <workItem from="1720975541581" duration="27595000" />
+      <workItem from="1720975541581" duration="32470000" />
     </task>
     <task id="LOCAL-00001" summary="corrected java configuration">
       <option name="closed" value="true" />
