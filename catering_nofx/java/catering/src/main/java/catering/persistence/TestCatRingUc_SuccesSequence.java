@@ -46,14 +46,16 @@ public class TestCatRingUc_SuccesSequence{
             /* STEP 2*/
             System.out.println("\nTEST ADD TASK");
             ArrayList<shiftWorkKitchen> shiftWorks = new ArrayList<>();
-            shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null));
+            shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,"ACCENDERE IL FORNO A 200 GRADI"));
             Task task = new Task("Riccardo Oro ", true, 1, shiftWorks.get(0), 1);
             CatERing.getInstance().getTaskManager().addTask(task);
-            System.out.println("Task Added: " + task);
-            shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "Cucina sotto le stelle", null, null));
+            System.out.println("Task Added: " + task.toString());
+            shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "Cucina sotto le stelle", null, null," "));
             Task task2 = new Task("Filippo Di Angelo", true, 1, shiftWorks.get(0), 1);
             CatERing.getInstance().getTaskManager().addTask(task2);
-            System.out.println("Task Added: " + task2);
+            System.out.println("Task Added: " + task2.toString());
+            System.out.println("LIST SIZE : " + CatERing.getInstance().getTaskManager().getTask().size());
+
             /* STEP 3 */
             System.out.println("\nTEST ORDER TASKS BY DIFFICULTY");
             ArrayList<Task> listTaskToOrder = CatERing.getInstance().getTaskManager().getTask();

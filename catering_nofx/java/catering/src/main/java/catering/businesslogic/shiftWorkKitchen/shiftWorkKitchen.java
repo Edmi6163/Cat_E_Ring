@@ -52,6 +52,16 @@ public class shiftWorkKitchen {
   public String location;
   public Time lowerBoundInitShift;
   public Time upperBoundInitShift;
+
+  public String getNote() {
+    return note;
+  }
+
+  public void setNote(String note) {
+    this.note = note;
+  }
+
+  private String note;
   private ArrayList<Task> tasks;
 
   public ArrayList<shiftWorkKitchen> getLisSHiftWork() {
@@ -64,7 +74,7 @@ public class shiftWorkKitchen {
 
   private ArrayList<shiftWorkKitchen> lisSHiftWork;
 
-  public shiftWorkKitchen(Date startingDate, Date endingDate, String location, Time lowerBoundInitShift, Time upperBoundInitShift) {
+  public shiftWorkKitchen(Date startingDate, Date endingDate, String location, Time lowerBoundInitShift, Time upperBoundInitShift ,String note) {
     this.startingDate = startingDate;
     this.endingDate = endingDate;
     this.location = location;
@@ -72,6 +82,7 @@ public class shiftWorkKitchen {
     this.upperBoundInitShift = upperBoundInitShift;
     this.tasks = new ArrayList<>();
     this.lisSHiftWork = new ArrayList<>();
+    this.note = note;
   }
 
   public void addTask(Task task) {

@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>50</y>
+      <x>0</x>
+      <y>320</y>
       <w>90</w>
       <h>60</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>20</y>
+      <x>0</x>
+      <y>290</y>
       <w>60</w>
       <h>30</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>40</x>
-      <y>110</y>
+      <x>20</x>
+      <y>380</y>
       <w>40</w>
       <h>670</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>290</x>
-      <y>50</y>
+      <x>270</x>
+      <y>320</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -49,8 +49,8 @@ SummaryDocumentManager</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>590</x>
-      <y>50</y>
+      <x>570</x>
+      <y>320</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -61,8 +61,8 @@ UserManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>860</x>
-      <y>70</y>
+      <x>840</x>
+      <y>340</y>
       <w>230</w>
       <h>30</h>
     </coordinates>
@@ -72,8 +72,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>110</y>
+      <x>350</x>
+      <y>380</y>
       <w>30</w>
       <h>650</h>
     </coordinates>
@@ -83,8 +83,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>670</x>
-      <y>100</y>
+      <x>650</x>
+      <y>370</y>
       <w>30</w>
       <h>630</h>
     </coordinates>
@@ -94,8 +94,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>960</x>
-      <y>100</y>
+      <x>940</x>
+      <y>370</y>
       <w>30</w>
       <h>640</h>
     </coordinates>
@@ -105,8 +105,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>60</x>
-      <y>130</y>
+      <x>40</x>
+      <y>400</y>
       <w>330</w>
       <h>40</h>
     </coordinates>
@@ -117,8 +117,8 @@ getBillBoard()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>150</y>
+      <x>350</x>
+      <y>420</y>
       <w>330</w>
       <h>40</h>
     </coordinates>
@@ -129,8 +129,8 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>180</y>
+      <x>350</x>
+      <y>450</y>
       <w>330</w>
       <h>40</h>
     </coordinates>
@@ -141,8 +141,8 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>210</y>
+      <x>350</x>
+      <y>480</y>
       <w>620</w>
       <h>40</h>
     </coordinates>
@@ -153,8 +153,8 @@ getInfoBillBoard()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>260</y>
+      <x>350</x>
+      <y>530</y>
       <w>620</w>
       <h>40</h>
     </coordinates>
@@ -165,8 +165,8 @@ billBoard</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>50</x>
-      <y>300</y>
+      <x>30</x>
+      <y>570</y>
       <w>350</w>
       <h>40</h>
     </coordinates>
@@ -177,8 +177,8 @@ billBoard</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>60</x>
-      <y>150</y>
+      <x>40</x>
+      <y>420</y>
       <w>1000</w>
       <h>270</h>
     </coordinates>
@@ -194,13 +194,25 @@ fg=#761C8C
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>60</x>
-      <y>190</y>
+      <x>40</x>
+      <y>460</y>
       <w>330</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throws UseCaseLogicExcpetion</panel_attributes>
     <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>180</x>
+      <y>160</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>7.getBillBoard
+bg=RED</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

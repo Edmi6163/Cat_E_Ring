@@ -89,17 +89,7 @@ public class SummaryDocumentManager {
         notifySummaryDocumentModifie(sd);
     }
 
-    public void modifySummaryDocumentContext(SummaryDocument sd)throws  UseCaseLogicException,SummaryDocumentException{
-        User user = CatERing.getInstance().getUserManager().getCurrentUser();
-        if(!user.isChef()) {
-            throw new UseCaseLogicException();
-        }
-        if(sd.isUsed() || !sd.isOwner(user)) {
-            throw new SummaryDocumentException();
 
-        }
-
-    }
 public SummaryDocument insertTask(SummaryDocument sd, Task task) throws UseCaseLogicException,SummaryDocumentException {
     User user = CatERing.getInstance().getUserManager().getCurrentUser();
     if (user.isChef()) {
@@ -116,6 +106,7 @@ public SummaryDocument insertTask(SummaryDocument sd, Task task) throws UseCaseL
         throw new UseCaseLogicException();
     }
     sd.addTask(task);
+    notifyTaskAdded(sd, task);
     return sd;
 }
 
@@ -149,7 +140,7 @@ public SummaryDocument insertTask(SummaryDocument sd, Task task) throws UseCaseL
     }
 
 
-    public void modifySummaryDocument(SummaryDocument sd) throws UseCaseLogicException ,SummaryDocumentException {
+    public void modifySummaryDocumentContext(SummaryDocument sd) throws UseCaseLogicException ,SummaryDocumentException {
         User user = CatERing.getInstance().getUserManager().getCurrentUser();
         if(!user.isChef()) {
             throw new UseCaseLogicException();
@@ -177,7 +168,7 @@ public SummaryDocument insertTask(SummaryDocument sd, Task task) throws UseCaseL
     }
 
     /**
-     * NOTE: bill board is a singleton 
+     * NOTE: bill board is a singleton
      */
     public BillBoard getBillBoard() throws UseCaseLogicException{
         User user = CatERing.getInstance().getUserManager().getCurrentUser();

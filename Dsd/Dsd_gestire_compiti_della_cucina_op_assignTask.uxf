@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>63</y>
+      <x>245</x>
+      <y>259</y>
       <w>63</w>
       <h>42</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>42</y>
+      <x>245</x>
+      <y>238</y>
       <w>42</w>
       <h>21</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>301</x>
-      <y>63</y>
+      <x>546</x>
+      <y>259</y>
       <w>140</w>
       <h>42</h>
     </coordinates>
@@ -38,8 +38,8 @@ SummaryDocumentManager</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>511</x>
-      <y>63</y>
+      <x>756</x>
+      <y>259</y>
       <w>140</w>
       <h>42</h>
     </coordinates>
@@ -50,8 +50,8 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>21</x>
-      <y>112</y>
+      <x>266</x>
+      <y>308</y>
       <w>357</w>
       <h>28</h>
     </coordinates>
@@ -62,8 +62,8 @@ assignTaskTo(typeTask,name?,surname?,shiftWotrk,task</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>21</x>
-      <y>98</y>
+      <x>266</x>
+      <y>294</y>
       <w>21</w>
       <h>833</h>
     </coordinates>
@@ -73,8 +73,8 @@ assignTaskTo(typeTask,name?,surname?,shiftWotrk,task</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
-      <y>126</y>
+      <x>602</x>
+      <y>322</y>
       <w>231</w>
       <h>28</h>
     </coordinates>
@@ -85,8 +85,8 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
-      <y>147</y>
+      <x>602</x>
+      <y>343</y>
       <w>231</w>
       <h>28</h>
     </coordinates>
@@ -97,20 +97,21 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>21</x>
-      <y>154</y>
+      <x>266</x>
+      <y>350</y>
       <w>350</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-throws UseCaseLogicExcpetion</panel_attributes>
+throws UseCaseLogicExcpetion
+fg=RED</panel_attributes>
     <additional_attributes>10.0;20.0;480.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>98</y>
+      <x>805</x>
+      <y>294</y>
       <w>28</w>
       <h>819</h>
     </coordinates>
@@ -120,8 +121,8 @@ throws UseCaseLogicExcpetion</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
-      <y>105</y>
+      <x>595</x>
+      <y>301</y>
       <w>28</w>
       <h>812</h>
     </coordinates>
@@ -131,8 +132,8 @@ throws UseCaseLogicExcpetion</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1442</x>
-      <y>56</y>
+      <x>1687</x>
+      <y>252</y>
       <w>140</w>
       <h>42</h>
     </coordinates>
@@ -143,8 +144,8 @@ employerMgr</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>791</x>
-      <y>63</y>
+      <x>1036</x>
+      <y>259</y>
       <w>140</w>
       <h>42</h>
     </coordinates>
@@ -155,8 +156,8 @@ TaskMgr</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
-      <y>175</y>
+      <x>602</x>
+      <y>371</y>
       <w>525</w>
       <h>28</h>
     </coordinates>
@@ -167,8 +168,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
-      <y>98</y>
+      <x>1092</x>
+      <y>294</y>
       <w>28</w>
       <h>805</h>
     </coordinates>
@@ -178,8 +179,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>196</y>
+      <x>1099</x>
+      <y>392</y>
       <w>112</w>
       <h>28</h>
     </coordinates>
@@ -189,8 +190,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>945</x>
-      <y>203</y>
+      <x>1190</x>
+      <y>399</y>
       <w>91</w>
       <h>70</h>
     </coordinates>
@@ -200,8 +201,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>245</y>
+      <x>1099</x>
+      <y>441</y>
       <w>112</w>
       <h>28</h>
     </coordinates>
@@ -212,8 +213,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>266</y>
+      <x>1099</x>
+      <y>462</y>
       <w>112</w>
       <h>28</h>
     </coordinates>
@@ -223,8 +224,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>945</x>
-      <y>273</y>
+      <x>1190</x>
+      <y>469</y>
       <w>133</w>
       <h>70</h>
     </coordinates>
@@ -234,8 +235,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>315</y>
+      <x>1099</x>
+      <y>511</y>
       <w>112</w>
       <h>28</h>
     </coordinates>
@@ -246,8 +247,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>336</y>
+      <x>1099</x>
+      <y>532</y>
       <w>105</w>
       <h>28</h>
     </coordinates>
@@ -257,8 +258,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>938</x>
-      <y>343</y>
+      <x>1183</x>
+      <y>539</y>
       <w>140</w>
       <h>70</h>
     </coordinates>
@@ -268,8 +269,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>385</y>
+      <x>1099</x>
+      <y>581</y>
       <w>105</w>
       <h>28</h>
     </coordinates>
@@ -280,8 +281,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>406</y>
+      <x>1099</x>
+      <y>602</y>
       <w>105</w>
       <h>28</h>
     </coordinates>
@@ -291,8 +292,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>938</x>
-      <y>413</y>
+      <x>1183</x>
+      <y>609</y>
       <w>112</w>
       <h>70</h>
     </coordinates>
@@ -302,8 +303,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>455</y>
+      <x>1099</x>
+      <y>651</y>
       <w>105</w>
       <h>28</h>
     </coordinates>
@@ -314,8 +315,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>476</y>
+      <x>1099</x>
+      <y>672</y>
       <w>105</w>
       <h>28</h>
     </coordinates>
@@ -325,8 +326,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>938</x>
-      <y>483</y>
+      <x>1183</x>
+      <y>679</y>
       <w>112</w>
       <h>70</h>
     </coordinates>
@@ -336,8 +337,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>525</y>
+      <x>1099</x>
+      <y>721</y>
       <w>105</w>
       <h>28</h>
     </coordinates>
@@ -348,8 +349,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1190</x>
-      <y>56</y>
+      <x>1435</x>
+      <y>252</y>
       <w>140</w>
       <h>42</h>
     </coordinates>
@@ -359,8 +360,8 @@ assignTask(typeTask,name?,surname?,shiftWotrk,task)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>833</x>
-      <y>560</y>
+      <x>1078</x>
+      <y>756</y>
       <w>476</w>
       <h>63</h>
     </coordinates>
@@ -372,8 +373,8 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
-      <y>567</y>
+      <x>1092</x>
+      <y>763</y>
       <w>427</w>
       <h>28</h>
     </coordinates>
@@ -384,8 +385,8 @@ addItem(task,ShiftWork,name?,surname?)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1253</x>
-      <y>98</y>
+      <x>1498</x>
+      <y>294</y>
       <w>21</w>
       <h>749</h>
     </coordinates>
@@ -395,8 +396,8 @@ addItem(task,ShiftWork,name?,surname?)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>854</x>
-      <y>588</y>
+      <x>1099</x>
+      <y>784</y>
       <w>420</w>
       <h>28</h>
     </coordinates>
@@ -407,8 +408,8 @@ billBoard</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>833</x>
-      <y>623</y>
+      <x>1078</x>
+      <y>819</y>
       <w>763</w>
       <h>84</h>
     </coordinates>
@@ -425,8 +426,8 @@ lw=2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
-      <y>665</y>
+      <x>1092</x>
+      <y>861</y>
       <w>672</w>
       <h>28</h>
     </coordinates>
@@ -437,8 +438,8 @@ assignTask(name,surname,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1498</x>
-      <y>91</y>
+      <x>1743</x>
+      <y>287</y>
       <w>21</w>
       <h>812</h>
     </coordinates>
@@ -448,8 +449,8 @@ assignTask(name,surname,task)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>994</x>
-      <y>77</y>
+      <x>1239</x>
+      <y>273</y>
       <w>168</w>
       <h>21</h>
     </coordinates>
@@ -459,8 +460,8 @@ assignTask(name,surname,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1092</x>
-      <y>91</y>
+      <x>1337</x>
+      <y>287</y>
       <w>21</w>
       <h>840</h>
     </coordinates>
@@ -470,8 +471,8 @@ assignTask(name,surname,task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
-      <y>742</y>
+      <x>1092</x>
+      <y>938</y>
       <w>266</w>
       <h>28</h>
     </coordinates>
@@ -482,8 +483,8 @@ add(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>847</x>
-      <y>770</y>
+      <x>1092</x>
+      <y>966</y>
       <w>266</w>
       <h>28</h>
     </coordinates>
@@ -494,8 +495,8 @@ taskAssigned</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
-      <y>798</y>
+      <x>595</x>
+      <y>994</y>
       <w>518</w>
       <h>28</h>
     </coordinates>
@@ -506,13 +507,50 @@ taskAssigned</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>14</x>
-      <y>833</y>
+      <x>259</x>
+      <y>1029</y>
       <w>357</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 taskAssigned</panel_attributes>
     <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>357</x>
+      <y>175</y>
+      <w>140</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>8.assignTask
+bg=RED</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>182</x>
+      <y>343</y>
+      <w>1792</w>
+      <h>714</h>
+    </coordinates>
+    <panel_attributes>alt 
+
+[!user.isChef()]
+--
+
+
+-.
+
+
+
+
+-.
+fontsize=11
+
+fg=ORANGE</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

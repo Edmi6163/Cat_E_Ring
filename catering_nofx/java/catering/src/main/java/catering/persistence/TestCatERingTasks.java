@@ -47,7 +47,7 @@ public class TestCatERingTasks {
 
             System.out.println("\nTEST ADD TASK");
             ArrayList<shiftWorkKitchen> shiftWorks = new ArrayList<>();
-            shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null));
+            shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,"SPEGNERE LE LUCI"));
             Task compito = new Task("Filippo Rossi", true, 1, shiftWorks.get(0), 1);
             CatERing.getInstance().getTaskManager().addTask(compito);
             System.out.println("Task Added: " + compito);

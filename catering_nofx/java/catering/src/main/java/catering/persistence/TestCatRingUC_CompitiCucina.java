@@ -24,11 +24,11 @@ public class TestCatRingUC_CompitiCucina {
                 System.out.println("\nTEST CREATE SUMMARY DOCUMENT");
                 EventInfo event = CatERing.getInstance().getEventManager().getEventInfo().get(0);
                 SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("Menu Pinco Pallino", event);
-                System.out.println("Summary Document Created: " + sd);
+                System.out.println("Summary Document Created: " + sd.toString());
 
                 System.out.println("\nTEST CHOOSE SUMMARY DOCUMENT");
                 CatERing.getInstance().getSummaryDocumentManager().chooseSummaryDocument(sd);
-                System.out.println("Summary Document Selected: " + sd);
+                System.out.println("Summary Document Selected: " + sd.toString());
 
                 System.out.println("\nTEST MODIFY SUMMARY DOCUMENT TITLE");
                 CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentTitle(sd, "Titolo Nuovo");
@@ -37,11 +37,11 @@ public class TestCatRingUC_CompitiCucina {
                 System.out.println("\nTEST MODIFY SUMMARY DOCUMENT CONTENT");
                 SummaryDocument updatedsd = new SummaryDocument("Titolo Aggiornato", sd.getShiftWork(), sd.getMenu(), sd.getRecipe(), sd.isAdvancedPreparation(), sd.getQuantityForAdvancedPreparation(), sd.getListTasks());
                 CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentContext(sd);
-                System.out.println("Summary Document Content Modified: " + sd);
+                System.out.println("Summary Document Content Modified: " + sd.toString());
 
                 System.out.println("\nTEST COPY SUMMARY DOCUMENT");
                 SummaryDocument copysd = CatERing.getInstance().getSummaryDocumentManager().copySummaryDocument(sd);
-                System.out.println("Summary Document Copied: " + copysd);
+                System.out.println("Summary Document Copied: " + copysd.getTitle() + " " + copysd.getSummaryDocument() + " " + copysd.getMenu() + " " + copysd.getRecipe() + " " + copysd.isAdvancedPreparation() + " " + copysd.getQuantityForAdvancedPreparation() + " " + copysd.getListTasks());
 
                 System.out.println("\nTEST DELETE SUMMARY DOCUMENT");
                 CatERing.getInstance().getSummaryDocumentManager().deleteSummaryDocument(sd);
@@ -49,17 +49,17 @@ public class TestCatRingUC_CompitiCucina {
 
                 System.out.println("\nTEST ADD TASK");
                 ArrayList<shiftWorkKitchen> shiftWorks = new ArrayList<>();
-                shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null));
+                shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,""));
                 Task compito = new Task("Filippo Rossi", true, 1, shiftWorks.get(0), 1);
                 CatERing.getInstance().getTaskManager().addTask(compito);
                 System.out.println("Task Added: " + compito);
                 System.out.println("\nTEST ORDER TASKS BY DIFFICULTY");
                 ArrayList<Task> listTaskToOrder = CatERing.getInstance().getTaskManager().getTask();
                 ArrayList<Task> orderedByDifficulty = CatERing.getInstance().getTaskManager().orderTaskByDifficulty(listTaskToOrder);
-                System.out.println("Tasks Ordered by Difficulty: " + orderedByDifficulty);
+                System.out.println("Tasks Ordered by Difficulty: " + orderedByDifficulty.toString());
                 System.out.println("\nTEST ORDER TASKS BY PRIORITY");
                 ArrayList<Task> orderedByPriority = CatERing.getInstance().getTaskManager().orderTaskByPriority(listTaskToOrder);
-                System.out.println("Tasks Ordered by Priority: " + orderedByPriority);
+                System.out.println("Tasks Ordered by Priority: " + orderedByPriority.toString());
                 System.out.println("\nTEST ORDER TASKS BY TIMING");
                 ArrayList<Task> orderedByTiming = CatERing.getInstance().getTaskManager().orderTaskByTiming(listTaskToOrder);
                 System.out.println("Tasks Ordered by Timing: " + orderedByTiming);
@@ -73,7 +73,7 @@ public class TestCatRingUC_CompitiCucina {
                 System.out.println("Summary Document Created: " + sd5); System.out.println("\nTEST CREATE MORE SUMMARY DOCUMENTS");
                 EventInfo event5 = CatERing.getInstance().getEventManager().getEventInfo().get(1);
                 SummaryDocument sd6 = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("FOGLIO_EVENTO_VEGANO", event2);
-                System.out.println("Summary Document Created: " + sd6);
+                System.out.println("Summary Document Created: " + sd6.toString());
                 System.out.println("\nTEST DELETE SUMMARY DOCUMENT");
                 CatERing.getInstance().getSummaryDocumentManager().deleteSummaryDocument(sd2);
                 System.out.println("Summary Document Deleted");
@@ -82,16 +82,20 @@ public class TestCatRingUC_CompitiCucina {
                 System.out.println("Summary Document Deleted");
                 System.out.println("\nTEST ADD TASK");
                 ArrayList<shiftWorkKitchen> shiftWorks2 = new ArrayList<>();
-                shiftWorks2.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null));
+                shiftWorks2.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,"TAGLIARE BENE LE PATATE "));
+
                 Task compito2 = new Task("Filippo Rossi", true, 1, shiftWorks2.get(0), 1);
                 CatERing.getInstance().getTaskManager().addTask(compito2);
                 System.out.println("Task Added: " + compito2);
+                System.out.println("\nLIST :"+shiftWorks2.size());
                 System.out.println("\nTEST ADD TASK");
                 ArrayList<shiftWorkKitchen> shiftWorks3 = new ArrayList<>();
-                shiftWorks3.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null));
+                shiftWorks3.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,"SALUTAMI PINO"));
+                shiftWorks3.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 10, 11), "MILANELLO", null, null ,"CONTROLLARE BOMBOLA"));
                 Task compito3 = new Task("Filippo Rossi", true, 1, shiftWorks3.get(0), 1);
                 CatERing.getInstance().getTaskManager().addTask(compito3);
-                System.out.println("Task Added: " + compito3);
+                System.out.println("Task Added: " + compito3.toString());
+                System.out.println("\n------SIZE: " + shiftWorks3.toString());
                 System.out.println("\nTEST MODIFY SUMMARY DOCUMENT TITLE");
                 CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentTitle(sd6, "TEST_TITOLO_FIERO");
                 System.out.println("Summary Document Title Modified: " + sd6.getTitle());
@@ -99,9 +103,9 @@ public class TestCatRingUC_CompitiCucina {
 
 
             } catch (UseCaseLogicException e) {
-                System.out.println("Errore di logica nello use case: " + e.getMessage());
+                System.out.println("Error USE CASE LOGIC :  " + e.getMessage());
             } catch (SummaryDocumentException e) {
-                System.out.println("Errore nel documento di riepilogo: " + e.getMessage());
+                System.out.println("Error summaryDOCUMENT: " + e.getMessage());
             } catch (Exception e) {
                 e.printStackTrace();
             }

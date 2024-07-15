@@ -196,4 +196,20 @@ public class SummaryDocument {
   public void remove(SummaryDocument summaryDocument) {
     listSummaryDocument.remove(summaryDocument);
   }
+
+  @Override
+  public String toString() {
+    return "SummaryDocument{" +
+            "title='" + title + '\'' +
+            ", shiftWork=" + shiftWork +
+            ", menu=" + menu +
+            ", recipe='" + recipe + '\'' +
+            ", advancedPreparation=" + advancedPreparation +
+            ", quantityForAdvancedPreparation=" + quantityForAdvancedPreparation +
+            ", listSummaryDocument=" + listSummaryDocument +
+            ", listTasks=" + listTasks +
+            ", isUse=" + isUse +
+            ", owner=" + owner +
+            '}';
+  }
 }
