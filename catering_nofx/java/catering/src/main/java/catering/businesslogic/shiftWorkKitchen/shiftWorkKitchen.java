@@ -7,12 +7,22 @@ import java.sql.Time;
 import java.util.ArrayList;
 
 public class ShiftWork {
-  public Date startingDate; 
+  public Date startingDate;
   public Date endingDate;
   public String location;
-  public Time lowerBoundInitShift; 
+  public Time lowerBoundInitShift;
   public Time upperBoundInitShift;
-  private ArrayList<Task>tasks;
+  private ArrayList<Task> tasks;
+
+  public ArrayList<ShiftWork> getLisSHiftWork() {
+    return lisSHiftWork;
+  }
+
+  public void setLisSHiftWork(ArrayList<ShiftWork> lisSHiftWork) {
+    this.lisSHiftWork = lisSHiftWork;
+  }
+
+  private ArrayList<ShiftWork> lisSHiftWork;
 
   public ShiftWork(Date startingDate, Date endingDate, String location, Time lowerBoundInitShift, Time upperBoundInitShift) {
     this.startingDate = startingDate;
@@ -21,12 +31,15 @@ public class ShiftWork {
     this.lowerBoundInitShift = lowerBoundInitShift;
     this.upperBoundInitShift = upperBoundInitShift;
     this.tasks = new ArrayList<>();
-  }
-  public void addTask(Task task){
-    tasks.add(task);
-  }
-  public void removeTask(Task task){
-    tasks.remove(task);
+    this.lisSHiftWork = new ArrayList<>();
   }
 
+  public void addTask(Task task) {
+    tasks.add(task);
+  }
+
+  public void removeTask(Task task) {
+    tasks.remove(task);
+  }
 }
+
