@@ -5,7 +5,7 @@
     <id>Relation</id>
     <coordinates>
       <x>27</x>
-      <y>234</y>
+      <y>45</y>
       <w>36</w>
       <h>3141</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>189</y>
+      <y>0</y>
       <w>63</w>
       <h>27</h>
     </coordinates>
@@ -27,7 +27,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>216</y>
+      <y>27</y>
       <w>81</w>
       <h>18</h>
     </coordinates>
@@ -38,7 +38,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>378</x>
-      <y>207</y>
+      <y>18</y>
       <w>162</w>
       <h>45</h>
     </coordinates>
@@ -50,7 +50,7 @@ SummaryDocumentManager</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>792</x>
-      <y>198</y>
+      <y>9</y>
       <w>162</w>
       <h>45</h>
     </coordinates>
@@ -62,7 +62,7 @@ UserManager</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1404</x>
-      <y>207</y>
+      <y>18</y>
       <w>162</w>
       <h>45</h>
     </coordinates>
@@ -74,7 +74,7 @@ SummaryDocumentReceiver</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>45</x>
-      <y>261</y>
+      <y>72</y>
       <w>468</w>
       <h>45</h>
     </coordinates>
@@ -87,7 +87,7 @@ copySummaryDocument(sd:SummaryDocument)
     <id>Relation</id>
     <coordinates>
       <x>432</x>
-      <y>252</y>
+      <y>63</y>
       <w>45</w>
       <h>3105</h>
     </coordinates>
@@ -98,7 +98,7 @@ copySummaryDocument(sd:SummaryDocument)
     <id>UMLGeneric</id>
     <coordinates>
       <x>450</x>
-      <y>279</y>
+      <y>90</y>
       <w>9</w>
       <h>216</h>
     </coordinates>
@@ -109,7 +109,7 @@ copySummaryDocument(sd:SummaryDocument)
     <id>Relation</id>
     <coordinates>
       <x>459</x>
-      <y>270</y>
+      <y>81</y>
       <w>468</w>
       <h>36</h>
     </coordinates>
@@ -121,7 +121,7 @@ getCurrentUser()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>864</x>
-      <y>252</y>
+      <y>63</y>
       <w>27</w>
       <h>252</h>
     </coordinates>
@@ -132,7 +132,7 @@ getCurrentUser()</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>864</x>
-      <y>288</y>
+      <y>99</y>
       <w>9</w>
       <h>9</h>
     </coordinates>
@@ -142,32 +142,32 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>459</x>
-      <y>297</y>
-      <w>468</w>
+      <x>450</x>
+      <y>108</y>
+      <w>477</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 user</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>459</x>
-      <y>486</y>
-      <w>342</w>
+      <y>297</y>
+      <w>297</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-create(sd)</panel_attributes>
-    <additional_attributes>10.0;20.0;360.0;20.0</additional_attributes>
+copyDocument()</panel_attributes>
+    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>747</x>
-      <y>495</y>
+      <y>306</y>
       <w>189</w>
       <h>18</h>
     </coordinates>
@@ -178,7 +178,7 @@ create(sd)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>504</y>
+      <y>315</y>
       <w>45</w>
       <h>2502</h>
     </coordinates>
@@ -190,7 +190,7 @@ create(sd)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>837</x>
-      <y>513</y>
+      <y>324</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -201,7 +201,7 @@ create(sd)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>927</x>
-      <y>522</y>
+      <y>333</y>
       <w>117</w>
       <h>90</h>
     </coordinates>
@@ -212,7 +212,7 @@ create(sd)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>837</x>
-      <y>576</y>
+      <y>387</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -224,7 +224,7 @@ create(sd)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>927</x>
-      <y>630</y>
+      <y>441</y>
       <w>135</w>
       <h>90</h>
     </coordinates>
@@ -235,7 +235,7 @@ create(sd)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>837</x>
-      <y>621</y>
+      <y>432</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -246,7 +246,7 @@ create(sd)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>837</x>
-      <y>675</y>
+      <y>486</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -258,7 +258,7 @@ create(sd)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>837</x>
-      <y>828</y>
+      <y>639</y>
       <w>279</w>
       <h>36</h>
     </coordinates>
@@ -270,7 +270,7 @@ create(t)</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1071</x>
-      <y>828</y>
+      <y>639</y>
       <w>162</w>
       <h>27</h>
     </coordinates>
@@ -281,7 +281,7 @@ create(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1134</x>
-      <y>855</y>
+      <y>666</y>
       <w>27</w>
       <h>369</h>
     </coordinates>
@@ -292,7 +292,7 @@ create(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1134</x>
-      <y>873</y>
+      <y>684</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -303,7 +303,7 @@ create(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1134</x>
-      <y>927</y>
+      <y>738</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -315,7 +315,7 @@ create(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1224</x>
-      <y>882</y>
+      <y>693</y>
       <w>189</w>
       <h>90</h>
     </coordinates>
@@ -326,7 +326,7 @@ create(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1143</x>
-      <y>954</y>
+      <y>765</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -337,7 +337,7 @@ create(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1134</x>
-      <y>1008</y>
+      <y>819</y>
       <w>135</w>
       <h>36</h>
     </coordinates>
@@ -349,7 +349,7 @@ create(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1233</x>
-      <y>963</y>
+      <y>774</y>
       <w>180</w>
       <h>90</h>
     </coordinates>
@@ -360,7 +360,7 @@ create(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1134</x>
-      <y>1044</y>
+      <y>855</y>
       <w>135</w>
       <h>36</h>
     </coordinates>
@@ -371,7 +371,7 @@ create(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1233</x>
-      <y>1053</y>
+      <y>864</y>
       <w>189</w>
       <h>99</h>
     </coordinates>
@@ -382,7 +382,7 @@ create(t)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>837</x>
-      <y>720</y>
+      <y>531</y>
       <w>135</w>
       <h>36</h>
     </coordinates>
@@ -394,8 +394,8 @@ create</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>945</x>
-      <y>720</y>
-      <w>153</w>
+      <y>531</y>
+      <w>180</w>
       <h>18</h>
     </coordinates>
     <panel_attributes>copyTask:ArrayList&lt;Task&gt;</panel_attributes>
@@ -405,7 +405,7 @@ create</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>990</x>
-      <y>738</y>
+      <y>549</y>
       <w>27</w>
       <h>513</h>
     </coordinates>
@@ -416,7 +416,7 @@ create</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>837</x>
-      <y>1143</y>
+      <y>954</y>
       <w>198</w>
       <h>36</h>
     </coordinates>
@@ -428,7 +428,7 @@ add(copyTask)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1134</x>
-      <y>864</y>
+      <y>675</y>
       <w>9</w>
       <h>261</h>
     </coordinates>
@@ -439,7 +439,7 @@ add(copyTask)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>837</x>
-      <y>1116</y>
+      <y>927</y>
       <w>342</w>
       <h>36</h>
     </coordinates>
@@ -451,7 +451,7 @@ copyTask</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>657</x>
-      <y>792</y>
+      <y>603</y>
       <w>765</w>
       <h>369</h>
     </coordinates>
@@ -464,7 +464,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>837</x>
-      <y>1224</y>
+      <y>1035</y>
       <w>954</w>
       <h>36</h>
     </coordinates>
@@ -476,7 +476,7 @@ create</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1683</x>
-      <y>1224</y>
+      <y>1035</y>
       <w>171</w>
       <h>18</h>
     </coordinates>
@@ -487,7 +487,7 @@ create</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>612</x>
-      <y>1269</y>
+      <y>1080</y>
       <w>1134</w>
       <h>414</h>
     </coordinates>
@@ -500,7 +500,7 @@ fg=blue
     <id>UMLGeneric</id>
     <coordinates>
       <x>1026</x>
-      <y>1278</y>
+      <y>1089</y>
       <w>81</w>
       <h>18</h>
     </coordinates>
@@ -511,7 +511,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>837</x>
-      <y>1269</y>
+      <y>1080</y>
       <w>225</w>
       <h>36</h>
     </coordinates>
@@ -523,7 +523,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1296</y>
+      <y>1107</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -534,7 +534,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1143</x>
-      <y>1305</y>
+      <y>1116</y>
       <w>135</w>
       <h>90</h>
     </coordinates>
@@ -545,7 +545,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1350</y>
+      <y>1161</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -557,7 +557,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1035</x>
-      <y>1296</y>
+      <y>1107</y>
       <w>45</w>
       <h>1449</h>
     </coordinates>
@@ -568,7 +568,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1377</y>
+      <y>1188</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -579,7 +579,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1143</x>
-      <y>1386</y>
+      <y>1197</y>
       <w>216</w>
       <h>90</h>
     </coordinates>
@@ -590,7 +590,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1431</y>
+      <y>1242</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -602,7 +602,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1458</y>
+      <y>1269</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -613,7 +613,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1143</x>
-      <y>1467</y>
+      <y>1278</y>
       <w>198</w>
       <h>90</h>
     </coordinates>
@@ -624,7 +624,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1512</y>
+      <y>1323</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -636,7 +636,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1539</y>
+      <y>1350</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -647,7 +647,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1143</x>
-      <y>1548</y>
+      <y>1359</y>
       <w>144</w>
       <h>90</h>
     </coordinates>
@@ -658,7 +658,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1593</y>
+      <y>1404</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -670,7 +670,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1611</y>
+      <y>1422</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -681,7 +681,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1143</x>
-      <y>1620</y>
+      <y>1431</y>
       <w>162</w>
       <h>90</h>
     </coordinates>
@@ -692,7 +692,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1665</y>
+      <y>1476</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -704,7 +704,7 @@ create(m)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1053</x>
-      <y>1305</y>
+      <y>1116</y>
       <w>9</w>
       <h>387</h>
     </coordinates>
@@ -715,7 +715,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1764</x>
-      <y>1233</y>
+      <y>1044</y>
       <w>36</w>
       <h>1422</h>
     </coordinates>
@@ -726,7 +726,7 @@ create(m)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1701</y>
+      <y>1512</y>
       <w>504</w>
       <h>36</h>
     </coordinates>
@@ -738,7 +738,7 @@ create</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1197</x>
-      <y>1737</y>
+      <y>1548</y>
       <w>162</w>
       <h>27</h>
     </coordinates>
@@ -749,7 +749,7 @@ create</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>711</x>
-      <y>1728</y>
+      <y>1539</y>
       <w>972</w>
       <h>774</h>
     </coordinates>
@@ -763,7 +763,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>1764</y>
+      <y>1575</y>
       <w>27</w>
       <h>891</h>
     </coordinates>
@@ -774,7 +774,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>1764</y>
+      <y>1575</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -785,7 +785,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1359</x>
-      <y>1773</y>
+      <y>1584</y>
       <w>144</w>
       <h>81</h>
     </coordinates>
@@ -796,7 +796,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>1809</y>
+      <y>1620</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -808,7 +808,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>1845</y>
+      <y>1656</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -819,7 +819,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1359</x>
-      <y>1854</y>
+      <y>1665</y>
       <w>216</w>
       <h>90</h>
     </coordinates>
@@ -830,7 +830,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>1899</y>
+      <y>1710</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -842,7 +842,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>1917</y>
+      <y>1728</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -853,7 +853,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1359</x>
-      <y>1926</y>
+      <y>1737</y>
       <w>189</w>
       <h>90</h>
     </coordinates>
@@ -864,7 +864,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>1971</y>
+      <y>1782</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -876,7 +876,7 @@ fg=blue
     <id>UMLGeneric</id>
     <coordinates>
       <x>1494</x>
-      <y>1701</y>
+      <y>1512</y>
       <w>216</w>
       <h>27</h>
     </coordinates>
@@ -887,7 +887,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1053</x>
-      <y>1728</y>
+      <y>1539</y>
       <w>180</w>
       <h>36</h>
     </coordinates>
@@ -899,7 +899,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>1998</y>
+      <y>1809</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -910,7 +910,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1359</x>
-      <y>2007</y>
+      <y>1818</y>
       <w>180</w>
       <h>90</h>
     </coordinates>
@@ -921,7 +921,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>2052</y>
+      <y>1863</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -933,7 +933,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>2070</y>
+      <y>1881</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -944,7 +944,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1359</x>
-      <y>2079</y>
+      <y>1890</y>
       <w>252</w>
       <h>90</h>
     </coordinates>
@@ -955,7 +955,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>2124</y>
+      <y>1935</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -967,7 +967,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>2142</y>
+      <y>1953</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -978,7 +978,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1359</x>
-      <y>2151</y>
+      <y>1962</y>
       <w>180</w>
       <h>90</h>
     </coordinates>
@@ -989,7 +989,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>2196</y>
+      <y>2007</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -1001,7 +1001,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>2214</y>
+      <y>2025</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -1012,7 +1012,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1359</x>
-      <y>2223</y>
+      <y>2034</y>
       <w>189</w>
       <h>90</h>
     </coordinates>
@@ -1023,7 +1023,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>2277</y>
+      <y>2088</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -1035,7 +1035,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>2286</y>
+      <y>2097</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -1046,7 +1046,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1359</x>
-      <y>2295</y>
+      <y>2106</y>
       <w>189</w>
       <h>90</h>
     </coordinates>
@@ -1057,7 +1057,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1278</x>
-      <y>2349</y>
+      <y>2160</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -1069,7 +1069,7 @@ create(r)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1044</x>
-      <y>2367</y>
+      <y>2178</y>
       <w>279</w>
       <h>36</h>
     </coordinates>
@@ -1081,7 +1081,7 @@ recepi</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1611</x>
-      <y>1719</y>
+      <y>1530</y>
       <w>27</w>
       <h>972</h>
     </coordinates>
@@ -1092,7 +1092,7 @@ recepi</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1035</x>
-      <y>2394</y>
+      <y>2205</y>
       <w>666</w>
       <h>36</h>
     </coordinates>
@@ -1104,7 +1104,7 @@ add(recepi)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1035</x>
-      <y>2430</y>
+      <y>2241</y>
       <w>657</w>
       <h>36</h>
     </coordinates>
@@ -1116,7 +1116,7 @@ recepiList</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>819</x>
-      <y>2466</y>
+      <y>2277</y>
       <w>270</w>
       <h>36</h>
     </coordinates>
@@ -1128,7 +1128,7 @@ copyMenus</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>441</x>
-      <y>2520</y>
+      <y>2331</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -1139,7 +1139,7 @@ copyMenus</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>531</x>
-      <y>2520</y>
+      <y>2331</y>
       <w>252</w>
       <h>90</h>
     </coordinates>
@@ -1150,7 +1150,7 @@ copyMenus</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>441</x>
-      <y>2574</y>
+      <y>2385</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -1162,7 +1162,7 @@ copyMenus</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>441</x>
-      <y>2502</y>
+      <y>2313</y>
       <w>450</w>
       <h>36</h>
     </coordinates>
@@ -1174,7 +1174,7 @@ copyMenùs</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>441</x>
-      <y>2601</y>
+      <y>2412</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -1185,7 +1185,7 @@ copyMenùs</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>531</x>
-      <y>2610</y>
+      <y>2421</y>
       <w>270</w>
       <h>90</h>
     </coordinates>
@@ -1196,7 +1196,7 @@ copyMenùs</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>441</x>
-      <y>2664</y>
+      <y>2475</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -1208,7 +1208,7 @@ copyMenùs</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>279</x>
-      <y>2763</y>
+      <y>2574</y>
       <w>1341</w>
       <h>99</h>
     </coordinates>
@@ -1221,7 +1221,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>1467</x>
-      <y>252</y>
+      <y>63</y>
       <w>36</w>
       <h>3087</h>
     </coordinates>
@@ -1232,7 +1232,7 @@ fg=blue
     <id>Relation</id>
     <coordinates>
       <x>441</x>
-      <y>2817</y>
+      <y>2628</y>
       <w>1179</w>
       <h>36</h>
     </coordinates>
@@ -1244,7 +1244,7 @@ updateSummaryDocumentsCreated(copia)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>36</x>
-      <y>2880</y>
+      <y>2691</y>
       <w>459</w>
       <h>36</h>
     </coordinates>
@@ -1256,7 +1256,7 @@ currentSummaryDocument</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1035</x>
-      <y>2448</y>
+      <y>2259</y>
       <w>828</w>
       <h>36</h>
     </coordinates>
@@ -1268,7 +1268,7 @@ add(menú)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>27</x>
-      <y>315</y>
+      <y>126</y>
       <w>486</w>
       <h>36</h>
     </coordinates>
@@ -1280,7 +1280,7 @@ throws UseCaseLogicExcpetion</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>9</x>
-      <y>288</y>
+      <y>99</y>
       <w>1872</w>
       <h>2664</h>
     </coordinates>
@@ -1292,7 +1292,7 @@ fg=#27990b</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>27</x>
-      <y>342</y>
+      <y>153</y>
       <w>1872</w>
       <h>2619</h>
     </coordinates>
@@ -1305,7 +1305,7 @@ bg=221</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>45</x>
-      <y>387</y>
+      <y>198</y>
       <w>468</w>
       <h>36</h>
     </coordinates>
@@ -1318,7 +1318,7 @@ fg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1134</x>
-      <y>1107</y>
+      <y>918</y>
       <w>135</w>
       <h>36</h>
     </coordinates>

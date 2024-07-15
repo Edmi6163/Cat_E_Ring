@@ -12,6 +12,7 @@ public class EventEnd implements EventState {
         if (docs != null && !docs.isEmpty()) {
             System.out.println("Processing summary documents in EventEnd");
             // Processa i documenti sommari
+
         }
     }
 

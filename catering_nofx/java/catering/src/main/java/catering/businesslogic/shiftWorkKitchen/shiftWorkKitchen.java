@@ -1,4 +1,4 @@
-package catering.businesslogic.shiftWork;
+package catering.businesslogic.shiftWorkKitchen;
 
 import catering.businesslogic.task.Task;
 
@@ -6,7 +6,47 @@ import java.sql.Date;
 import java.sql.Time;
 import java.util.ArrayList;
 
-public class ShiftWork {
+public class shiftWorkKitchen {
+  public Date getStartingDate() {
+    return startingDate;
+  }
+
+  public void setStartingDate(Date startingDate) {
+    this.startingDate = startingDate;
+  }
+
+  public Date getEndingDate() {
+    return endingDate;
+  }
+
+  public void setEndingDate(Date endingDate) {
+    this.endingDate = endingDate;
+  }
+
+  public String getLocation() {
+    return location;
+  }
+
+  public void setLocation(String location) {
+    this.location = location;
+  }
+
+  public Time getLowerBoundInitShift() {
+    return lowerBoundInitShift;
+  }
+
+  public void setLowerBoundInitShift(Time lowerBoundInitShift) {
+    this.lowerBoundInitShift = lowerBoundInitShift;
+  }
+
+  public Time getUpperBoundInitShift() {
+    return upperBoundInitShift;
+  }
+
+  public void setUpperBoundInitShift(Time upperBoundInitShift) {
+    this.upperBoundInitShift = upperBoundInitShift;
+  }
+
   public Date startingDate;
   public Date endingDate;
   public String location;
@@ -14,17 +54,17 @@ public class ShiftWork {
   public Time upperBoundInitShift;
   private ArrayList<Task> tasks;
 
-  public ArrayList<ShiftWork> getLisSHiftWork() {
+  public ArrayList<shiftWorkKitchen> getLisSHiftWork() {
     return lisSHiftWork;
   }
 
-  public void setLisSHiftWork(ArrayList<ShiftWork> lisSHiftWork) {
+  public void setLisSHiftWork(ArrayList<shiftWorkKitchen> lisSHiftWork) {
     this.lisSHiftWork = lisSHiftWork;
   }
 
-  private ArrayList<ShiftWork> lisSHiftWork;
+  private ArrayList<shiftWorkKitchen> lisSHiftWork;
 
-  public ShiftWork(Date startingDate, Date endingDate, String location, Time lowerBoundInitShift, Time upperBoundInitShift) {
+  public shiftWorkKitchen(Date startingDate, Date endingDate, String location, Time lowerBoundInitShift, Time upperBoundInitShift) {
     this.startingDate = startingDate;
     this.endingDate = endingDate;
     this.location = location;

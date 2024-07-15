@@ -2,11 +2,11 @@ package catering.businesslogic.billBoard;
 
 import catering.businesslogic.recipe.Recipe;
 import catering.businesslogic.task.*;
-import catering.businesslogic.shiftWork.*;
+import catering.businesslogic.shiftWorkKitchen.*;
 
 public class BillBoard {
   private Task task;
-  private ShiftWork ShiftWork;
+  private shiftWorkKitchen ShiftWork;
   private String name;
   private String surname;
   private Recipe recipe;
@@ -29,7 +29,7 @@ public class BillBoard {
 
 
 
- public static void  BillBoardInit(Task task, ShiftWork shiftWork, String name, String surname, Recipe recipe){
+ public static void  BillBoardInit(Task task, shiftWorkKitchen shiftWork, String name, String surname, Recipe recipe){
     if(instance == null)
     {
         instance = new BillBoard();
@@ -52,11 +52,11 @@ public class BillBoard {
     this.task = task;
   }
 
-  public ShiftWork getShiftWork() {
+  public shiftWorkKitchen getShiftWork() {
     return ShiftWork;
   }
 
-  public void setShiftWork(ShiftWork shiftWork) {
+  public void setShiftWork(shiftWorkKitchen shiftWork) {
     ShiftWork = shiftWork;
   }
 

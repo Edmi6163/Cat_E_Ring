@@ -1,12 +1,12 @@
-package catering.businesslogic.shiftWork;
+package catering.businesslogic.shiftWorkKitchen;
 
 import catering.businesslogic.CatERing;
 import catering.businesslogic.UseCaseLogicException;
-import catering.businesslogic.shiftWork.*;
-import catering.businesslogic.summaryDocument.SummaryDocument;
-import catering.businesslogic.summaryDocument.SummaryDocumentManager;
+import catering.businesslogic.employer.Employer;
 import catering.businesslogic.task.*;
 import catering.businesslogic.user.User;
+import catering.businesslogic.*;
+
 
 import java.util.ArrayList;
 import java.sql.Date;
@@ -19,7 +19,7 @@ public class ShiftWorkManager {
   private Time lowerBoundInitShift;
   private Time upperBoundInitShift;
   private Boolean emergency;
-  private ShiftWork shiftWork;
+  private shiftWorkKitchen shiftWork;
 
 
   public ArrayList<Task> orderTaskByDifficulty(ArrayList<Task> tasks) {
@@ -34,8 +34,9 @@ public class ShiftWorkManager {
     return tasks;
   }
 
-  public ArrayList<Task> assignTasks(boolean typeTask,Employer name, Employer surname, ShiftWork shiftWork,Task task) {
-    return tasks;
+  public ArrayList<Task> assignTasks(boolean typeTask, Employer name, Employer surname, shiftWorkKitchen shiftWork, Task task) {
+    task.addTask(task);
+    return task.getTasks();
   }
 
 

@@ -1,8 +1,6 @@
 package catering.businesslogic.event;
 
-import catering.businesslogic.shiftWork.ShiftWork;
 import catering.businesslogic.summaryDocument.SummaryDocument;
-import catering.businesslogic.event.*;
 
 import java.util.ArrayList;
 
@@ -17,11 +15,11 @@ public class Event implements EventState {
 
     /**
      * 
-     * @param listSummaryDocument
+     * @param listSummaryDocument : list of summary documents
      */
     public Event(ArrayList<SummaryDocument> listSummaryDocument) {
         this.listSummaryDocument = listSummaryDocument;
-        this.currentState = new EventStart();  // Stato iniziale
+        this.currentEvent = new EventStart();  // Stato iniziale
     }
 
     public void setState(EventState newState ){

@@ -1,7 +1,7 @@
 package catering.businesslogic.summaryDocument;
 import catering.businesslogic.menu.Menu;
 import catering.businesslogic.recipe.Recipe;
-import catering.businesslogic.shiftWork.ShiftWork;
+import catering.businesslogic.shiftWorkKitchen.shiftWorkKitchen;
 import catering.businesslogic.task.*;
 public interface SummaryDocumentReceiver {
     void updateSummaryDocumentCreated(SummaryDocument sd);
@@ -9,7 +9,7 @@ public interface SummaryDocumentReceiver {
     void updateSummaryDocumentModifie(SummaryDocument sd);
     void updateTask(SummaryDocument sd, Task task);
 
-    void updateShiftWorkAdded(ShiftWork ws);
+    void updateShiftWorkAdded(shiftWorkKitchen ws);
 
     void updateMenuAdded(Menu mn);
 
