@@ -1,0 +1,2 @@
+compile:
+	pdflatex Relazione/Gestire_i_compiti_della_cucina.tex

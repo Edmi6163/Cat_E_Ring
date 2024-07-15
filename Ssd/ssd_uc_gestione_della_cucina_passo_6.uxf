@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>488</x>
+      <y>48</y>
+      <w>48</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Chef
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>856</x>
+      <y>104</y>
+      <w>96</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Sistema
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>888</x>
+      <y>144</y>
+      <w>32</w>
+      <h>1024</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;1260.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>176</y>
+      <w>408</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+1) creaFoglioRiepilogativo(titolo?)
+fg=GRAY</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>256</y>
+      <w>408</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+2) ordinaCompitiPerDifficoltà(compito)
+fg=BLACK</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>400</y>
+      <w>408</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+3) ordinaCompitiPerPriorità(compito)
+bg=DARK_GRAY
+fg=GRAY</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>200</y>
+      <w>408</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+1.1a Attore non autorizzato
+fg=GRAY</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>280</y>
+      <w>408</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+2.1a Compito selezionato non disponibile
+bg=LIGHT_GRAY
+fg=BLACK</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>440</y>
+      <w>408</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+3.1a Compito selezionato non disponibile
+bg=LIGHT_GRAY
+fg=GRAY</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>520</y>
+      <w>392</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+4.1a compito non disponibile
+bg=LIGHT_GRAY
+fg=GRAY</panel_attributes>
+    <additional_attributes>10.0;20.0;470.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>496</x>
+      <y>752</y>
+      <w>416</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+6.1a compito selezionato non rispetta tempistiche
+bg=LIGHT_GRAY
+fg=RED</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>496</x>
+      <y>792</y>
+      <w>416</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+6.1b nome e/o cognome errato
+bg=LIGHT_GRAY
+fg=RED</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>496</x>
+      <y>824</y>
+      <w>416</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+6.1c Cucina non disponibile
+bg=LIGHT_GRAY
+fg=RED</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>432</x>
+      <y>336</y>
+      <w>552</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>OPT
+layer=0
+bg=LIGHT_GRAY
+fg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>352</x>
+      <y>328</y>
+      <w>704</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>LOOP
+layer=-2
+bg=LIGHT_GRAY
+fg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>456</x>
+      <y>352</y>
+      <w>496</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>ALT
+lw=2
+
+
+
+layer=1
+bg=LIGHT_GRAY
+fg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>648</y>
+      <w>408</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+6) segnaIlCompitoSulTabellone(compito,dipendente,turno)
+bg=TRANSPARENT
+fg=BLACK</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>552</x>
+      <y>0</y>
+      <w>552</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>DIAGRAMMA DI SEQUENZA DI SISTEMA PER IL CASO D'USO 'GESTIRE I COMPITI DELLA CUCINA '
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>576</x>
+      <y>48</y>
+      <w>176</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Estensioni al passo 6 (6.1a,6.1b,6.1c)
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>472</x>
+      <y>160</y>
+      <w>520</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>ALT
+lw=2
+--
+
+
+fg=LIGHT_GRAY
+bg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>488</x>
+      <y>200</y>
+      <w>448</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>ALT
+--
+
+
+layer=0
+bg=LIGHT_GRAY
+fg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>480</x>
+      <y>256</y>
+      <w>520</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>ALT
+lw=2
+--
+
+
+bg=LIGHT_GRAY
+fg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>496</x>
+      <y>280</y>
+      <w>448</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>ALT
+--
+
+
+layer=0
+bg=LIGHT_GRAY
+fg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>504</y>
+      <w>408</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+4) ordinaCompitiPerTempistica(compito)</panel_attributes>
+    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>496</x>
+      <y>120</y>
+      <w>32</w>
+      <h>1024</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;1260.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>400</x>
+      <y>736</y>
+      <w>576</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>472</x>
+      <y>744</y>
+      <w>480</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>ALT
+bg=#ffaaaa
+--
+
+
+fg=#D3001B
+layer=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>424</x>
+      <y>624</y>
+      <w>544</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
