@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="corrected java configuration">
+      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatRingUC_CompitiCucina.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/database/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/CatERing.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/CatERing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/TaskManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/PersistenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/PersistenceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatERingTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/TestCatERingTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/CatERing.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/CatERing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/TaskManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/TaskManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/PersistenceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/PersistenceManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/TestCatERingTasks.class" beforeDir="false" />
     </list>
     <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +39,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TestCatERing.executor": "Run",
     "Application.TestCatERingTasks.executor": "Run",
+    "Application.TestCatRingUC_CompitiCucina.executor": "Run",
     "Application.catering.persistence.TestCatERingTasks.executor": "Run",
     "Docker.database.adminer: Compose Deployment.executor": "Run",
     "Docker.database.db: Compose Deployment.executor": "Run",
@@ -68,9 +60,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="TestCatERingTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="catering.TestCatERingTasks" />
+  <component name="RunManager" selected="Application.TestCatRingUC_CompitiCucina">
+    <configuration name="TestCatERing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="catering.TestCatERing" />
       <module name="catering" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="catering.persistence.TestCatERingTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="catering.persistence.TestCatERingTasks" />
+    <configuration name="TestCatRingUC_CompitiCucina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="catering.TestCatRingUC_CompitiCucina" />
       <module name="catering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="catering.persistence.*" />
+          <option name="PATTERN" value="catering.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCatRingUC_CompitiCucina" />
+        <item itemvalue="Application.TestCatERing" />
         <item itemvalue="Docker.database.adminer: Compose Deployment" />
         <item itemvalue="Docker.database: Compose Deployment" />
         <item itemvalue="Docker.database.db: Compose Deployment" />
-        <item itemvalue="Application.catering.persistence.TestCatERingTasks" />
-        <item itemvalue="Application.TestCatERingTasks" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +154,7 @@
       <workItem from="1720794744489" duration="137000" />
       <workItem from="1720813790925" duration="1822000" />
       <workItem from="1720873090352" duration="5392000" />
-      <workItem from="1720975541581" duration="19331000" />
+      <workItem from="1720975541581" duration="19981000" />
     </task>
     <task id="LOCAL-00001" summary="corrected java configuration">
       <option name="closed" value="true" />
