@@ -53,20 +53,16 @@ public class TestCatRingUC_CompitiCucina {
                 Task compito = new Task("Filippo Rossi", true, 1, shiftWorks.get(0), 1);
                 CatERing.getInstance().getTaskManager().addTask(compito);
                 System.out.println("Task Added: " + compito);
-
                 System.out.println("\nTEST ORDER TASKS BY DIFFICULTY");
                 ArrayList<Task> listTaskToOrder = CatERing.getInstance().getTaskManager().getTask();
                 ArrayList<Task> orderedByDifficulty = CatERing.getInstance().getTaskManager().orderTaskByDifficulty(listTaskToOrder);
                 System.out.println("Tasks Ordered by Difficulty: " + orderedByDifficulty);
-
                 System.out.println("\nTEST ORDER TASKS BY PRIORITY");
                 ArrayList<Task> orderedByPriority = CatERing.getInstance().getTaskManager().orderTaskByPriority(listTaskToOrder);
                 System.out.println("Tasks Ordered by Priority: " + orderedByPriority);
-
                 System.out.println("\nTEST ORDER TASKS BY TIMING");
                 ArrayList<Task> orderedByTiming = CatERing.getInstance().getTaskManager().orderTaskByTiming(listTaskToOrder);
                 System.out.println("Tasks Ordered by Timing: " + orderedByTiming);
-
                 System.out.println("\nTEST CREATE MORE SUMMARY DOCUMENTS");
                 EventInfo event2 = CatERing.getInstance().getEventManager().getEventInfo().get(1);
                 SummaryDocument sd2 = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("FOGLIO  Pinco Pallino", event2);
@@ -84,7 +80,6 @@ public class TestCatRingUC_CompitiCucina {
                 System.out.println("\nTEST DELETE SUMMARY DOCUMENT");
                 CatERing.getInstance().getSummaryDocumentManager().deleteSummaryDocument(sd5);
                 System.out.println("Summary Document Deleted");
-                //Assegna COmpiti
                 System.out.println("\nTEST ADD TASK");
                 ArrayList<shiftWorkKitchen> shiftWorks2 = new ArrayList<>();
                 shiftWorks2.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null));
@@ -97,6 +92,10 @@ public class TestCatRingUC_CompitiCucina {
                 Task compito3 = new Task("Filippo Rossi", true, 1, shiftWorks3.get(0), 1);
                 CatERing.getInstance().getTaskManager().addTask(compito3);
                 System.out.println("Task Added: " + compito3);
+                System.out.println("\nTEST MODIFY SUMMARY DOCUMENT TITLE");
+                CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentTitle(sd6, "TEST_TITOLO_FIERO");
+                System.out.println("Summary Document Title Modified: " + sd6.getTitle());
+
 
 
             } catch (UseCaseLogicException e) {

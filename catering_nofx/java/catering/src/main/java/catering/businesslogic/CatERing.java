@@ -1,5 +1,6 @@
 package catering.businesslogic;
 
+import catering.businesslogic.billBoard.BillBoard;
 import catering.businesslogic.event.EventManager;
 import catering.businesslogic.menu.MenuManager;
 import catering.businesslogic.recipe.RecipeManager;
@@ -25,7 +26,7 @@ public class CatERing {
     private TaskManager taskManager;
     private MenuPersistence menuPersistence;
     private SummaryDocumentManager summaryDocumentManager;
-
+    private BillBoard billBoardManager;
     private CatERing() {
         menuMgr = new MenuManager();
         recipeMgr = new RecipeManager();
@@ -35,6 +36,7 @@ public class CatERing {
         menuMgr.addEventReceiver(menuPersistence);
         summaryDocumentManager = new SummaryDocumentManager();
         taskManager = TaskManager.getTaskManager();  // Properly initializing TaskManager
+        billBoardManager = getBillBoardManager().getInstance();
     }
 
     public MenuManager getMenuManager() {
@@ -59,5 +61,9 @@ public class CatERing {
 
     public TaskManager getTaskManager() {
         return taskManager;
+    }
+
+    public  BillBoard getBillBoardManager() {
+        return billBoardManager;
     }
 }
