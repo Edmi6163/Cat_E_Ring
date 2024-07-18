@@ -1,7 +1,6 @@
-package catering.businesslogic.TEST;
+package catering.TEST;
 
 import catering.businesslogic.CatERing;
-import catering.businesslogic.SummaryDocumentException;
 import catering.businesslogic.UseCaseLogicException;
 import catering.businesslogic.event.EventInfo;
 import catering.businesslogic.summaryDocument.SummaryDocument;

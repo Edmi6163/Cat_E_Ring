@@ -1,4 +1,4 @@
-package catering.businesslogic.TEST;
+package catering.TEST;
 
 import catering.businesslogic.CatERing;
 import catering.businesslogic.SummaryDocumentException;

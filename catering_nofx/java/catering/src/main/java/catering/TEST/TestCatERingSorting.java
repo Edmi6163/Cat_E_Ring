@@ -1,6 +1,8 @@
-package catering.businesslogic.TEST;
+package catering.TEST;
 
 import catering.businesslogic.CatERing;
+import catering.businesslogic.UseCaseLogicException;
+import catering.businesslogic.menu.MenuException;
 import catering.businesslogic.task.*;
 import java.util.ArrayList;
 
@@ -8,14 +10,14 @@ import java.util.ArrayList;
 /**
  * Step 3,4,5
  * Sorting tasks by difficulty, priority and timing
- * TODO: check this better
  */
 public class TestCatERingSorting {
   public static void main(String[] args) {
-    // System.out.println("Test fake login");
-    // CatERing.getInstance().getUserManager().fakeLogin("Lidia");
-    // System.out.println("After fake login:");
-    // System.out.println(CatERing.getInstance().getUserManager().getCurrentUser());
+    try { 
+    System.out.println("Test fake login");
+    CatERing.getInstance().getUserManager().fakeLogin("Lidia");
+    System.out.println("After fake login:");
+    System.out.println(CatERing.getInstance().getUserManager().getCurrentUser());
 
 
     ArrayList<Task> listToSort = CatERing.getInstance().getTaskManager().getTask();
@@ -41,7 +43,6 @@ public class TestCatERingSorting {
     //Sorting by priority
     System.out.println("Sorting by priority");
     ArrayList<Task> sortedByPriority = CatERing.getInstance().getTaskManager().orderTaskByPriority(listToSort);
-    System.out.println("Tasks ordered by difficulty: " + sortedByPriority.toString());
     for(Task task : sortedByPriority){
       System.out.println(task.toString());
     }
@@ -50,7 +51,6 @@ public class TestCatERingSorting {
     //Sorting by timing
     System.out.println("Sorting by timing");
     ArrayList<Task> sortedByTiming = CatERing.getInstance().getTaskManager().orderTaskByDifficulty(listToSort);
-    System.out.println("Tasks ordered by timing: " + sortedByTiming);
     for(Task task : sortedByTiming){
       System.out.println(task.toString());
     }
@@ -60,6 +60,9 @@ public class TestCatERingSorting {
 
 
     
+  } catch(Exception e) {
+      System.out.println("Errore di logica nello use case");
   }
   
+}
 }
