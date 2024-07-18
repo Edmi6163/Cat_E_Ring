@@ -17,6 +17,12 @@ public class Task {
 	private int priority;
 	private ArrayList<Task> tasks;
 
+	@Override
+	public String toString() {
+		return "Task [assignedTo=" + assignedTo + ", typeTask=" + typeTask + ", difficulty=" + difficulty + ", shiftWork="
+				+ shiftWork + ", priority=" + priority + ", tasks=" + tasks + ", timing=" + timing + "]";
+	}
+
 	public Time getTiming() {
 		return timing;
 	}
