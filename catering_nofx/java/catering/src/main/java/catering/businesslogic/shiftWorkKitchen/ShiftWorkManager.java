@@ -28,10 +28,10 @@ public class ShiftWorkManager {
     return tasks;
   }
 
-  public ArrayList<Task> assignTasks(boolean typeTask, Employer name, Employer surname, shiftWorkKitchen shiftWork, Task task) {
+  public ArrayList<Task> assignTasks(String string, String string2, String string3, ArrayList<shiftWorkKitchen> shiftWorks, Task task) {
     BillBoard bb =BillBoard.getInstance();
     task.addTask(task);
-    bb.addTaskAssogmed(task, name,surname);
+    bb.addTaskAssogmed(task, string2,string3);
     return task.getTasks();
   }
 

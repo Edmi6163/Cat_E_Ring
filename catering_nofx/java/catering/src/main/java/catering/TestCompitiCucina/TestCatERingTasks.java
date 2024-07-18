@@ -1,4 +1,4 @@
-package catering.TEST;
+package catering.TestCompitiCucina;
 
 import catering.businesslogic.CatERing;
 import catering.businesslogic.SummaryDocumentException;

@@ -74,9 +74,9 @@ public class shiftWorkKitchen {
 
   private ArrayList<shiftWorkKitchen> lisSHiftWork;
 
-  public shiftWorkKitchen(Date startingDate, Date endingDate, String location, Time lowerBoundInitShift, Time upperBoundInitShift ,String note) {
-    this.startingDate = startingDate;
-    this.endingDate = endingDate;
+  public shiftWorkKitchen(java.util.Date date, java.util.Date date2, String location, Time lowerBoundInitShift, Time upperBoundInitShift ,String note) {
+    this.startingDate = date;
+    this.endingDate = date2;
     this.location = location;
     this.lowerBoundInitShift = lowerBoundInitShift;
     this.upperBoundInitShift = upperBoundInitShift;

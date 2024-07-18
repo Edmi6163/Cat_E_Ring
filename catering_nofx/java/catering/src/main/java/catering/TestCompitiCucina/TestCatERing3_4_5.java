@@ -1,4 +1,4 @@
-package catering.TEST;
+package catering.TestCompitiCucina;
 
 import catering.businesslogic.CatERing;
 import catering.businesslogic.UseCaseLogicException;
@@ -10,8 +10,9 @@ import java.util.ArrayList;
 /**
  * Step 3,4,5
  * Sorting tasks by difficulty, priority and timing
+ * FIXME: not really sure about this use case test
  */
-public class TestCatERingSorting {
+public class TestCatERing3_4_5 {
   public static void main(String[] args) {
     try { 
     System.out.println("Test fake login");
