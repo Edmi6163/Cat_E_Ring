@@ -336,9 +336,9 @@ bg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>63</x>
+      <x>180</x>
       <y>369</y>
-      <w>882</w>
+      <w>765</w>
       <h>324</h>
     </coordinates>
     <panel_attributes>LOOP
@@ -350,9 +350,9 @@ layer=0</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>153</x>
+      <x>225</x>
       <y>387</y>
-      <w>774</w>
+      <w>702</w>
       <h>279</h>
     </coordinates>
     <panel_attributes>OPT
