@@ -62,25 +62,33 @@ public class shiftWorkKitchen {
   }
 
   private String note;
-  private ArrayList<Task> tasks;
+  private ArrayList<Task> tasks = new ArrayList<>();
 
   public ArrayList<shiftWorkKitchen> getLisSHiftWork() {
     return lisSHiftWork;
   }
 
+
+
   public void setLisSHiftWork(ArrayList<shiftWorkKitchen> lisSHiftWork) {
     this.lisSHiftWork = lisSHiftWork;
   }
 
-  private ArrayList<shiftWorkKitchen> lisSHiftWork;
 
-  public shiftWorkKitchen(java.util.Date date, java.util.Date date2, String location, Time lowerBoundInitShift, Time upperBoundInitShift ,String note) {
-    this.startingDate = date;
-    this.endingDate = date2;
+  public ArrayList<shiftWorkKitchen>setTasksList(ArrayList<shiftWorkKitchen> tasks) {
+    this.lisSHiftWork = tasks;
+    return this.lisSHiftWork;
+  }
+
+  private ArrayList<shiftWorkKitchen> lisSHiftWork = new ArrayList<>();
+
+  public shiftWorkKitchen(Date date, Date date2, String location, Time lowerBoundInitShift, Time upperBoundInitShift ,String note,ArrayList<Task>task) {
+    this.startingDate =  date;
+    this.endingDate =  date2;
     this.location = location;
     this.lowerBoundInitShift = lowerBoundInitShift;
     this.upperBoundInitShift = upperBoundInitShift;
-    this.tasks = new ArrayList<>();
+    this.tasks =task;
     this.lisSHiftWork = new ArrayList<>();
     this.note = note;
   }

@@ -13,10 +13,10 @@ public class TestCatERing1c {
            EventInfo event = CatERing.getInstance().getEventManager().getEventInfo().get(0);
       SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager()
           .createSummaryDocument("Foglio1_per_Compleanno", event); 
-
+        System.out.println("SD1 : "+sd.toString());
       System.out.println("Test copy summary document");
       SummaryDocument sd2 = CatERing.getInstance().getSummaryDocumentManager().copySummaryDocument(sd);
-      System.out.println("Summary Document Copied: " + sd2.toString());
+      System.out.println("Summary Document Copied sd2: " + sd2.toString());
   } catch (Exception e){
     System.out.println("Errore di logica nello use case: " + e.getMessage());
   }

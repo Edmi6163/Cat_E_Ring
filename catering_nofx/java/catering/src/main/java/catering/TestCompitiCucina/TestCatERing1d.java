@@ -18,7 +18,7 @@ public class TestCatERing1d {
 
       System.out.println("Test delete summary document");
        CatERing.getInstance().getSummaryDocumentManager().deleteSummaryDocument(sd);
-            System.out.println("Summary Document Deleted" + sd.toString());
+            System.out.println("Summary Document Deleted: " + sd.toString());
 
     } catch(UseCaseLogicException | SummaryDocumentException e){
       System.out.println("Errore di logica nello use case: " + e.getMessage());

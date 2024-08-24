@@ -38,7 +38,7 @@ public class TaskManager {
 
 	// Order tasks by timing
 	public static ArrayList<Task> orderTaskByTiming(ArrayList<Task> tasks) {
-		Collections.sort(tasks, Comparator.comparing(task -> task.getShiftWork().getStartingDate())); // Ensure shiftWorkKitchen has getStartingDate()
+		Collections.sort(tasks, Comparator.comparing(Task::getTiming));
 		return tasks;
 	}
 

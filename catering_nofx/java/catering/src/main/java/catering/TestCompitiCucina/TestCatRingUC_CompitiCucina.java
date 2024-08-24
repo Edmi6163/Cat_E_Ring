@@ -10,6 +10,8 @@ import catering.businesslogic.task.Task;
 import catering.businesslogic.shiftWorkKitchen.*;
 
 import java.sql.Date;
+import java.sql.Time;
+import java.time.LocalTime;
 import java.util.ArrayList;
 
 
@@ -48,9 +50,10 @@ public class TestCatRingUC_CompitiCucina {
                 System.out.println("Summary Document Deleted");
 
                 System.out.println("\nTEST ADD TASK");
+                ArrayList<Task>listTask = new ArrayList<>();
                 ArrayList<shiftWorkKitchen> shiftWorks = new ArrayList<>();
-                shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,""));
-                Task compito = new Task("Filippo Rossi", true, 1, shiftWorks.get(0), 1);
+                shiftWorks.add(new shiftWorkKitchen(new Date(2025, 1, 1), new Date(2025, 1, 2), "CucinaCorsoDuca", null, null,"",listTask));
+                Task compito = new Task("Filippo Rossi", true, 1, shiftWorks.get(0), 1, Time.valueOf(LocalTime.of(1, 0)));
                 CatERing.getInstance().getTaskManager().addTask(compito);
                 System.out.println("Task Added: " + compito);
                 System.out.println("\nTEST ORDER TASKS BY DIFFICULTY");
@@ -82,17 +85,17 @@ public class TestCatRingUC_CompitiCucina {
                 System.out.println("Summary Document Deleted");
                 System.out.println("\nTEST ADD TASK");
                 ArrayList<shiftWorkKitchen> shiftWorks2 = new ArrayList<>();
-                shiftWorks2.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,"TAGLIARE BENE LE PATATE "));
+                shiftWorks2.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,"TAGLIARE BENE LE PATATE ",listTask));
 
-                Task compito2 = new Task("Filippo Rossi", true, 1, shiftWorks2.get(0), 1);
+                Task compito2 = new Task("Filippo Rossi", true, 1, shiftWorks2.get(0), 1,Time.valueOf(LocalTime.of(1, 0)));
                 CatERing.getInstance().getTaskManager().addTask(compito2);
                 System.out.println("Task Added: " + compito2);
                 System.out.println("\nLIST :"+shiftWorks2.size());
                 System.out.println("\nTEST ADD TASK");
                 ArrayList<shiftWorkKitchen> shiftWorks3 = new ArrayList<>();
-                shiftWorks3.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,"SALUTAMI PINO"));
-                shiftWorks3.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 10, 11), "MILANELLO", null, null ,"CONTROLLARE BOMBOLA"));
-                Task compito3 = new Task("Filippo Rossi", true, 1, shiftWorks3.get(0), 1);
+                shiftWorks3.add(new shiftWorkKitchen(new Date(2025, 1, 1), new Date(2025, 1, 2), "CucinaCorsoDuca", null, null,"SALUTAMI PINO",listTask));
+                shiftWorks3.add(new shiftWorkKitchen(new Date(2025, 1, 1), new Date(2025, 10, 11), "MILANELLO", null, null ,"CONTROLLARE BOMBOLA",listTask));
+                Task compito3 = new Task("Filippo Rossi", true, 1, shiftWorks3.get(0), 1,Time.valueOf(LocalTime.of(1, 0)));
                 CatERing.getInstance().getTaskManager().addTask(compito3);
                 System.out.println("Task Added: " + compito3.toString());
                 System.out.println("\n------SIZE: " + shiftWorks3.toString());

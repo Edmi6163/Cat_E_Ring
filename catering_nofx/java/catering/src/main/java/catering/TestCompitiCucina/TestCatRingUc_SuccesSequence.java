@@ -12,6 +12,8 @@ import catering.businesslogic.task.Task;
 import catering.businesslogic.shiftWorkKitchen.*;
 
 import java.sql.Date;
+import java.sql.Time;
+import java.time.LocalTime;
 import java.util.ArrayList;
 
 
@@ -46,12 +48,13 @@ public class TestCatRingUc_SuccesSequence{
             /* STEP 2*/
             System.out.println("\nTEST ADD TASK");
             ArrayList<shiftWorkKitchen> shiftWorks = new ArrayList<>();
-            shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,"ACCENDERE IL FORNO A 200 GRADI"));
-            Task task = new Task("Riccardo Oro ", true, 1, shiftWorks.get(0), 1);
+            ArrayList<Task>listTask = new ArrayList<>();
+            shiftWorks.add(new shiftWorkKitchen(new Date(2024, 2, 6), new Date(2025, 3, 2), "CucinaCorsoDuca", null, null,"ACCENDERE IL FORNO A 200 GRADI",listTask));
+            Task task = new Task("Riccardo Oro ", true, 1, shiftWorks.get(0), 1, Time.valueOf(LocalTime.of(1, 0)));
             CatERing.getInstance().getTaskManager().addTask(task);
             System.out.println("Task Added: " + task.toString());
-            shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "Cucina sotto le stelle", null, null," "));
-            Task task2 = new Task("Filippo Di Angelo", true, 1, shiftWorks.get(0), 1);
+            shiftWorks.add(new shiftWorkKitchen(new Date(2024, 4, 10), new Date(2025, 4, 21), "Cucina sotto le stelle", null, null," ",listTask));
+            Task task2 = new Task("Filippo Di Angelo", true, 1, shiftWorks.get(0), 1,Time.valueOf(LocalTime.of(1, 0)));
             CatERing.getInstance().getTaskManager().addTask(task2);
             System.out.println("Task Added: " + task2.toString());
             System.out.println("LIST SIZE : " + CatERing.getInstance().getTaskManager().getTask().size());
@@ -77,7 +80,7 @@ public class TestCatRingUc_SuccesSequence{
             /* STEP 7 */
             System.out.println("\nGET BILLBOARD");
             BillBoard bb = CatERing.getInstance().getInstance().getBillBoardManager();
-            System.out.println("BillBoard: " + bb);
+            System.out.println("BillBoard: " + bb.toString());
             System.out.println(bb.getName() + " " + bb.getTask() +bb.getShiftWork() + bb.getRecipe() + bb.getSurname() );
             /* STEP 8 */
             System.out.println("\nTEST ASSIGN TASK ");
@@ -93,6 +96,7 @@ public class TestCatRingUc_SuccesSequence{
         } catch (SummaryDocumentException e) {
             System.out.println("Errore nel documento di riepilogo: " + e.getMessage());
         } catch (Exception e) {
+
             e.printStackTrace();
         }
     }

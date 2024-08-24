@@ -16,6 +16,8 @@ public class Task {
 	private shiftWorkKitchen shiftWork;
 	private int priority;
 	private ArrayList<Task> tasks;
+	private Time timing ;
+
 
 	@Override
 	public String toString() {
@@ -35,13 +37,14 @@ public class Task {
 		this.tasks = tasks;
 	}
 
-	private Time timing ;
-	public Task(String assignedTo, boolean typeTask, int difficulty, shiftWorkKitchen shiftWork, int priority) {
+	public Task(String assignedTo, boolean typeTask, int difficulty, shiftWorkKitchen shiftWork, int priority,Time timing) {
 		this.assignedTo = assignedTo;
 		this.typeTask = typeTask;
 		this.difficulty = difficulty;
 		this.shiftWork = shiftWork;
 		this.priority = priority;
+		this.tasks = new ArrayList<>();
+		this.timing = timing;
 	}
 
 	// Getters and setters
