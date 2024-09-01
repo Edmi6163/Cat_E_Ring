@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>12</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>360</x>
-      <y>108</y>
-      <w>72</w>
-      <h>132</h>
+      <x>927</x>
+      <y>81</y>
+      <w>54</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>Attore</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>972</x>
-      <y>144</y>
-      <w>132</w>
-      <h>60</h>
+      <x>1386</x>
+      <y>108</y>
+      <w>99</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Sistema</panel_attributes>
     <additional_attributes/>
@@ -26,32 +26,32 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1020</x>
-      <y>192</y>
-      <w>60</w>
-      <h>2184</h>
+      <x>1422</x>
+      <y>144</y>
+      <w>45</w>
+      <h>2178</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;30.0;1800.0</additional_attributes>
+    <additional_attributes>10.0;10.0;30.0;2400.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>216</y>
-      <w>48</w>
-      <h>2148</h>
+      <x>945</x>
+      <y>162</y>
+      <w>36</w>
+      <h>2160</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;20.0;1770.0</additional_attributes>
+    <additional_attributes>10.0;10.0;20.0;2380.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>240</y>
-      <w>672</w>
-      <h>48</h>
+      <x>945</x>
+      <y>180</y>
+      <w>504</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 1. creaNuovoTurno(orario,data,luogo?)</panel_attributes>
@@ -60,10 +60,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>264</y>
-      <w>672</w>
-      <h>48</h>
+      <x>945</x>
+      <y>198</y>
+      <w>504</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 turno cucina registrato</panel_attributes>
@@ -72,10 +72,10 @@ turno cucina registrato</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>360</x>
-      <y>336</y>
-      <w>732</w>
-      <h>132</h>
+      <x>927</x>
+      <y>252</y>
+      <w>549</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -85,10 +85,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>360</y>
-      <w>672</w>
-      <h>48</h>
+      <x>945</x>
+      <y>270</y>
+      <w>504</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 2. modificaTurno(data?,luogo?,orario?)</panel_attributes>
@@ -97,10 +97,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>396</y>
-      <w>672</w>
-      <h>48</h>
+      <x>945</x>
+      <y>297</y>
+      <w>504</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 turno modificato</panel_attributes>
@@ -109,10 +109,10 @@ turno modificato</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>360</x>
-      <y>528</y>
-      <w>732</w>
-      <h>420</h>
+      <x>927</x>
+      <y>396</y>
+      <w>549</w>
+      <h>315</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -123,10 +123,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>552</y>
-      <w>672</w>
-      <h>48</h>
+      <x>945</x>
+      <y>414</y>
+      <w>504</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 3. modificaTurniInBlocco(data?,luogo?,orario?)</panel_attributes>
@@ -135,10 +135,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>588</y>
-      <w>672</w>
-      <h>48</h>
+      <x>945</x>
+      <y>441</y>
+      <w>504</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 blocco turni modificato</panel_attributes>
@@ -147,10 +147,10 @@ blocco turni modificato</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>360</x>
-      <y>1008</y>
-      <w>732</w>
-      <h>108</h>
+      <x>927</x>
+      <y>756</y>
+      <w>549</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -160,10 +160,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>1032</y>
-      <w>660</w>
-      <h>48</h>
+      <x>954</x>
+      <y>774</y>
+      <w>495</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 4. raggruppaTurno(turno1.turno2)</panel_attributes>
@@ -172,10 +172,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>1068</y>
-      <w>672</w>
-      <h>48</h>
+      <x>945</x>
+      <y>801</y>
+      <w>504</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 raggruppamento eseguito</panel_attributes>
@@ -184,10 +184,10 @@ raggruppamento eseguito</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>456</x>
+      <x>999</x>
       <y>0</y>
-      <w>696</w>
-      <h>108</h>
+      <w>522</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>DIAGRAMMA DI SEQUENZA DI SISTEMA PER IL CASO D'USO 'GESTIONE DEI TURNI'
 Estensione 3a,3b
@@ -197,10 +197,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>360</x>
-      <y>1200</y>
-      <w>732</w>
-      <h>144</h>
+      <x>927</x>
+      <y>900</y>
+      <w>549</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -210,10 +210,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>1236</y>
-      <w>660</w>
-      <h>48</h>
+      <x>954</x>
+      <y>927</y>
+      <w>495</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 5. raggruppaTurnoRicorrente(turno1,turno2)</panel_attributes>
@@ -222,10 +222,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>1272</y>
-      <w>660</w>
-      <h>48</h>
+      <x>954</x>
+      <y>954</y>
+      <w>495</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 raggruppamento turno ricorrente eseguito</panel_attributes>
@@ -234,10 +234,10 @@ raggruppamento turno ricorrente eseguito</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>312</x>
-      <y>1428</y>
-      <w>852</w>
-      <h>252</h>
+      <x>891</x>
+      <y>1071</y>
+      <w>639</w>
+      <h>189</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue
@@ -247,10 +247,10 @@ bg=#8CB4FF</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>336</x>
-      <y>1464</y>
-      <w>768</w>
-      <h>180</h>
+      <x>909</x>
+      <y>1098</y>
+      <w>576</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -261,10 +261,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>1488</y>
-      <w>660</w>
-      <h>48</h>
+      <x>954</x>
+      <y>1116</y>
+      <w>495</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 6. modificaRaggruppamentoTurnoPreparatorio(ora,data,luogo)</panel_attributes>
@@ -273,10 +273,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>1548</y>
-      <w>660</w>
-      <h>48</h>
+      <x>954</x>
+      <y>1161</y>
+      <w>495</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 modifica raggruppamento turni preparatori eseguita con successo</panel_attributes>
@@ -285,10 +285,10 @@ modifica raggruppamento turni preparatori eseguita con successo</panel_attribute
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>300</x>
-      <y>1764</y>
-      <w>852</w>
-      <h>252</h>
+      <x>882</x>
+      <y>1323</y>
+      <w>639</w>
+      <h>189</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue
@@ -298,10 +298,10 @@ bg=#8CB4FF</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>324</x>
-      <y>1800</y>
-      <w>768</w>
-      <h>180</h>
+      <x>900</x>
+      <y>1350</y>
+      <w>576</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -312,10 +312,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>1824</y>
-      <w>672</w>
-      <h>48</h>
+      <x>954</x>
+      <y>1368</y>
+      <w>504</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 7. modificaRaggruppamentoTurnoRicorrentePreparatorio(ora?,data?,luogo?)</panel_attributes>
@@ -324,83 +324,22 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>1884</y>
-      <w>660</w>
-      <h>48</h>
+      <x>945</x>
+      <y>1413</y>
+      <w>495</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 modifica raggruppamento turni ricorrenti preparatori eseguita con successo</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>396</x>
-      <y>2088</y>
-      <w>672</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-consultaInformazioniEvento(evento)</panel_attributes>
-    <additional_attributes>10.0;20.0;540.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>396</x>
-      <y>2124</y>
-      <w>672</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-ottiene informazioni su evento ricorrente</panel_attributes>
-    <additional_attributes>10.0;20.0;540.0;20.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>324</x>
-      <y>2220</y>
-      <w>792</w>
-      <h>180</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=#128C86
-bg=#B8E0E0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>396</x>
-      <y>2256</y>
-      <w>684</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-predisponeTurniSignoloServizio(ora,data,luogo)</panel_attributes>
-    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>396</x>
-      <y>2304</y>
-      <w>672</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-turno servizio registrato</panel_attributes>
-    <additional_attributes>10.0;20.0;540.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>396</x>
-      <y>684</y>
-      <w>696</w>
-      <h>228</h>
+      <x>954</x>
+      <y>513</y>
+      <w>522</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>ALT
 fg=#761C8C
@@ -415,10 +354,10 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>732</y>
-      <w>672</w>
-      <h>48</h>
+      <x>945</x>
+      <y>549</y>
+      <w>504</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 blocco turni eliminato
@@ -429,10 +368,10 @@ layer=2</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>324</x>
-      <y>624</y>
-      <w>780</w>
-      <h>300</h>
+      <x>900</x>
+      <y>468</y>
+      <w>585</w>
+      <h>225</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue
@@ -442,10 +381,10 @@ bg=#8CB4FF</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>708</y>
-      <w>684</w>
-      <h>48</h>
+      <x>945</x>
+      <y>531</y>
+      <w>513</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 3a. eliminaTurniInBlocco(turno)
@@ -456,10 +395,10 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>780</y>
-      <w>684</w>
-      <h>48</h>
+      <x>945</x>
+      <y>585</y>
+      <w>513</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 3b. modificaTurniInBlocco(data?,luogo?,orario?)
@@ -470,10 +409,10 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>840</y>
-      <w>684</w>
-      <h>48</h>
+      <x>945</x>
+      <y>630</y>
+      <w>513</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 impossibile modifcare blocco turni
@@ -484,10 +423,10 @@ layer=2</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>384</x>
-      <y>828</y>
-      <w>696</w>
-      <h>60</h>
+      <x>945</x>
+      <y>621</y>
+      <w>522</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -497,5 +436,201 @@ bg=#ffaaaa
 fg=#D3001B
 layer=2</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>954</x>
+      <y>1593</y>
+      <w>504</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+9. consultaInformazioniEvento(evento)</panel_attributes>
+    <additional_attributes>10.0;20.0;540.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>945</x>
+      <y>1620</y>
+      <w>522</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ottiene informazioni su evento ricorrente</panel_attributes>
+    <additional_attributes>10.0;20.0;560.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>918</x>
+      <y>1665</y>
+      <w>594</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>954</x>
+      <y>1692</y>
+      <w>513</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+10. predisponeTurniSignoloServizio(ora,data,luogo)</panel_attributes>
+    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>954</x>
+      <y>1710</y>
+      <w>522</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+turno servizio registrato</panel_attributes>
+    <additional_attributes>10.0;20.0;560.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>945</x>
+      <y>1836</y>
+      <w>513</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+11. aggiungeTempoAlTurno(turno)</panel_attributes>
+    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>945</x>
+      <y>1863</y>
+      <w>513</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+aggiunge info turno corrente </panel_attributes>
+    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>909</x>
+      <y>1827</y>
+      <w>576</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>945</x>
+      <y>1962</y>
+      <w>513</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+12. modificaTurnoServizio(turno)</panel_attributes>
+    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>945</x>
+      <y>1989</y>
+      <w>513</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+modifica turno serivizio</panel_attributes>
+    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>909</x>
+      <y>1953</y>
+      <w>567</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>945</x>
+      <y>2079</y>
+      <w>513</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+13. salvaSchemaTurni(turno)</panel_attributes>
+    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>945</x>
+      <y>2106</y>
+      <w>513</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+schema turni salvato</panel_attributes>
+    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>918</x>
+      <y>2079</y>
+      <w>567</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>954</x>
+      <y>1530</y>
+      <w>513</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+8. inserisceScadenzaTurnoCorrente(turno)</panel_attributes>
+    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>954</x>
+      <y>1548</y>
+      <w>513</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+scadenza inserita nel turno corrente</panel_attributes>
+    <additional_attributes>10.0;20.0;550.0;20.0</additional_attributes>
   </element>
 </diagram>
