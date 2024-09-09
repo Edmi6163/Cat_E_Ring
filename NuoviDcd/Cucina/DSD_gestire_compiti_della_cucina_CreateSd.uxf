@@ -219,11 +219,10 @@ fg=#27990b</panel_attributes>
       <x>711</x>
       <y>441</y>
       <w>414</w>
-      <h>45</h>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-create(title?,
-event):SummaryDocument</panel_attributes>
+create(title?)</panel_attributes>
     <additional_attributes>440.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -276,40 +275,6 @@ event):SummaryDocument</panel_attributes>
     <coordinates>
       <x>1278</x>
       <y>531</y>
-      <w>126</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;
-</panel_attributes>
-    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1206</x>
-      <y>567</y>
-      <w>126</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1305</x>
-      <y>576</y>
-      <w>135</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>this.event = event</panel_attributes>
-    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1206</x>
-      <y>630</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
@@ -498,7 +463,7 @@ create</panel_attributes>
     <coordinates>
       <x>1314</x>
       <y>738</y>
-      <w>198</w>
+      <w>261</w>
       <h>27</h>
     </coordinates>
     <panel_attributes>extraRecepi:Arraylist&lt;Recepi&gt;</panel_attributes>
@@ -509,7 +474,7 @@ create</panel_attributes>
     <coordinates>
       <x>1314</x>
       <y>783</y>
-      <w>198</w>
+      <w>261</w>
       <h>27</h>
     </coordinates>
     <panel_attributes>Menù:Arraylist&lt;Menù&gt;</panel_attributes>
@@ -603,7 +568,7 @@ bg=YELLOW</panel_attributes>
     <coordinates>
       <x>1314</x>
       <y>702</y>
-      <w>198</w>
+      <w>270</w>
       <h>27</h>
     </coordinates>
     <panel_attributes>extraPreparation:Arraylist&lt;Preparation&gt;</panel_attributes>

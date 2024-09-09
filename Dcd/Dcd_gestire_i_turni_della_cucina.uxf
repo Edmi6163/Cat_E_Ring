@@ -18,7 +18,7 @@
 - serviceRecurringShiftWorkList:ArrayList&lt;ShiftWork&gt;
 - kitchenShiftWorkList:ArrayList&lt;ShiftWork&gt;
 - kitchenRecurringShiftWorkList:ArrayList&lt;ShiftWork&gt;
-- emergency:Boolean 
+
 --
 +createKitchenShiftWork(date:Date,location:String)
 +removeKitchenShiftWork(shiftWork:ShiftWork)
@@ -55,7 +55,14 @@
 +createRecurrentKitchenShiftWork(shiftWork:ShiftWork)
 +createRecurrentServiceShiftWork(shiftWork:ShiftWork)
 +modifieShiftWorkEmergency(shiftWorkListArrayList&lt;:ShiftWork&gt; ,location:String , date:Date)
-+createServiceShiftWorkList():ArrayList&lt;ShiftWork&gt;</panel_attributes>
++createServiceShiftWorkList():ArrayList&lt;ShiftWork&gt;
+
+
+---
++createServiceshiftWork(date:String,time:String,location?:String)
++addTime(serviceShiftWork:ServiceShiftWork)
++modifieServiceShiftWotk(serviceShiftWork:ServiceShiftWork)
++saveSchema(serviceShiftWork:ServiceShiftWork)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -85,7 +92,7 @@
       <x>675</x>
       <y>1791</y>
       <w>585</w>
-      <h>360</h>
+      <h>396</h>
     </coordinates>
     <panel_attributes>Event
 --
@@ -257,7 +264,6 @@ m1=0..1</panel_attributes>
 - assignTo: String 
 - location:String
 - typeTask:String 
-- reccurring :Boolean
 --
 +getTask(task:Task)
 +setTask(task:Task)
@@ -949,16 +955,19 @@ m1=0..1</panel_attributes>
     </coordinates>
     <panel_attributes>KitchenShiftWorkManager
 --
-+createKitchenShiftWork(date:Date,location:String)
-+removeKitchenShiftWork(shiftWork:ShiftWork)
-+removeGroupKitchenShiftWork(listKitchenShiftWork&lt;ShiftWork&gt;)
-+createKitchenShiftWorkGroup(listKitchenShiftWork&lt;ShiftWork&gt;)
++createKitchenShiftWork(date:String,time:String,location?:String)
++removeKitchenShiftWork(shiftWork:kitchenShiftWork)
++removeGroupKitchenShiftWork(listKitchenShiftWork&lt;kitchenShiftWork&gt;)//da capire se serve
++createKitchenShiftWorkGroup(kitchenShiftWork:KitchenShiftWork)
++createRecurrentKitchenShiftWorkGroup(kitchenShiftWork:KitchenShiftWork)
 +getRecurringKitchenShiftWorkList():ArrayList&lt;ShiftWork&gt;
-+contains(task:Task):Bollean
-+indexOf(shiftWork:shiftWork):int
-+get(index:int): shiftWork
-+createRecurrentKitchenShiftWork(shiftWork:ShiftWork)
-+modifieShiftWorkEmergency(shiftWorkListArrayList&lt;:ShiftWork&gt; ,location:String , date:Date)</panel_attributes>
++modifieReccurringKitchenShiftWotkGroup(date?:String,time?:String,location?:String)
++modifieKitchenShiftWotkGroup(date?:String,time?:String,location?:String)
++addExparation(expire:String)
++getEvent():Event
++createRecurrentKitchenShiftWork(kitchenShiftWork:SitchenShiftWork)
++modifieShiftWorkEmergency(date?:String,time?:String,location?:String)
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1142,8 +1151,7 @@ m1=0..1</panel_attributes>
     <panel_attributes>RecipeManager
 --
 +produced(recepi:Recepi):Boolean
-+addRecepi(recepi:Recepi)
-+assignTask(name:Employer ,surname:Employer , task:Task)</panel_attributes>
++addRecepi(recepi:Recepi)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1316,11 +1324,10 @@ m2=1</panel_attributes>
       <x>2259</x>
       <y>630</y>
       <w>243</w>
-      <h>126</h>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=1
-
 
 (contains) 
 
@@ -1328,6 +1335,19 @@ m1=1
 
 
 </panel_attributes>
-    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>36</x>
+      <y>1350</y>
+      <w>234</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>KitchenShiftWork
+--
+- emergency:Boolean </panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
