@@ -122,8 +122,7 @@ Tempi cottura: numero
 --
 Nome: testo
 Cognome: testo
-Anni di esperienza: numero 
-Esperto :si/no</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -254,8 +253,7 @@ lavora ^</panel_attributes>
 Assegnato a: testo
 Tipo:Preparazione/ricetta
 Tempistica: Data
-Difficoltà: Numero
-Priorità: Numero</panel_attributes>
+note:Testo</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -391,8 +389,8 @@ m2=0..1
     </coordinates>
     <panel_attributes>Turno di servizio
 --
-Data inizio: Testo
-Data fine: Testo
+data:Testo
+ora:testo
 Luogo: Testo
 Tempo aggiuntivo:Testo 
 Ricorrente: sì/no
