@@ -60,6 +60,10 @@ Preparation,note?:String):SummaryDocument.
 +modifieSummaryDocumentTitle(newTitle:String):SummaryDocuemnt
 +add(extraRecipe?:Recipe,extraPreparation:Preparation,note?:String):SummaryDocument.
 +modifie(summaryDocument:SummaryDocument):summaryDocument
++modifie(note:Note):summaryDocument
++modifie(menù:Menù):summaryDocument
++modifie(extraPreparation:Preparation):summaryDocument
++modifie(extraRecepi:Recepi):summaryDocument
 +deleteSd(summeryDocument:Summarydocument):void
 +deleteRece(recepi:Recepi):void
 +deletePrep(preparation:Preparation):void
