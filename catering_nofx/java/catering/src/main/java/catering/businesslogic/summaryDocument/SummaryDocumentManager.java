@@ -7,6 +7,7 @@ import catering.businesslogic.billBoard.BillBoard;
 import catering.businesslogic.event.Event;
 import catering.businesslogic.event.EventInfo;
 import catering.businesslogic.menu.Menu;
+import catering.businesslogic.preparation.Preparation;
 import catering.businesslogic.recipe.Recipe;
 import catering.businesslogic.shiftWorkKitchen.shiftWorkKitchen;
 import catering.businesslogic.task.Task;
@@ -88,21 +89,29 @@ public class SummaryDocumentManager {
     public void setCurrentSummaryDocument(SummaryDocument sd) {
         this.currentSummaryDocument = sd;
     }
-    public void modifySummaryDocumentTitle(SummaryDocument sd, String newTitle) {
-        sd.modifySummaryDocumentTitle(newTitle);
-        notifySummaryDocumentModifie(sd);
+    public void updateTitle(String newTitle) {
+        this.currentSummaryDocument.modifySummaryDocumentTitle(newTitle);
+        notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
-    public void removeSummaryDocumentMenu(SummaryDocument sd, Menu mn) {
-        sd.removeSummaryDoumentMenù(mn);
-        notifySummaryDocumentModifie(sd);
+    public void removeSummaryDocumentMenu( Menu mn) {
+        this.currentSummaryDocument.removeSummaryDoumentMenù(mn);
+        notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
-    public void removeSummaryDocumentRecipe(SummaryDocument sd, Recipe extraRi) {
-        sd.removeSummaryDocumentRecepi(extraRi);
-        notifySummaryDocumentModifie(sd);
+    public void deleteExtraRecipe( Recipe extraRi) {
+        this.currentSummaryDocument.removeSummaryDocumentextraRecepi(extraRi);
+        notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
-    public void removeSummaryDocumentNote(SummaryDocument sd, String note) {
-        sd.removeSummaryDocumentNote(note);
-        notifySummaryDocumentModifie(sd);
+    public void deleteNote( String note) {
+        this.currentSummaryDocument.removeSummaryDocumentNote(note);
+        notifySummaryDocumentModifie(this.currentSummaryDocument);
+    }
+    public void deleteExtraPreparation( Preparation extraPrep) {
+        this.currentSummaryDocument.removeSummaryDocumentExtraPreparation(extraPrep);
+        notifySummaryDocumentModifie(this.currentSummaryDocument);
+    }
+    public void addContentToSummaryDocument(Menu mn, Recipe ri, Preparation prep, String note) {
+        this.currentSummaryDocument.addContentToSummaryDocument(mn, ri, prep, note);
+        notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
 public SummaryDocument selectSummaryDocumentForModify(SummaryDocument sd) throws UseCaseLogicException,SummaryDocumentException {
     User user = CatERing.getInstance().getUserManager().getCurrentUser();
@@ -114,7 +123,9 @@ public SummaryDocument selectSummaryDocumentForModify(SummaryDocument sd) throws
     }
     return sd;
 }
+public SummaryDocument orderedSD() throws UseCaseLogicException,SummaryDocumentException {
 
+}
     public SummaryDocument copySummaryDocument(SummaryDocument sd) throws UseCaseLogicException,SummaryDocumentException{
         User user = CatERing.getInstance().getUserManager().getCurrentUser();
         if(!user.isChef()) {
@@ -184,5 +195,7 @@ public SummaryDocument selectSummaryDocumentForModify(SummaryDocument sd) throws
     }
 
     public void remove(SummaryDocument sd) {
+        this.currentSummaryDocument.removeSummaryDocument(sd);
+        this.notifySummaryDocumentDeleted(sd);
     }
 }
