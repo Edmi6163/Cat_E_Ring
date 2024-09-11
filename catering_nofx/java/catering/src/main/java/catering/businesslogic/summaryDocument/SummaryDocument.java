@@ -1,9 +1,8 @@
 package catering.businesslogic.summaryDocument;
 
 import catering.businesslogic.CatERing;
-import catering.businesslogic.Preparation.Preparation;
-import catering.businesslogic.Preparation.PreparationManager;
-import catering.businesslogic.menu.Menu;
+import catering.businesslogic.preparation.Preparation;
+import catering.businesslogic.preparation.PreparationManager;
 import catering.businesslogic.recipe.Recipe;
 import catering.businesslogic.shiftWorkKitchen.shiftWorkKitchen;
 import catering.businesslogic.task.Task;

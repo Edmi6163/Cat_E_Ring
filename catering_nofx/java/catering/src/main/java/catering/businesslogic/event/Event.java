@@ -1,10 +1,18 @@
 package catering.businesslogic.event;
 
 import catering.businesslogic.summaryDocument.SummaryDocument;
+import catering.businesslogic.user.User;
 
+import java.sql.Date;
 import java.util.ArrayList;
+import java.util.UUID;
 
 public class Event implements EventState {
+    private UUID id;
+    private Date dateStart;
+    private Date dateEnd;
+    private Integer partecipants;
+    private User organizer;
     private ArrayList<SummaryDocument> listSummaryDocument;
     private EventState currentEvent; 
     

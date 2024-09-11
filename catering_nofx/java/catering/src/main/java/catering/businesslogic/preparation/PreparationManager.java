@@ -1,6 +1,4 @@
-package catering.businesslogic.Preparation;
-
-import catering.businesslogic.recipe.Recipe;
+package catering.businesslogic.preparation;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,5 @@
-package catering.businesslogic.Preparation;
+package catering.businesslogic.preparation;
 
-import catering.businesslogic.recipe.Recipe;
 import catering.persistence.PersistenceManager;
 import catering.persistence.ResultHandler;
 

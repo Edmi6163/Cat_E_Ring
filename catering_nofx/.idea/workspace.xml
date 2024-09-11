@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="corrected java configuration">
+    <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="sticking to dcd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/Preparation/Preparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/preparation/Preparation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/Preparation/PreparationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/preparation/PreparationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/event/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/event/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" afterDir="false" />
     </list>
     <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Edmi6163/lab_progetto_Sas.git&quot;,
-    &quot;accountId&quot;: &quot;90e835ff-5666-4f05-89b5-f5db98ebe395&quot;
+    &quot;accountId&quot;: &quot;bf91bc7a-0da4-4295-ae88-47053c8e775e&quot;
   }
 }</component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -76,7 +80,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/popper/Documents/Uni/Terzo_anno /SAS/Git/lab_progetto_Sas/catering_nofx&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/francesco/Documents/Università/3_Anno/SAS/lab_progetto_Sas/catering_nofx&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -192,7 +196,8 @@
       <workItem from="1721460654098" duration="14341000" />
       <workItem from="1721575377480" duration="7555000" />
       <workItem from="1726010555320" duration="2887000" />
-      <workItem from="1726062950713" duration="913000" />
+      <workItem from="1726062843493" duration="348000" />
+      <workItem from="1726063206005" duration="4107000" />
     </task>
     <task id="LOCAL-00001" summary="corrected java configuration">
       <option name="closed" value="true" />
@@ -202,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720794795222</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sticking to dcd">
+      <option name="closed" value="true" />
+      <created>1726067313862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726067313862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +223,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="corrected java configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected java configuration" />
+    <MESSAGE value="sticking to dcd" />
+    <option name="LAST_COMMIT_MESSAGE" value="sticking to dcd" />
   </component>
 </project>
