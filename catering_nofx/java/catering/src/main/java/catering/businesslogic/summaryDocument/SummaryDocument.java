@@ -1,6 +1,8 @@
 package catering.businesslogic.summaryDocument;
 
 import catering.businesslogic.CatERing;
+import catering.businesslogic.Preparation.Preparation;
+import catering.businesslogic.Preparation.PreparationManager;
 import catering.businesslogic.menu.Menu;
 import catering.businesslogic.recipe.Recipe;
 import catering.businesslogic.shiftWorkKitchen.shiftWorkKitchen;
@@ -15,14 +17,14 @@ public class SummaryDocument {
   private String title;
   private ArrayList<shiftWorkKitchen> shiftWork;
   private ArrayList<Recipe> menu;
-  private String recipe;
-  private boolean advancedPreparation;
-  private Integer quantityForAdvancedPreparation;
+  private Recipe recipe;
+  private String note;
   private ArrayList<SummaryDocument> listSummaryDocument;
   private ArrayList<Task> listTasks;
   private boolean isUse;
+  private Preparation preparation;
   private User owner;
-
+  private PreparationManager preparationMgr = new PreparationManager();
   public int getId() {
     return id;
   }
@@ -32,16 +34,12 @@ public class SummaryDocument {
   }
 
   private int id;
-  public SummaryDocument(String title, ArrayList<shiftWorkKitchen> shiftWork, ArrayList<Recipe> menu, String recipe, boolean advancedPreparation, Integer quantityForAdvancedPreparation, ArrayList<Task> listTask) {
+  public SummaryDocument(String title, ArrayList<Recipe> menu, Recipe extraRecepi,Preparation preparation) {
     this.title = title;
-    this.shiftWork = shiftWork != null ? shiftWork : new ArrayList<>();
     this.menu = menu != null ? menu : new ArrayList<>();
     this.recipe = recipe;
-    this.advancedPreparation = advancedPreparation;
-    this.quantityForAdvancedPreparation = quantityForAdvancedPreparation;
     this.listSummaryDocument = new ArrayList<>();
     this.isUse = false;
-    this.listTasks = listTask != null ? listTask : new ArrayList<>();
     this.owner = CatERing.getInstance().getUserManager().getCurrentUser();  // Set the owner to the current user
   }
 
@@ -70,7 +68,7 @@ public class SummaryDocument {
     this.menu = menu;
   }
 
-  public String getRecipe() {
+  public Recipe getRecipe() {
     return recipe;
   }
 

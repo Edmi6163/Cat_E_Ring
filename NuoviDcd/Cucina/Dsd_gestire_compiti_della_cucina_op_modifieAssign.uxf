@@ -1,37 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <help_text>___// Uncomment the following line to change the fontsize and font:
-// fontsize=14
-// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////
-// Welcome to UMLet!
-//
-// Double-click on elements to add them to the diagram, or to copy them
-// Edit elements by modifying the text in this panel
-// Hold Cmd to select multiple elements
-// Use Cmd+mouse to select via lasso
-//
-// Use +/- or Cmd+mouse wheel to zoom
-// Drag a whole relation at its central square icon
-//
-// Press Cmd+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
-// Edit the files in the "palettes" directory to create your own element palettes
-//
-// Select "Custom Elements &gt; New..." to create new element types
-//////////////////////////////////////////////////////////////////////////////////////////////
-
-
-// This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>9</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>81</x>
-      <y>108</y>
-      <w>81</w>
-      <h>54</h>
+      <x>90</x>
+      <y>120</y>
+      <w>90</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -39,10 +15,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>81</x>
-      <y>81</y>
-      <w>54</w>
-      <h>27</h>
+      <x>90</x>
+      <y>90</y>
+      <w>60</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>UI</panel_attributes>
     <additional_attributes/>
@@ -50,10 +26,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>738</x>
-      <y>108</y>
-      <w>180</w>
-      <h>54</h>
+      <x>820</x>
+      <y>120</y>
+      <w>200</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>userMgr:
 UserManager</panel_attributes>
@@ -62,22 +38,22 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>171</y>
-      <w>459</w>
-      <h>36</h>
+      <x>120</x>
+      <y>190</y>
+      <w>510</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-assignTaskTo(kitchenShiftWork],cook?,note?)</panel_attributes>
+modifieAssignement(kitchenShiftWork,cook?,note?)</panel_attributes>
     <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>153</y>
-      <w>27</w>
-      <h>1071</h>
+      <x>120</x>
+      <y>170</y>
+      <w>30</w>
+      <h>1190</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1170.0</additional_attributes>
@@ -85,10 +61,10 @@ assignTaskTo(kitchenShiftWork],cook?,note?)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>189</y>
-      <w>297</w>
-      <h>36</h>
+      <x>600</x>
+      <y>210</y>
+      <w>330</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 getCurrentUser()</panel_attributes>
@@ -97,10 +73,10 @@ getCurrentUser()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>216</y>
-      <w>297</w>
-      <h>36</h>
+      <x>600</x>
+      <y>240</y>
+      <w>330</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 user</panel_attributes>
@@ -109,10 +85,10 @@ user</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>225</y>
-      <w>450</w>
-      <h>36</h>
+      <x>120</x>
+      <y>250</y>
+      <w>500</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throws UseCaseLogicExcpetion
@@ -122,10 +98,10 @@ fg=RED</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>801</x>
-      <y>153</y>
-      <w>36</w>
-      <h>1053</h>
+      <x>890</x>
+      <y>170</y>
+      <w>40</w>
+      <h>1170</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>20.0;10.0;10.0;1150.0</additional_attributes>
@@ -133,10 +109,10 @@ fg=RED</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>531</x>
-      <y>162</y>
-      <w>36</w>
-      <h>1044</h>
+      <x>590</x>
+      <y>180</y>
+      <w>40</w>
+      <h>1160</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>20.0;10.0;10.0;1140.0</additional_attributes>
@@ -144,10 +120,10 @@ fg=RED</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>981</x>
-      <y>108</y>
-      <w>180</w>
-      <h>54</h>
+      <x>1090</x>
+      <y>120</y>
+      <w>200</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>taskMgr:
 TaskMgr</panel_attributes>
@@ -156,22 +132,22 @@ TaskMgr</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>252</y>
-      <w>540</w>
-      <h>36</h>
+      <x>600</x>
+      <y>280</y>
+      <w>600</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-assignTaskTo(kitchenShiftWork,cook?,note?)</panel_attributes>
+modifie(kitchenShiftWork,cook?,note?)</panel_attributes>
     <additional_attributes>10.0;20.0;580.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1053</x>
-      <y>153</y>
-      <w>36</w>
-      <h>1035</h>
+      <x>1170</x>
+      <y>170</y>
+      <w>40</w>
+      <h>1150</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>20.0;10.0;10.0;1130.0</additional_attributes>
@@ -179,10 +155,10 @@ assignTaskTo(kitchenShiftWork,cook?,note?)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1359</x>
-      <y>126</y>
-      <w>216</w>
-      <h>27</h>
+      <x>1510</x>
+      <y>140</y>
+      <w>240</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>taskAssigned:ArrayList&lt;Task&gt;</panel_attributes>
     <additional_attributes/>
@@ -190,10 +166,10 @@ assignTaskTo(kitchenShiftWork,cook?,note?)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1485</x>
-      <y>144</y>
-      <w>27</w>
-      <h>1080</h>
+      <x>1650</x>
+      <y>160</y>
+      <w>30</w>
+      <h>1200</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1180.0</additional_attributes>
@@ -201,12 +177,12 @@ assignTaskTo(kitchenShiftWork,cook?,note?)</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>225</x>
+      <x>250</x>
       <y>0</y>
-      <w>360</w>
-      <h>81</h>
+      <w>400</w>
+      <h>90</h>
     </coordinates>
-    <panel_attributes>7.assignTask
+    <panel_attributes>9.modifieAssignment
 bg=RED</panel_attributes>
     <additional_attributes/>
   </element>
@@ -214,9 +190,9 @@ bg=RED</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>0</x>
-      <y>216</y>
-      <w>2304</w>
-      <h>918</h>
+      <y>240</y>
+      <w>2560</w>
+      <h>1020</h>
     </coordinates>
     <panel_attributes>alt 
 
@@ -238,10 +214,10 @@ fg=ORANGE</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>468</x>
-      <y>108</y>
-      <w>180</w>
-      <h>54</h>
+      <x>520</x>
+      <y>120</y>
+      <w>200</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>sumDocMgr:
 SummaryDocumentManager</panel_attributes>
@@ -250,22 +226,22 @@ SummaryDocumentManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1035</x>
-      <y>324</y>
-      <w>270</w>
-      <h>36</h>
+      <x>1120</x>
+      <y>360</y>
+      <w>350</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-						assign(kitchenShiftWork,cook?,note?)</panel_attributes>
-    <additional_attributes>40.0;20.0;250.0;20.0</additional_attributes>
+						modifieAssign(kitchenShiftWork,cook?,note?)</panel_attributes>
+    <additional_attributes>70.0;20.0;280.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1215</x>
-      <y>117</y>
-      <w>90</w>
-      <h>27</h>
+      <x>1350</x>
+      <y>130</y>
+      <w>100</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>task:Task</panel_attributes>
     <additional_attributes/>
@@ -273,10 +249,10 @@ SummaryDocumentManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1251</x>
-      <y>135</y>
-      <w>27</w>
-      <h>495</h>
+      <x>1390</x>
+      <y>150</y>
+      <w>30</w>
+      <h>550</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;530.0</additional_attributes>
@@ -284,10 +260,10 @@ SummaryDocumentManager</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>1215</x>
-      <y>351</y>
-      <w>243</w>
-      <h>99</h>
+      <x>1350</x>
+      <y>390</y>
+      <w>270</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>IF cook!=NULL
 fg=#761C8C
@@ -301,10 +277,10 @@ lw=2
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>1215</x>
-      <y>450</y>
-      <w>243</w>
-      <h>90</h>
+      <x>1350</x>
+      <y>500</y>
+      <w>270</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>IF note!=NULL
 fg=#761C8C
@@ -318,10 +294,10 @@ lw=2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1251</x>
-      <y>378</y>
-      <w>198</w>
-      <h>72</h>
+      <x>1390</x>
+      <y>420</y>
+      <w>220</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 this.cook=cook</panel_attributes>
@@ -330,10 +306,10 @@ this.cook=cook</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1251</x>
-      <y>468</y>
-      <w>198</w>
-      <h>72</h>
+      <x>1390</x>
+      <y>520</y>
+      <w>220</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 this.note=note</panel_attributes>
@@ -342,10 +318,10 @@ this.note=note</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1251</x>
-      <y>540</y>
-      <w>243</w>
-      <h>72</h>
+      <x>1390</x>
+      <y>600</y>
+      <w>270</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 this.kitchenShiftWork=
@@ -355,10 +331,10 @@ kitchenShiftWokr</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1053</x>
-      <y>594</y>
-      <w>225</w>
-      <h>36</h>
+      <x>1170</x>
+      <y>660</y>
+      <w>250</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 task</panel_attributes>
@@ -367,10 +343,10 @@ task</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1062</x>
-      <y>621</y>
-      <w>450</w>
-      <h>36</h>
+      <x>1180</x>
+      <y>690</y>
+      <w>500</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 add(task)</panel_attributes>

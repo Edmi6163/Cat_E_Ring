@@ -53,7 +53,6 @@ Preparation,note?:String):SummaryDocument.
     <panel_attributes>SummaryDocument
 --
 - title:string
-- recipe: String 
 - note :String
 --
 +createt(title?:String):SummaryDocument
@@ -90,7 +89,7 @@ SummaryDocument
     </coordinates>
     <panel_attributes>Task
 --
-- assignedTo: String
+
 - typeTask:boolean //inserire business rule
 - difficulty :int
 - recurring:Boolean
@@ -101,29 +100,6 @@ SummaryDocument
 +orderTaskByPriority(task:Task)ArrayList&lt;Task&gt;:
 +orderTaskByTiming(task:Task):ArrayList&lt;Task&gt;
 +assignTask(typeTask:boolean,name?:Employer , surname?:Employer, shiftWork:ShiftWord,task:Task ):ArrayList&lt;Task&gt;
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>2002</x>
-      <y>1638</y>
-      <w>196</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>Employer
---
--name :String
--surname :String
-/da valutare se servono queste info
--expert:boolean
--taskAssigned :boolean
---
-+getName():String
-+setName(name:String):void
-+getSurname():String
-+setSurname(surname:String):void
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -315,19 +291,6 @@ m1=0..n</panel_attributes>
 currentSummaryDocument
 m1=0..1</panel_attributes>
     <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1925</x>
-      <y>1302</y>
-      <w>63</w>
-      <h>84</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-(contains)
-m1=0..1</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -777,30 +740,6 @@ evento</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2016</x>
-      <y>1365</y>
-      <w>21</w>
-      <h>287</h>
-    </coordinates>
-    <panel_attributes>lt=-
-</panel_attributes>
-    <additional_attributes>10.0;390.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1925</x>
-      <y>1358</y>
-      <w>112</w>
-      <h>28</h>
-    </coordinates>
-    <panel_attributes>lt=-
-</panel_attributes>
-    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
       <x>707</x>
@@ -1035,12 +974,12 @@ shiftWork:ShiftWord,task:Task ):ArrayList&lt;Task&gt;
     <id>Relation</id>
     <coordinates>
       <x>1253</x>
-      <y>1764</y>
-      <w>1967</w>
-      <h>35</h>
+      <y>1778</y>
+      <w>1974</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;30.0;2790.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;2800.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -1596,5 +1535,247 @@ itemPreparation</panel_attributes>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>1484</y>
+      <w>252</w>
+      <h>161</h>
+    </coordinates>
+    <panel_attributes>Cook
+--
+
+-name :String
+-surname :String
+/da valutare se servono queste info
+-expert:boolean
+-taskAssigned :boolean
+--
++getEmployer():Employer
++avaibleKitchen():boolean
++getEmployerExpert():Employer
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2289</x>
+      <y>1281</y>
+      <w>238</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Somelier
+--
+
+-name :String
+-surname :String
+/da valutare se servono queste info
+-expert:boolean
+-taskAssigned :boolean
+--
++getEmployer():Employer
++getEmployerExpert():Employer
+-somelierAvailble():Boolean
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2555</x>
+      <y>1281</y>
+      <w>252</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>DishWasher
+--
+
+-name :String
+-surname :String
+/da valutare se servono queste info
+-expert:boolean
+-taskAssigned :boolean
+--
++getEmployer():Employer
++getEmployerExpert():Employer
+-dishWasherAvailble():Boolean
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2849</x>
+      <y>1281</y>
+      <w>252</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>waiter
+--
+
+-name :String
+-surname :String
+/da valutare se servono queste info
+-expert:boolean
+-taskAssigned :boolean
+--
++getEmployer():Employer
++getEmployerExpert():Employer
+-waiterAvailble():Boolean
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2471</x>
+      <y>1484</y>
+      <w>182</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>EmployeDecorator
+--
++getEmployer()
++getEmployerExpert():Employer
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2576</x>
+      <y>1400</y>
+      <w>112</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+(extends)
+layer=2</panel_attributes>
+    <additional_attributes>10.0;120.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2450</x>
+      <y>1400</y>
+      <w>98</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+(extends)
+layer=2</panel_attributes>
+    <additional_attributes>110.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2345</x>
+      <y>1610</y>
+      <w>119</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+(extends)
+layer=2</panel_attributes>
+    <additional_attributes>150.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2758</x>
+      <y>1505</y>
+      <w>21</w>
+      <h>196</h>
+    </coordinates>
+    <panel_attributes>
+layer=2</panel_attributes>
+    <additional_attributes>10.0;260.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2422</x>
+      <y>1680</y>
+      <w>322</w>
+      <h>161</h>
+    </coordinates>
+    <panel_attributes>Employer
+--
+
+-name :String
+-surname :String
+/da valutare se servono queste info
+-expert:boolean
+-taskAssigned :boolean
+--
++getEmployerExpert():Employer
++assignTask(name:Employer,surname:Employer,task:Task)
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2737</x>
+      <y>1743</y>
+      <w>154</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+currentTask
+m1=0..1
+layer=2</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2877</x>
+      <y>1694</y>
+      <w>189</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>EmployerManager
+--
+
+-name :String
+-surname :String
+/da valutare se servono queste info
+-expert:boolean
+-taskAssigned :boolean
+--
++cookAvailble():Boolean
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>2072</x>
+      <y>1246</y>
+      <w>1141</w>
+      <h>630</h>
+    </coordinates>
+    <panel_attributes>EmployerManagement
+--
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1939</x>
+      <y>1260</y>
+      <w>252</w>
+      <h>238</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+m2=0..n
+m1=0..n
+  done</panel_attributes>
+    <additional_attributes>320.0;320.0;320.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>

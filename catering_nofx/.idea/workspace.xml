@@ -5,41 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="corrected java configuration">
-      <change beforePath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_compiti_cucina.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_compiti_cucina.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_turni_della_cucina.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_turni_della_cucina.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_addItem.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dsd/Dsd_gestire_compiti_della_cucina_op_addItem.uxf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/Preparation/Preparation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/Preparation/PreparationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing1c.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing1c.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3_4_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3_4_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing7.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing8.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing9.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERingTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERingTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatRingUC_CompitiCucina.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatRingUC_CompitiCucina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatRingUc_SuccesSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatRingUc_SuccesSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/TaskManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoardManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/employer/Employer.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/employer/Employer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocumentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocumentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/TaskManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/TaskManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TEST/Test1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TEST/TestCatERingSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TEST/TestCatERingTasks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TEST/TestCatRingUC_CompitiCucina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TEST/TestCatRingUc_SuccesSequence.class" beforeDir="false" />
     </list>
-    <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="">
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing1d.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing1d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing9.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERingTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERingTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/billBoard/BillBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/billBoard/BillBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" afterDir="false" />
-    </list>
+    <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,59 +24,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Popper002"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Edmi6163/lab_progetto_Sas.git",
+    "accountId": "90e835ff-5666-4f05-89b5-f5db98ebe395"
+  }
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERingTasks.java">
-      <ranges>
-        <range start1="11" end1="11" start2="11" end2="13" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="16" end1="16" start2="18" end2="19" changelist="49be8a0c-0250-4a7f-950f-cef280fe7580" />
-        <range start1="49" end1="51" start2="52" end2="54" changelist="49be8a0c-0250-4a7f-950f-cef280fe7580" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java">
-      <ranges>
-        <range start1="8" end1="9" start2="8" end2="8" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="22" end1="23" start2="21" end2="22" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="24" end1="24" start2="23" end2="26" changelist="49be8a0c-0250-4a7f-950f-cef280fe7580" />
-        <range start1="25" end1="25" start2="27" end2="39" changelist="49be8a0c-0250-4a7f-950f-cef280fe7580" />
-        <range start1="30" end1="31" start2="44" end2="45" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="33" end1="34" start2="47" end2="48" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="36" end1="37" start2="50" end2="53" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="38" end1="39" start2="54" end2="55" changelist="49be8a0c-0250-4a7f-950f-cef280fe7580" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java">
-      <ranges>
-        <range start1="18" end1="18" start2="18" end2="20" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="37" end1="39" start2="39" end2="40" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="44" end1="44" start2="45" end2="47" changelist="49be8a0c-0250-4a7f-950f-cef280fe7580" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing9.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="4" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="5" end1="5" start2="7" end2="9" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="8" end1="9" start2="12" end2="13" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="13" end1="13" start2="17" end2="23" changelist="49be8a0c-0250-4a7f-950f-cef280fe7580" />
-        <range start1="15" end1="17" start2="25" end2="29" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="18" end1="18" start2="30" end2="31" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="20" end1="22" start2="33" end2="36" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="23" end1="24" start2="37" end2="38" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="27" end1="28" start2="41" end2="42" changelist="49be8a0c-0250-4a7f-950f-cef280fe7580" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -109,44 +56,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Test1a.executor": "Run",
-    "Application.TestCatERing.executor": "Run",
-    "Application.TestCatERing1.executor": "Run",
-    "Application.TestCatERing10.executor": "Run",
-    "Application.TestCatERing1a.executor": "Run",
-    "Application.TestCatERing1b.executor": "Run",
-    "Application.TestCatERing1c.executor": "Run",
-    "Application.TestCatERing1d.executor": "Run",
-    "Application.TestCatERing2.executor": "Run",
-    "Application.TestCatERing3_4_5.executor": "Run",
-    "Application.TestCatERing7.executor": "Run",
-    "Application.TestCatERing8.executor": "Run",
-    "Application.TestCatERing9.executor": "Run",
-    "Application.TestCatERingTasks.executor": "Run",
-    "Application.TestCatEring1b.executor": "Run",
-    "Application.TestCatRingUC_CompitiCucina.executor": "Run",
-    "Application.TestCatRingUc_SuccesSequence.executor": "Run",
-    "Application.catering.TestCompitiCucina.TestCatRingUc_SuccesSequence.executor": "Run",
-    "Application.catering.persistence.TestCatERingTasks.executor": "Run",
-    "Docker.database.adminer: Compose Deployment.executor": "Run",
-    "Docker.database.db: Compose Deployment.executor": "Run",
-    "Docker.database: Compose Deployment.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/popper/Documents/Uni/Terzo_anno /SAS/Git/lab_progetto_Sas/catering_nofx",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Test1a.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing1a.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing1b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing1c.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing1d.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing3_4_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERingTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatEring1b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatRingUC_CompitiCucina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatRingUc_SuccesSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.catering.TestCompitiCucina.TestCatRingUc_SuccesSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.catering.persistence.TestCatERingTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.database.adminer: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.database.db: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.database: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/popper/Documents/Uni/Terzo_anno /SAS/Git/lab_progetto_Sas/catering_nofx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.TestCatERing2">
     <configuration name="TestCatERing1a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="catering.TestCompitiCucina.TestCatERing1a" />
@@ -232,8 +179,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -252,6 +199,7 @@
       <workItem from="1721153804752" duration="9000" />
       <workItem from="1721460654098" duration="14341000" />
       <workItem from="1721575377480" duration="7555000" />
+      <workItem from="1726010555320" duration="2887000" />
     </task>
     <task id="LOCAL-00001" summary="corrected java configuration">
       <option name="closed" value="true" />
