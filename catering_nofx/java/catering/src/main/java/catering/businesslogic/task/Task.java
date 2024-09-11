@@ -88,22 +88,6 @@ public class Task {
 		this.priority = priority;
 	}
 
-	// Static methods for ordering tasks
-	public static ArrayList<Task> orderTaskByDifficulty(ArrayList<Task> tasks) {
-		Collections.sort(tasks, Comparator.comparingInt(Task::getDifficulty));
-		return tasks;
-	}
-
-	public static ArrayList<Task> orderTaskByPriority(ArrayList<Task> tasks) {
-		Collections.sort(tasks, Comparator.comparing(Task::isTypeTask).reversed());
-		return tasks;
-	}
-
-	public static ArrayList<Task> orderTaskByTiming(ArrayList<Task> tasks) {
-		Collections.sort(tasks, Comparator.comparing(task -> task.getShiftWork().getStartingDate()));
-		return tasks;
-	}
-
 	public static ArrayList<Task> assignTask(boolean typeTask, Employer name, Employer surname, shiftWorkKitchen shiftWork, Task task) {
 		ArrayList<Task> tasks = new ArrayList<>();
 		String assignedTo = (name != null ? name.toString() : "") + " " + (surname != null ? surname.toString() : "").trim();

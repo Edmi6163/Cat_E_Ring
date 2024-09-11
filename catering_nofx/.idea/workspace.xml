@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="sticking to dcd">
+      <change beforePath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_compiti_cucina.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_compiti_cucina.uxf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" afterDir="false" />
     </list>
     <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
     <option name="SHOW_DIALOG" value="false" />

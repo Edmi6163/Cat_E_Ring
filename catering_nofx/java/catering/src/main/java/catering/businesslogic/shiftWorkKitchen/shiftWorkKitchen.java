@@ -7,21 +7,25 @@ import java.sql.Time;
 import java.util.ArrayList;
 
 public class shiftWorkKitchen {
-  public Date getStartingDate() {
-    return startingDate;
+
+  public String location;
+  public Boolean recurrent;
+  public Boolean emergency = false;
+  public Boolean availability;
+  public String expirationAvailability;
+  public String note;
+
+
+  public shiftWorkKitchen(String location, Boolean recurrent, Boolean emergency, Boolean availability, String expirationAvailability, String note) {
+    this.location = location;
+    this.recurrent = recurrent;
+    this.emergency = emergency;
+    this.availability = availability;
+    this.expirationAvailability = expirationAvailability;
+    this.note = note;
   }
 
-  public void setStartingDate(Date startingDate) {
-    this.startingDate = startingDate;
-  }
 
-  public Date getEndingDate() {
-    return endingDate;
-  }
-
-  public void setEndingDate(Date endingDate) {
-    this.endingDate = endingDate;
-  }
 
   public String getLocation() {
     return location;
@@ -31,27 +35,37 @@ public class shiftWorkKitchen {
     this.location = location;
   }
 
-  public Time getLowerBoundInitShift() {
-    return lowerBoundInitShift;
+  public Boolean getRecurrent() {
+    return recurrent;
   }
 
-  public void setLowerBoundInitShift(Time lowerBoundInitShift) {
-    this.lowerBoundInitShift = lowerBoundInitShift;
+  public void setRecurrent(Boolean recurrent) {
+    this.recurrent = recurrent;
   }
 
-  public Time getUpperBoundInitShift() {
-    return upperBoundInitShift;
+  public Boolean getEmergency() {
+    return emergency;
   }
 
-  public void setUpperBoundInitShift(Time upperBoundInitShift) {
-    this.upperBoundInitShift = upperBoundInitShift;
+  public void setEmergency(Boolean emergency) {
+    this.emergency = emergency;
   }
 
-  public Date startingDate;
-  public Date endingDate;
-  public String location;
-  public Time lowerBoundInitShift;
-  public Time upperBoundInitShift;
+  public Boolean getAvailability() {
+    return availability;
+  }
+
+  public void setAvailability(Boolean availability) {
+    this.availability = availability;
+  }
+
+  public String getExpirationAvailability() {
+    return expirationAvailability;
+  }
+
+  public void setExpirationAvailability(String expirationAvailability) {
+    this.expirationAvailability = expirationAvailability;
+  }
 
   public String getNote() {
     return note;
@@ -61,44 +75,5 @@ public class shiftWorkKitchen {
     this.note = note;
   }
 
-  private String note;
-  private ArrayList<Task> tasks = new ArrayList<>();
-
-  public ArrayList<shiftWorkKitchen> getLisSHiftWork() {
-    return lisSHiftWork;
-  }
-
-
-
-  public void setLisSHiftWork(ArrayList<shiftWorkKitchen> lisSHiftWork) {
-    this.lisSHiftWork = lisSHiftWork;
-  }
-
-
-  public ArrayList<shiftWorkKitchen>setTasksList(ArrayList<shiftWorkKitchen> tasks) {
-    this.lisSHiftWork = tasks;
-    return this.lisSHiftWork;
-  }
-
-  private ArrayList<shiftWorkKitchen> lisSHiftWork = new ArrayList<>();
-
-  public shiftWorkKitchen(Date date, Date date2, String location, Time lowerBoundInitShift, Time upperBoundInitShift ,String note,ArrayList<Task>task) {
-    this.startingDate =  date;
-    this.endingDate =  date2;
-    this.location = location;
-    this.lowerBoundInitShift = lowerBoundInitShift;
-    this.upperBoundInitShift = upperBoundInitShift;
-    this.tasks =task;
-    this.lisSHiftWork = new ArrayList<>();
-    this.note = note;
-  }
-
-  public void addTask(Task task) {
-    tasks.add(task);
-  }
-
-  public void removeTask(Task task) {
-    tasks.remove(task);
-  }
-}
+ }
 

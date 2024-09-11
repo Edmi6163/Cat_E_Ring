@@ -17,12 +17,77 @@ public class ShiftWorkManager {
   private Date endingDate;
   private String location;
   private Time lowerBoundInitShift;
+
+
   private Time upperBoundInitShift;
   private Boolean emergency;
   private shiftWorkKitchen shiftWork ;
 
-  public ShiftWorkManager(){
-    this.shiftWork = new shiftWorkKitchen(null,null,null,null,null,null,null); // Initialize shiftWork
+  public ShiftWorkManager(Date startingDate, Date endingDate, String location, Time lowerBoundInitShift, Time upperBoundInitShift, Boolean emergency, shiftWorkKitchen shiftWork) {
+    this.startingDate = startingDate;
+    this.endingDate = endingDate;
+    this.location = location;
+    this.lowerBoundInitShift = lowerBoundInitShift;
+    this.upperBoundInitShift = upperBoundInitShift;
+    this.emergency = emergency;
+    this.shiftWork = shiftWork;
+  }
+
+
+  public Date getStartingDate() {
+    return startingDate;
+  }
+
+  public void setStartingDate(Date startingDate) {
+    this.startingDate = startingDate;
+  }
+
+  public Date getEndingDate() {
+    return endingDate;
+  }
+
+  public void setEndingDate(Date endingDate) {
+    this.endingDate = endingDate;
+  }
+
+  public String getLocation() {
+    return location;
+  }
+
+  public void setLocation(String location) {
+    this.location = location;
+  }
+
+  public Time getLowerBoundInitShift() {
+    return lowerBoundInitShift;
+  }
+
+  public void setLowerBoundInitShift(Time lowerBoundInitShift) {
+    this.lowerBoundInitShift = lowerBoundInitShift;
+  }
+
+  public Time getUpperBoundInitShift() {
+    return upperBoundInitShift;
+  }
+
+  public void setUpperBoundInitShift(Time upperBoundInitShift) {
+    this.upperBoundInitShift = upperBoundInitShift;
+  }
+
+  public Boolean getEmergency() {
+    return emergency;
+  }
+
+  public void setEmergency(Boolean emergency) {
+    this.emergency = emergency;
+  }
+
+  public shiftWorkKitchen getShiftWork() {
+    return shiftWork;
+  }
+
+  public void setShiftWork(shiftWorkKitchen shiftWork) {
+    this.shiftWork = shiftWork;
   }
 
   @Override
@@ -47,17 +112,6 @@ public class ShiftWorkManager {
     task.addTask(task);
     bb.addTaskAssogmed(task, name,surname);
     return task.getTasks();
-  }
-  public ArrayList<shiftWorkKitchen> setListShiftworkKitchen(ArrayList<shiftWorkKitchen>listShiftworkKitchen) {
-    return shiftWork.setTasksList(listShiftworkKitchen);
-  }
-
-  public ArrayList<shiftWorkKitchen> lookUpToKitchenShiftWorkList() throws UseCaseLogicException{
-    User user = CatERing.getInstance().getUserManager().getCurrentUser();
-    if(!user.isChef()) {
-      throw new UseCaseLogicException();
-    }
-    return  shiftWork.getLisSHiftWork();
   }
 
 }
