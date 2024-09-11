@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>14</zoom_level>
+  <zoom_level>17</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1204</x>
-      <y>630</y>
-      <w>280</w>
-      <h>84</h>
+      <x>1037</x>
+      <y>357</y>
+      <w>340</w>
+      <h>102</h>
     </coordinates>
-    <panel_attributes>SWM:
-ShiftWorkManager</panel_attributes>
+    <panel_attributes>KSWM:
+KitchenShiftWorkManager</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
-      <y>686</y>
-      <w>42</w>
-      <h>952</h>
+      <x>323</x>
+      <y>425</y>
+      <w>51</w>
+      <h>1156</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;660.0</additional_attributes>
@@ -27,22 +27,22 @@ ShiftWorkManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>756</y>
-      <w>868</w>
-      <h>56</h>
+      <x>255</x>
+      <y>510</y>
+      <w>1037</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-addTimeToServiceShift(serviceShift)</panel_attributes>
-    <additional_attributes>10.0;20.0;600.0;20.0</additional_attributes>
+modifyShiftWorkEmergency(date?:String,time?:String,location?:String,emergency?:Boolean)</panel_attributes>
+    <additional_attributes>50.0;20.0;550.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1316</x>
-      <y>714</y>
-      <w>42</w>
-      <h>980</h>
+      <x>1173</x>
+      <y>459</y>
+      <w>51</w>
+      <h>1190</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;680.0</additional_attributes>
@@ -50,10 +50,10 @@ addTimeToServiceShift(serviceShift)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>854</y>
-      <w>714</w>
-      <h>56</h>
+      <x>340</x>
+      <y>629</y>
+      <w>867</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throws UseCaseLogicExcpetion</panel_attributes>
@@ -62,35 +62,35 @@ throws UseCaseLogicExcpetion</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
-      <y>1484</y>
-      <w>742</w>
-      <h>56</h>
+      <x>323</x>
+      <y>1394</y>
+      <w>901</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-NewKitchenShiftWork</panel_attributes>
+KitchenShiftWokOnEmergency</panel_attributes>
     <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>2016</x>
-      <y>630</y>
-      <w>280</w>
-      <h>84</h>
+      <x>2023</x>
+      <y>357</y>
+      <w>340</w>
+      <h>102</h>
     </coordinates>
-    <panel_attributes>ShiftWorkReceiver.
-currentShiftWorkReceiver
-:ShiftWorkReceiver</panel_attributes>
+    <panel_attributes>KitchenShiftWorkReceiver.
+currentKitchenShiftWork
+:KicthenShiftWork</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2128</x>
-      <y>700</y>
-      <w>42</w>
-      <h>994</h>
+      <x>2159</x>
+      <y>442</y>
+      <w>51</w>
+      <h>1207</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;690.0</additional_attributes>
@@ -98,10 +98,10 @@ currentShiftWorkReceiver
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1554</x>
-      <y>812</y>
-      <w>28</w>
-      <h>336</h>
+      <x>1649</x>
+      <y>578</y>
+      <w>34</w>
+      <h>408</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -109,34 +109,34 @@ currentShiftWorkReceiver
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>882</x>
-      <y>476</y>
-      <w>392</w>
-      <h>112</h>
+      <x>646</x>
+      <y>170</y>
+      <w>1122</w>
+      <h>136</h>
     </coordinates>
-    <panel_attributes>1. addTimeToService
+    <panel_attributes>2. modifyShiftWorkEmergency(date?:String,time?:String,location?:String,emergency?:=Boolean)
 bg=RED</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1722</x>
-      <y>910</y>
-      <w>280</w>
-      <h>98</h>
+      <x>1853</x>
+      <y>697</y>
+      <w>289</w>
+      <h>119</h>
     </coordinates>
-    <panel_attributes>this.time=serviceShift.time
+    <panel_attributes>this.emergency=true
 </panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1568</x>
-      <y>896</y>
-      <w>196</w>
-      <h>56</h>
+      <x>1666</x>
+      <y>680</y>
+      <w>238</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
@@ -144,10 +144,10 @@ bg=RED</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1554</x>
-      <y>952</y>
-      <w>210</w>
-      <h>56</h>
+      <x>1649</x>
+      <y>748</y>
+      <w>255</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 </panel_attributes>
@@ -156,22 +156,22 @@ bg=RED</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1316</x>
-      <y>1190</y>
-      <w>854</w>
-      <h>56</h>
+      <x>1173</x>
+      <y>1037</y>
+      <w>1037</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-updateServiceShiftWorCreated(NewKitchenShiftWork)</panel_attributes>
+updateKitchenShiftWorkEmergencyModify(kShiftWork&lt;ShiftWork&gt;) </panel_attributes>
     <additional_attributes>10.0;20.0;590.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>574</x>
-      <y>616</y>
-      <w>126</w>
-      <h>84</h>
+      <x>272</x>
+      <y>340</y>
+      <w>153</w>
+      <h>102</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -179,10 +179,10 @@ updateServiceShiftWorCreated(NewKitchenShiftWork)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>574</x>
-      <y>574</y>
-      <w>84</w>
-      <h>42</h>
+      <x>272</x>
+      <y>289</y>
+      <w>102</w>
+      <h>51</h>
     </coordinates>
     <panel_attributes>UI</panel_attributes>
     <additional_attributes/>
@@ -190,33 +190,33 @@ updateServiceShiftWorCreated(NewKitchenShiftWork)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1470</x>
-      <y>770</y>
-      <w>196</w>
-      <h>42</h>
+      <x>1547</x>
+      <y>527</y>
+      <w>238</w>
+      <h>51</h>
     </coordinates>
-    <panel_attributes>ShiftWork</panel_attributes>
+    <panel_attributes>KitchenShiftWork</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1316</x>
-      <y>1120</y>
-      <w>266</w>
-      <h>56</h>
+      <x>1173</x>
+      <y>952</y>
+      <w>510</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-NewKitchenShiftWork</panel_attributes>
-    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+KitchenShiftWorkOnEmergency</panel_attributes>
+    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>616</x>
-      <y>728</y>
-      <w>1722</w>
-      <h>854</h>
+      <x>204</x>
+      <y>476</y>
+      <w>2210</w>
+      <h>1037</h>
     </coordinates>
     <panel_attributes>ALT [!user.isChef()]
 fg=#27990b</panel_attributes>
