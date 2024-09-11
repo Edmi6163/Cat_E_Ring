@@ -1,6 +1,7 @@
 package catering.businesslogic.summaryDocument;
 
 import catering.businesslogic.CatERing;
+import catering.businesslogic.menu.Menu;
 import catering.businesslogic.preparation.Preparation;
 import catering.businesslogic.preparation.PreparationManager;
 import catering.businesslogic.recipe.Recipe;
@@ -71,25 +72,11 @@ public class SummaryDocument {
     return recipe;
   }
 
-  public void setRecipe(String recipe) {
+  public void setRecipe(Recipe recipe) {
     this.recipe = recipe;
   }
 
-  public boolean isAdvancedPreparation() {
-    return advancedPreparation;
-  }
 
-  public void setAdvancedPreparation(boolean advancedPreparation) {
-    this.advancedPreparation = advancedPreparation;
-  }
-
-  public Integer getQuantityForAdvancedPreparation() {
-    return quantityForAdvancedPreparation;
-  }
-
-  public void setQuantityForAdvancedPreparation(Integer quantityForAdvancedPreparation) {
-    this.quantityForAdvancedPreparation = quantityForAdvancedPreparation;
-  }
 
   public ArrayList<SummaryDocument> getListSummaryDocument() {
     return listSummaryDocument;
@@ -116,7 +103,7 @@ public class SummaryDocument {
   }
 
   public static SummaryDocument createSummaryDocument(String title) {
-    return new SummaryDocument(title, null, null, null, false, null, null);
+    return new SummaryDocument(title, null, null, null);
   }
 
   public SummaryDocument modifySummaryDocumentTitle(String newTitle) {
@@ -129,7 +116,7 @@ public class SummaryDocument {
       this.shiftWork = shiftWork;
     }
     if (recipe != null) {
-      this.recipe = recipe.toString();
+      this.recipe = recipe;
     }
     if (task != null) {
       listTasks.add(task);
@@ -161,7 +148,7 @@ public class SummaryDocument {
     PersistenceManager.executeUpdate(updateTitle);
   }
   public static void saveCreatedSummaryDocument(SummaryDocument summaryDocument) {
-    String insertSummaryDocument = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "', '" + summaryDocument.isAdvancedPreparation() + "', '" + summaryDocument.getQuantityForAdvancedPreparation() + "', '" + summaryDocument.getListTasks() + "')";
+    String insertSummaryDocument = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "', '" + summaryDocument.getListTasks() + "')";
     PersistenceManager.executeUpdate(insertSummaryDocument);
   }
   public static void saveSummaryDocument(SummaryDocument summaryDocument) {
@@ -169,8 +156,6 @@ public class SummaryDocument {
     ArrayList<Object> params = new ArrayList<>();
     params.add(summaryDocument.getTitle());
     params.add(summaryDocument.getRecipe());
-    params.add(summaryDocument.isAdvancedPreparation());
-    params.add(summaryDocument.getQuantityForAdvancedPreparation());
     params.add(summaryDocument.isUsed());
     params.add(summaryDocument.owner.getUserName());
     PersistenceManager.executeUpdate(query);
@@ -180,15 +165,15 @@ public  static void saveSummaryDocuemntNewTitle(SummaryDocument summaryDocument)
     PersistenceManager.executeUpdate(updateTitle);
   }
   public static void SavecopyDocument(SummaryDocument summaryDocument) {
-    String copy = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "', '" + summaryDocument.isAdvancedPreparation() + "', '" + summaryDocument.getQuantityForAdvancedPreparation() + "', '" + summaryDocument.getListTasks() + "')";
+    String copy = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() +  "', '" + summaryDocument.getListTasks() + "')";
     PersistenceManager.executeUpdate(copy);
   }
   public static void SavemoreSummaryDocument(SummaryDocument summaryDocument) {
-    String more = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "', '" + summaryDocument.isAdvancedPreparation() + "', '" + summaryDocument.getQuantityForAdvancedPreparation() + "', '" + summaryDocument.getListTasks() + "')";
+    String more = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + ", '" + summaryDocument.getListTasks() + "')";
     PersistenceManager.executeUpdate(more);
   }
   public static void SavegetSummaryDocument(SummaryDocument summaryDocument) {
-    String get = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "', '" + summaryDocument.isAdvancedPreparation() + "', '" + summaryDocument.getQuantityForAdvancedPreparation() + "', '" + summaryDocument.getListTasks() + "')";
+    String get = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "','" + summaryDocument.getListTasks() + "')";
     PersistenceManager.executeUpdate(get);
   }
     public static void SaveaddTask(Task task) {
@@ -201,7 +186,7 @@ public  static void saveSummaryDocuemntNewTitle(SummaryDocument summaryDocument)
     }
   public SummaryDocument copyDocument() {
 
-      SummaryDocument copy = new SummaryDocument(this.title, new ArrayList<>(this.shiftWork), new ArrayList<>(this.menu), this.recipe, this.advancedPreparation, this.quantityForAdvancedPreparation, new ArrayList<>(this.listTasks));
+      SummaryDocument copy = new SummaryDocument(this.title, this.menu, this.recipe, this.preparation);
       copy.owner = this.owner;  // Ensure the owner is copied over
       return copy;
 
@@ -220,7 +205,38 @@ public  static void saveSummaryDocuemntNewTitle(SummaryDocument summaryDocument)
     }
     return this;
   }
+public SummaryDocument removeSummaryDocument(SummaryDocument summaryDocument) {
+    if (summaryDocument != null) {
+      listSummaryDocument.remove(summaryDocument);
+    }
+    return this;
+  }
 
+  public SummaryDocument removeSummaryDocumentRecepi(Recipe recipe) {
+    if (recipe != null) {
+      menu.remove(recipe);
+    }
+    return this;
+  }
+  public SummaryDocument removeSummaryDocumentNote(String note) {
+    if (note != null) {
+      this.note.replace(note, "");
+    }
+    return this;
+  }
+  public SummaryDocument removeSummaryDocumentPrepararion(Preparation preparation) {
+    if (preparation != null) {
+      this.preparation = null;
+    }
+    return this;
+  }
+
+  public SummaryDocument removeSummaryDoumentMenù(Menu menu) {
+    if (menu != null) {
+      this.menu.toString().replace(menu.toString(), " ");
+    }
+    return this;
+  }
   public SummaryDocument getSummaryDocument() {
     return this;
   }
@@ -252,8 +268,6 @@ public  static void saveSummaryDocuemntNewTitle(SummaryDocument summaryDocument)
             ", shiftWork=" + shiftWork +
             ", menu=" + menu +
             ", recipe='" + recipe + '\'' +
-            ", advancedPreparation=" + advancedPreparation +
-            ", quantityForAdvancedPreparation=" + quantityForAdvancedPreparation +
             ", listSummaryDocument=" + listSummaryDocument +
             ", listTasks=" + listTasks +
             ", isUse=" + isUse +

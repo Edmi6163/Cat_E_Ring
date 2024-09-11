@@ -26,9 +26,7 @@ public class SummaryDocumentManager {
         receivers.remove(er);
     }
 
-    private void notifyShiftWorkAdded(shiftWorkKitchen ws) {
-        receivers.forEach(receiver -> receiver.updateShiftWorkAdded(ws));
-    }
+
 
     private void notifyMenuAdded(Menu mn) {
         receivers.forEach(receiver -> receiver.updateMenuAdded(mn));
@@ -50,34 +48,31 @@ public class SummaryDocumentManager {
         receivers.forEach(receiver -> receiver.updateSummaryDocumentDeleted(sd));
     }
 
-    private void notifySummaryDocumentRearranged(SummaryDocument sd) {
-        receivers.forEach(receiver -> receiver.updateSummaryDocumentRearranged(sd));
-    }
 
     private void notifySummaryDocumentModifie(SummaryDocument sd) {
         receivers.forEach(receiver -> receiver.updateSummaryDocumentModifie(sd));
     }
 
-    public SummaryDocument createSummaryDocument(String title, EventInfo ev) throws UseCaseLogicException{
+    public SummaryDocument createSummaryDocument(String title) throws UseCaseLogicException{
         User user = CatERing.getInstance().getUserManager().getCurrentUser();
         if(!user.isChef()) {
             throw new UseCaseLogicException();
         }
-        SummaryDocument sd = new  SummaryDocument(title, null, null, null, false, null, null);
+        SummaryDocument sd = new  SummaryDocument(title, new ArrayList<>(), null, null);
         this.setCurrentSummaryDocument(sd);
         this.notifySummaryDocumentCreated(sd);
         return sd;
     }
-    public SummaryDocument moreSummaryDocument(String title, EventInfo ev) throws UseCaseLogicException{
+    public SummaryDocument moreSummaryDocument(String title) throws UseCaseLogicException{
         User user = CatERing.getInstance().getUserManager().getCurrentUser();
         if(!user.isChef()) {
             throw new UseCaseLogicException();
         }
         if(title!=null) {
-          return createSummaryDocument(title, ev);
+          return createSummaryDocument(title);
 
         }
-        return createSummaryDocument("",ev);
+        return createSummaryDocument(" ");
     }
     public void deleteSummaryDocument(SummaryDocument sd)throws UseCaseLogicException ,SummaryDocumentException  {
         User user = CatERing.getInstance().getUserManager().getCurrentUser();
@@ -97,30 +92,28 @@ public class SummaryDocumentManager {
         sd.modifySummaryDocumentTitle(newTitle);
         notifySummaryDocumentModifie(sd);
     }
-
-
-public SummaryDocument insertTask(SummaryDocument sd, Task task) throws UseCaseLogicException,SummaryDocumentException {
-        BillBoard bb = BillBoard.getInstance();
+    public void removeSummaryDocumentMenu(SummaryDocument sd, Menu mn) {
+        sd.removeSummaryDoumentMenù(mn);
+        notifySummaryDocumentModifie(sd);
+    }
+    public void removeSummaryDocumentRecipe(SummaryDocument sd, Recipe extraRi) {
+        sd.removeSummaryDocumentRecepi(extraRi);
+        notifySummaryDocumentModifie(sd);
+    }
+    public void removeSummaryDocumentNote(SummaryDocument sd, String note) {
+        sd.removeSummaryDocumentNote(note);
+        notifySummaryDocumentModifie(sd);
+    }
+public SummaryDocument selectSummaryDocumentForModify(SummaryDocument sd) throws UseCaseLogicException,SummaryDocumentException {
     User user = CatERing.getInstance().getUserManager().getCurrentUser();
-    if (user.isChef()) {
+    if(!user.isChef()) {
         throw new UseCaseLogicException();
     }
     if(sd.isUsed() || !sd.isOwner(user)) {
         throw new SummaryDocumentException();
-
     }
-    if(sd == null) {
-        throw new UseCaseLogicException();
-    }
-    if(task == null) {
-        throw new UseCaseLogicException();
-    }
-    sd.addTask(task);
-    bb.addTaskBillBoard(task);
-    notifyTaskAdded(sd, task);
     return sd;
 }
-
 
     public SummaryDocument copySummaryDocument(SummaryDocument sd) throws UseCaseLogicException,SummaryDocumentException{
         User user = CatERing.getInstance().getUserManager().getCurrentUser();
@@ -163,9 +156,6 @@ public SummaryDocument insertTask(SummaryDocument sd, Task task) throws UseCaseL
         currentSummaryDocument.setMenu(sd.getMenu());
         currentSummaryDocument.setRecipe(sd.getRecipe());
         currentSummaryDocument.setShiftWork(sd.getShiftWork());
-        currentSummaryDocument.setAdvancedPreparation(sd.isAdvancedPreparation());
-        currentSummaryDocument.setQuantityForAdvancedPreparation(sd.getQuantityForAdvancedPreparation());
-
 
         this.notifySummaryDocumentModifie(sd);
     }
