@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="corrected java configuration">
-      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/Preparation/Preparation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/Preparation/PreparationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TEST/Test1a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TEST/TestCatERingSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TEST/TestCatERingTasks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TEST/TestCatRingUC_CompitiCucina.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TEST/TestCatRingUc_SuccesSequence.class" beforeDir="false" />
     </list>
     <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Popper002"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Popper002&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Edmi6163/lab_progetto_Sas.git",
-    "accountId": "90e835ff-5666-4f05-89b5-f5db98ebe395"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Edmi6163/lab_progetto_Sas.git&quot;,
+    &quot;accountId&quot;: &quot;90e835ff-5666-4f05-89b5-f5db98ebe395&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -200,6 +192,7 @@
       <workItem from="1721460654098" duration="14341000" />
       <workItem from="1721575377480" duration="7555000" />
       <workItem from="1726010555320" duration="2887000" />
+      <workItem from="1726062950713" duration="913000" />
     </task>
     <task id="LOCAL-00001" summary="corrected java configuration">
       <option name="closed" value="true" />
