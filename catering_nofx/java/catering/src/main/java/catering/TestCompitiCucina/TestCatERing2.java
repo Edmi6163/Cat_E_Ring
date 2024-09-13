@@ -22,11 +22,11 @@ public class TestCatERing2 {
 
                   System.out.println("\nTEST ADD TASK");
             ArrayList<shiftWorkKitchen> shiftWorks = new ArrayList<>();
-            shiftWorks.add(new shiftWorkKitchen(new Date(2025, 1, 1), new Date(2025, 1, 2), "CucinaCorsoDuca", null, null,"Accendere il forno a 200 gradi",listTask));
+            shiftWorks.add(new shiftWorkKitchen("Cucina", true, false, true, "2021-12-31", "Note"));
             Task task = new Task("Riccardo Oro ", true, 1, shiftWorks.get(0), 1, Time.valueOf(LocalTime.of(1, 0)));
             CatERing.getInstance().getTaskManager().addTask(task);
             System.out.println("Task Added: " + task.toString());
-            shiftWorks.add(new shiftWorkKitchen(new Date(2025, 1, 1), new Date(2025, 1, 2), "Cucina sotto le stelle", null, null,"Fare la maionese",listTask));
+            shiftWorks.add(new shiftWorkKitchen("Cucina", true, false, true, "2021-12-31", "Ricordarsi di spegnere la luce a fine turno"));
             Task task2 = new Task("Francesco Mauro", true, 1, shiftWorks.get(0), 1,Time.valueOf(LocalTime.of(1, 0)));
             CatERing.getInstance().getTaskManager().addTask(task2);
             System.out.println("Task Added: " + task2.toString());

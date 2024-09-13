@@ -4,6 +4,7 @@ import catering.businesslogic.CatERing;
 import catering.businesslogic.SummaryDocumentException;
 import catering.businesslogic.UseCaseLogicException;
 import catering.businesslogic.event.EventInfo;
+import catering.businesslogic.preparation.Preparation;
 import catering.businesslogic.summaryDocument.SummaryDocument;
 import catering.businesslogic.task.Task;
 import catering.businesslogic.shiftWorkKitchen.*;
@@ -24,7 +25,7 @@ public class TestCatERingTasks {
 
             System.out.println("\nTEST CREATE SUMMARY DOCUMENT");
             EventInfo event = CatERing.getInstance().getEventManager().getEventInfo().get(0);
-            SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("Menu Pinco Pallino", event);
+            SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("Menu Pinco Pallino");
             System.out.println("Summary Document Created: " + sd);
 
             System.out.println("\nTEST CHOOSE SUMMARY DOCUMENT");
@@ -32,11 +33,12 @@ public class TestCatERingTasks {
             System.out.println("Summary Document Selected: " + sd);
 
             System.out.println("\nTEST MODIFY SUMMARY DOCUMENT TITLE");
-            CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentTitle(sd, "Titolo Nuovo");
+            CatERing.getInstance().getSummaryDocumentManager().updateTitle("Titolo Nuovo");
             System.out.println("Summary Document Title Modified: " + sd.getTitle());
 
             System.out.println("\nTEST MODIFY SUMMARY DOCUMENT CONTENT");
-            SummaryDocument updatedsd = new SummaryDocument("Titolo Aggiornato", sd.getShiftWork(), sd.getMenu(), sd.getRecipe(), sd.isAdvancedPreparation(), sd.getQuantityForAdvancedPreparation(), sd.getListTasks());
+       /*     Preparation pre = new Preparation("Preparazione", "2021-12-31", "Note");
+            SummaryDocument updatedsd = new SummaryDocument("Titolo Nuovo", sd.getMenu(),sd.getRecipe(),pre); TODO fix this*/
             CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentContext(sd);
             System.out.println("Summary Document Content Modified: " + sd);
 
@@ -50,7 +52,7 @@ public class TestCatERingTasks {
 
             System.out.println("\nTEST ADD TASK");
             ArrayList<shiftWorkKitchen> shiftWorks = new ArrayList<>();
-            shiftWorks.add(new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,"SPEGNERE LE LUCI",listTask));
+            shiftWorks.add(new shiftWorkKitchen("Cucina", true, false, true, "2021-12-31", "Note"));
             Task compito = new Task("Filippo Rossi", true, 1, shiftWorks.get(0), 1, Time.valueOf(LocalTime.of(1, 0)));
             CatERing.getInstance().getTaskManager().addTask(compito);
             System.out.println("Task Added: " + compito);

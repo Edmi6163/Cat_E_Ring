@@ -16,7 +16,7 @@ public class TestCatERing1 {
 
             System.out.println("\nTEST CREATE SUMMARY DOCUMENT");
             EventInfo event = CatERing.getInstance().getEventManager().getEventInfo().get(0);
-            SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("FOGLIOTESTO1", event);
+            SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("FOGLIOTESTO1");
             System.out.println("\nSummary Document Created: " + sd.toString());
             System.out.println("\n"+sd.toString());
         } catch (UseCaseLogicException e) {

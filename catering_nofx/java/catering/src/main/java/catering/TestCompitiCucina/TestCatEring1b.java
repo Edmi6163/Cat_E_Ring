@@ -13,8 +13,8 @@ public class TestCatEring1b {
       System.out.println("\nTest modify summary document title");
       EventInfo event = CatERing.getInstance().getEventManager().getEventInfo().get(0);
       SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager()
-          .createSummaryDocument("Foglio1_per_Compleanno", event); 
-     CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentTitle(sd, "Foglio1_Scarabocchio");
+          .createSummaryDocument("Foglio1_per_Compleanno");
+     CatERing.getInstance().getSummaryDocumentManager().updateTitle( "Foglio1_Scarabocchio");
             System.out.println("Summary Document Title Modified: " + sd.getTitle());
 
 

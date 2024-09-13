@@ -12,7 +12,7 @@ public class TestCatERing1c {
 
            EventInfo event = CatERing.getInstance().getEventManager().getEventInfo().get(0);
       SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager()
-          .createSummaryDocument("Foglio1_per_Compleanno", event); 
+          .createSummaryDocument("Foglio1_per_Compleanno");
         System.out.println("SD1 : "+sd.toString());
       System.out.println("Test copy summary document");
       SummaryDocument sd2 = CatERing.getInstance().getSummaryDocumentManager().copySummaryDocument(sd);

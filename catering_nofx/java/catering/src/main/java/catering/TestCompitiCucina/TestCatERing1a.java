@@ -14,7 +14,7 @@ public class TestCatERing1a {
       System.out.println("\nTest seleziona documento riepoilogativo");
       EventInfo event = CatERing.getInstance().getEventManager().getEventInfo().get(0);
       SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager()
-          .createSummaryDocument("Foglio1_per_Compleanno", event);
+          .createSummaryDocument("Foglio1_per_Compleanno");
       System.out.println("\n");
       CatERing.getInstance().getSummaryDocumentManager().chooseSummaryDocument(sd);
       System.out.println("Summary Document Selected: " + sd.toString());

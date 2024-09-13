@@ -17,10 +17,10 @@ public class TestCatERing3_4_5 {
       System.out.println("After fake login:");
       System.out.println(CatERing.getInstance().getUserManager().getCurrentUser());
 
-      shiftWorkKitchen shiftWork = new shiftWorkKitchen(new Date(2025-1-3), new Date(2025- 1 -5), "CUCINA2", Time.valueOf(LocalTime.of(1, 0)), Time.valueOf(LocalTime.of(3, 0)), "PULIRE TUTTO", null);
-      shiftWorkKitchen shiftWork2 = new shiftWorkKitchen(new Date(2025-2-3), new Date(2025- 2 -5), "CUCINA5", Time.valueOf(LocalTime.of(1, 0)), Time.valueOf(LocalTime.of(3, 0)), "Spegnere le lUCI", null);
-      shiftWorkKitchen shiftWork3 = new shiftWorkKitchen(new Date(2025-1-6), new Date(2025- 1 -9), "CUCINA6", Time.valueOf(LocalTime.of(1, 0)), Time.valueOf(LocalTime.of(3, 0)), "DARE DA BERE ALLE PIANTE", null);
-      shiftWorkKitchen shiftWork4 = new shiftWorkKitchen(new Date(2025-4-3), new Date(2025- 4-1), "CUCINA7", Time.valueOf(LocalTime.of(1, 0)), Time.valueOf(LocalTime.of(3, 0)), "PULIRE I TAGLIERI", null);
+      shiftWorkKitchen shiftWork = new shiftWorkKitchen("Cucina", true, false, true, "2021-12-31", "Note");
+      shiftWorkKitchen shiftWork2 = new shiftWorkKitchen("Cucina del ristorante dietro l'angolo", true, false, true, "2021-12-31", "Note");
+      shiftWorkKitchen shiftWork3 = new shiftWorkKitchen("Cucina di via Roma", true, false, true, "2021-12-31", "Note");
+      shiftWorkKitchen shiftWork4  = new shiftWorkKitchen("Cucina del Manhattan", true, false, true, "2021-12-31", "Note");
 
       ArrayList<Task> listToSort = CatERing.getInstance().getTaskManager().getTask();
       // Create some new random tasks, add them to listToSort

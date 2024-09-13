@@ -22,7 +22,7 @@ public class TestCatERing8 {
             System.out.println("Test assign task");
             Employer emp = new Employer("Francesco", "Mauro");
              ArrayList<shiftWorkKitchen> shiftWorks = new ArrayList<>();
-             shiftWorkKitchen shiftWork = new shiftWorkKitchen(new Date(2025-1900, 1, 1), new Date(2025-1900, 1, 2), "CucinaCorsoDuca", null, null,"Accendere il forno a 200 gradi",listTask);
+             shiftWorkKitchen shiftWork = new shiftWorkKitchen("Cucina del Barricata", true, false, true, "2021-12-31", "Note");
             shiftWorks.add(shiftWork);
             Task task = new Task("Riccardo Oro ", true, 1, shiftWorks.get(0), 1, Time.valueOf(LocalTime.of(1, 0)));
 

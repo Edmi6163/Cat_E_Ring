@@ -14,7 +14,7 @@ public class TestCatERing1d {
 
             EventInfo event = CatERing.getInstance().getEventManager().getEventInfo().get(0);
       SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager()
-          .createSummaryDocument("Foglio1_per_Compleanno", event); 
+          .createSummaryDocument("Foglio1_per_Compleanno");
 
       System.out.println("Test delete summary document");
        CatERing.getInstance().getSummaryDocumentManager().deleteSummaryDocument(sd);
