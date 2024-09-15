@@ -37,8 +37,9 @@ public class TestCatERingTasks {
             System.out.println("Summary Document Title Modified: " + sd.getTitle());
 
             System.out.println("\nTEST MODIFY SUMMARY DOCUMENT CONTENT");
-       /*     Preparation pre = new Preparation("Preparazione", "2021-12-31", "Note");
-            SummaryDocument updatedsd = new SummaryDocument("Titolo Nuovo", sd.getMenu(),sd.getRecipe(),pre); TODO fix this*/
+           Preparation pre = new Preparation("Cipolle a pezzi ");
+            CatERing.getInstance().getSummaryDocumentManager().updateTitle("Si va a lettooo");
+
             CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentContext(sd);
             System.out.println("Summary Document Content Modified: " + sd);
 

@@ -183,6 +183,12 @@ CREATE TABLE `Roles` (
   `role` varchar(128) NOT NULL DEFAULT 'servizio',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE Preparation (
+                             id SERIAL PRIMARY KEY,
+                             name VARCHAR(255) NOT NULL
+);
+
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

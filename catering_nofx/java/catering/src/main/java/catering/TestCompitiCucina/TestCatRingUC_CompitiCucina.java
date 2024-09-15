@@ -5,6 +5,7 @@ import catering.businesslogic.CatERing;
 import catering.businesslogic.SummaryDocumentException;
 import catering.businesslogic.UseCaseLogicException;
 import catering.businesslogic.event.EventInfo;
+import catering.businesslogic.menu.Menu;
 import catering.businesslogic.summaryDocument.SummaryDocument;
 import catering.businesslogic.task.Task;
 import catering.businesslogic.shiftWorkKitchen.*;
@@ -25,7 +26,7 @@ public class TestCatRingUC_CompitiCucina {
 
                 System.out.println("\nTEST CREATE SUMMARY DOCUMENT");
                 EventInfo event = CatERing.getInstance().getEventManager().getEventInfo().get(0);
-                SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("Menu Pinco Pallino", event);
+                SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument( "Pinco Pallino");
                 System.out.println("Summary Document Created: " + sd.toString());
 
                 System.out.println("\nTEST CHOOSE SUMMARY DOCUMENT");
@@ -33,17 +34,19 @@ public class TestCatRingUC_CompitiCucina {
                 System.out.println("Summary Document Selected: " + sd.toString());
 
                 System.out.println("\nTEST MODIFY SUMMARY DOCUMENT TITLE");
-                CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentTitle(sd, "Titolo Nuovo");
+                CatERing.getInstance().getSummaryDocumentManager().updateTitle("Matrimonio");
                 System.out.println("Summary Document Title Modified: " + sd.getTitle());
 
                 System.out.println("\nTEST MODIFY SUMMARY DOCUMENT CONTENT");
-                SummaryDocument updatedsd = new SummaryDocument("Titolo Aggiornato", sd.getShiftWork(), sd.getMenu(), sd.getRecipe(), sd.isAdvancedPreparation(), sd.getQuantityForAdvancedPreparation(), sd.getListTasks());
-                CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentContext(sd);
+                Menu menu = new Menu(CatERing.getInstance().getUserManager().getCurrentUser(),"Menu matrimonio", new String[]{"Primi", "Secondi", "Ammazzacaffe"});
+
+                SummaryDocument updatedSd = new SummaryDocument("Menu divorzio",menu ,null, null,null);
+                CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentContext(updatedSd);
                 System.out.println("Summary Document Content Modified: " + sd.toString());
 
                 System.out.println("\nTEST COPY SUMMARY DOCUMENT");
                 SummaryDocument copysd = CatERing.getInstance().getSummaryDocumentManager().copySummaryDocument(sd);
-                System.out.println("Summary Document Copied: " + copysd.getTitle() + " " + copysd.getSummaryDocument() + " " + copysd.getMenu() + " " + copysd.getRecipe() + " " + copysd.isAdvancedPreparation() + " " + copysd.getQuantityForAdvancedPreparation() + " " + copysd.getListTasks());
+                System.out.println("Summary Document Copied: " + copysd.getTitle() + " " + copysd.getSummaryDocument() + " " + copysd.getMenu() + "\n");
 
                 System.out.println("\nTEST DELETE SUMMARY DOCUMENT");
                 CatERing.getInstance().getSummaryDocumentManager().deleteSummaryDocument(sd);

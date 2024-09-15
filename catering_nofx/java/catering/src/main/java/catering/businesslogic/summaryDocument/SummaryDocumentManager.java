@@ -59,7 +59,7 @@ public class SummaryDocumentManager {
         if(!user.isChef()) {
             throw new UseCaseLogicException();
         }
-        SummaryDocument sd = new  SummaryDocument(title, new ArrayList<>(), null, null);
+        SummaryDocument sd = new  SummaryDocument(title,null,null, null,null);
         this.setCurrentSummaryDocument(sd);
         this.notifySummaryDocumentCreated(sd);
         return sd;
@@ -94,19 +94,19 @@ public class SummaryDocumentManager {
         notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
     public void removeSummaryDocumentMenu( Menu mn) {
-        this.currentSummaryDocument.removeSummaryDoumentMenù(mn);
+        this.currentSummaryDocument.deleteExtraMenu(mn);
         notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
     public void deleteExtraRecipe( Recipe extraRi) {
-        this.currentSummaryDocument.removeSummaryDocumentextraRecepi(extraRi);
+        this.currentSummaryDocument.deleteExtraRecepi(extraRi);
         notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
     public void deleteNote( String note) {
-        this.currentSummaryDocument.removeSummaryDocumentNote(note);
+        this.currentSummaryDocument.deleteNote(note);
         notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
     public void deleteExtraPreparation( Preparation extraPrep) {
-        this.currentSummaryDocument.removeSummaryDocumentExtraPreparation(extraPrep);
+        this.currentSummaryDocument.deleteExtraPreparation(extraPrep);
         notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
     public void addContentToSummaryDocument(Menu mn, Recipe ri, Preparation prep, String note) {
@@ -124,7 +124,7 @@ public SummaryDocument selectSummaryDocumentForModify(SummaryDocument sd) throws
     return sd;
 }
 public SummaryDocument orderedSD() throws UseCaseLogicException,SummaryDocumentException {
-
+return currentSummaryDocument;
 }
     public SummaryDocument copySummaryDocument(SummaryDocument sd) throws UseCaseLogicException,SummaryDocumentException{
         User user = CatERing.getInstance().getUserManager().getCurrentUser();

@@ -27,7 +27,7 @@ public class TestCatRingUc_SuccesSequence{
             /* STEP 1 */
             System.out.println("\nTEST CREATE SUMMARY DOCUMENT");
             EventInfo event = CatERing.getInstance().getEventManager().getEventInfo().get(0);
-            SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("Foglio1_per_Compleanno", event);
+            SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("Foglio1_per_Compleanno");
             System.out.println("Summary Document Created: " + sd);
             /* STEP 1a.1 */
             System.out.println("\nTEST CHOOSE SUMMARY DOCUMENT");
@@ -35,7 +35,7 @@ public class TestCatRingUc_SuccesSequence{
             System.out.println("Summary Document Selected: " + sd);
             /* STEP 1b.1 */
             System.out.println("\nTEST MODIFY SUMMARY DOCUMENT TITLE");
-            CatERing.getInstance().getSummaryDocumentManager().modifySummaryDocumentTitle(sd, "Foglio1_Scarabocchio");
+            CatERing.getInstance().getSummaryDocumentManager().updateTitle( "Foglio1_Scarabocchio");
             System.out.println("Summary Document Title Modified: " + sd.getTitle());
             /* STEP 1c.1 */
             System.out.println("\nTEST COPY SUMMARY DOCUMENT CONTENT");
@@ -49,11 +49,11 @@ public class TestCatRingUc_SuccesSequence{
             System.out.println("\nTEST ADD TASK");
             ArrayList<shiftWorkKitchen> shiftWorks = new ArrayList<>();
             ArrayList<Task>listTask = new ArrayList<>();
-            shiftWorks.add(new shiftWorkKitchen(new Date(2024, 2, 6), new Date(2025, 3, 2), "CucinaCorsoDuca", null, null,"ACCENDERE IL FORNO A 200 GRADI",listTask));
+            shiftWorks.add(new shiftWorkKitchen("Cucina", true, false, false, "2024-12-31", "Spegnere gas"));
             Task task = new Task("Riccardo Oro ", true, 1, shiftWorks.get(0), 1, Time.valueOf(LocalTime.of(1, 0)));
             CatERing.getInstance().getTaskManager().addTask(task);
             System.out.println("Task Added: " + task.toString());
-            shiftWorks.add(new shiftWorkKitchen(new Date(2024, 4, 10), new Date(2025, 4, 21), "Cucina sotto le stelle", null, null," ",listTask));
+            shiftWorks.add(new shiftWorkKitchen("Cucina Via pincoPallino 81", false, false, false, "2024-12-30", "Mettere preparazioni in frigo"));
             Task task2 = new Task("Filippo Di Angelo", true, 1, shiftWorks.get(0), 1,Time.valueOf(LocalTime.of(1, 0)));
             CatERing.getInstance().getTaskManager().addTask(task2);
             System.out.println("Task Added: " + task2.toString());
@@ -75,7 +75,7 @@ public class TestCatRingUc_SuccesSequence{
             /* STEP 6 */
             System.out.println("\nMORE SUMMARY DOCUMENTS ");
             EventInfo event2 = CatERing.getInstance().getEventManager().getEventInfo().get(1);
-            SummaryDocument sd2 = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("FoglioPerCompleanno_3", event2);
+            SummaryDocument sd2 = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("FoglioPerCompleanno_3");
             System.out.println("Summary Document Created: " + sd2.getTitle());
             /* STEP 7 */
             System.out.println("\nGET BILLBOARD");
