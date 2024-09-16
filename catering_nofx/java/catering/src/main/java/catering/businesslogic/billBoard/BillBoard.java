@@ -26,8 +26,10 @@ public class BillBoard {
         this.taskAssogmed = taskAssogmed;
     }
 
-    public void addTaskAssogmed(Task task, Employer name, Employer surname) {
-        Employer employer = new Employer(name.getName(), surname.getSurname());
+    public void addTaskAssogmed(Task task, Employer employer,String note) {
+        if(note!=null) {
+            task.setAssignedTo(employer.getName() + " " + employer.getSurname() + " " + note);
+        }
         taskAssogmed.put(task, employer);
     }
 
@@ -105,5 +107,8 @@ public class BillBoard {
 
     public void setRecipe(Recipe recipe) {
         this.recipe = recipe;
+    }
+    public BillBoard getBillBoard() {
+        return instance;
     }
 }

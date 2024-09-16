@@ -19,6 +19,11 @@ public class SummaryDocument {
   private  Menu menu;
   private Recipe recipe;
   private  ArrayList<Menu>menuList = new ArrayList<>();
+
+  public String getNote() {
+    return note;
+  }
+
   private String note;
   private ArrayList<SummaryDocument> listSummaryDocument;
   private boolean isUse;
@@ -128,7 +133,7 @@ public class SummaryDocument {
     return this;
   }
 
-  public static void deleteSummaryDocument(SummaryDocument summaryDocument) {
+  public void deleteSummaryDocument(SummaryDocument summaryDocument) {
     String delTitle = "DELETE FROM SummaryDocument WHERE title = '" + summaryDocument.getTitle() + "'";
     PersistenceManager.executeUpdate(delTitle);
 
@@ -136,13 +141,15 @@ public class SummaryDocument {
     String delMenu = "DELETE FROM SummaryDocument WHERE id IN (SELECT id FROM SummaryDocument WHERE menu = '" + summaryDocument.getMenu() + "')";
     PersistenceManager.executeUpdate(delMenu);
 
-    String delShiftList = "DELETE FROM SummaryDocument WHERE id IN (SELECT id FROM SummaryDocument WHERE shiftWork = '" + summaryDocument.getShiftWork() + "')";
-    PersistenceManager.executeUpdate(delShiftList);
+    String delPreparation = "DELETE FROM SummaryDocument WHERE id IN (SELECT id FROM SummaryDocument WHERE shiftWork = '" + summaryDocument.getShiftWork() + "')";
+    PersistenceManager.executeUpdate(delPreparation);
 
     String delRecipe = "DELETE FROM SummaryDocument WHERE recipe = '" + summaryDocument.getRecipe() + "'";
     PersistenceManager.executeUpdate(delRecipe);
+    String delNote = "DELETE FROM SummaryDocument WHERE note = '" + summaryDocument.getNote() + "'";
   }
-  public static void saveTitleModift(SummaryDocument summaryDocument) {
+
+  public  void saveTitleModifie(SummaryDocument summaryDocument) {
     String updateTitle = "UPDATE SummaryDocument SET title = '" + summaryDocument.getTitle() + "' WHERE title = '" + summaryDocument.getTitle() + "'";
     PersistenceManager.executeUpdate(updateTitle);
   }
@@ -150,15 +157,7 @@ public class SummaryDocument {
     String insertSummaryDocument = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "')";
     PersistenceManager.executeUpdate(insertSummaryDocument);
   }
-  public static void saveSummaryDocument(SummaryDocument summaryDocument) {
-    String query = "INSERT INTO SummaryDocument (title, recipe, advancedPreparation, quantityForAdvancedPreparation, isUse, owner) VALUES (?, ?, ?, ?, ?, ?)";
-    ArrayList<Object> params = new ArrayList<>();
-    params.add(summaryDocument.getTitle());
-    params.add(summaryDocument.getRecipe());
-    params.add(summaryDocument.isUsed());
-    params.add(summaryDocument.owner.getUserName());
-    PersistenceManager.executeUpdate(query);
-  }
+
 public  static void saveSummaryDocuemntNewTitle(SummaryDocument summaryDocument) {
     String updateTitle = "UPDATE SummaryDocument SET title = '" + summaryDocument.getTitle() + "' WHERE title = '" + summaryDocument.getTitle() + "'";
     PersistenceManager.executeUpdate(updateTitle);
@@ -176,7 +175,7 @@ public  static void saveSummaryDocuemntNewTitle(SummaryDocument summaryDocument)
     PersistenceManager.executeUpdate(get);
   }
     public static void SaveaddTask(Task task) {
-        String add = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('"  + task.getShiftWork() + "',  ', '" + task.getPriority() + "', '" + task.getAssignedTo() + "', '" + task.getDifficulty()  ;
+        String add = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('"  + task.getShiftWork() + ","+ task.getAssignedTo()+")" ;
         PersistenceManager.executeUpdate(add);
     }
     public static void SaveremoveTask(Task task) {
@@ -270,6 +269,13 @@ public SummaryDocument removeSummaryDocument(SummaryDocument summaryDocument) {
     if(menuList.contains(extraMenu)) {
       menuList.remove(extraMenu);
     }
+  }
+
+
+  public  void saveSummaryDocument(SummaryDocument sd)
+  {
+    String upd = "UPDATE SummaryDocument IS Saved: " + sd.getTitle();
+    PersistenceManager.executeUpdate(upd);
   }
 
 

@@ -17,10 +17,8 @@ public class TestCatERing7 {
         System.out.println("Test get billboard");
         BillBoard bb = CatERing.getInstance().getBillBoardManager();
         System.out.println("Billboard: " + bb.toString());
-
-        bb.addTaskBillBoard(new Task("Francesco", false, 5, null, 1, Time.valueOf(LocalTime.of(1, 0))));
-        bb.addTaskBillBoard(new Task("Riccardo", false, 1, null, 1, Time.valueOf(LocalTime.of(4, 0))));
-
+        bb.addTaskBillBoard(new Task("Lidia", true, "Note", null, null));
+        bb.addTaskBillBoard(new Task("Francesco", true, "Note", null, null));
         for (Task task : bb.getTaskList()) {
             System.out.println("TASK ADDED ON BILLBOARD: " + task.toString());
         }

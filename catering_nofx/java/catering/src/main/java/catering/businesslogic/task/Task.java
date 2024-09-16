@@ -12,40 +12,42 @@ import catering.businesslogic.shiftWorkKitchen.shiftWorkKitchen;
 public class Task {
 	private String assignedTo;
 	private boolean typeTask;
-	private int difficulty;
-	private shiftWorkKitchen shiftWork;
-	private int priority;
-	private ArrayList<Task> tasks;
-	private Time timing ;
-
 
 	@Override
 	public String toString() {
-		return "Task [assignedTo=" + assignedTo + ", typeTask=" + typeTask + ", difficulty=" + difficulty + ", shiftWork="
-				+ shiftWork + ", priority=" + priority + ", tasks=" + tasks + ", timing=" + timing + "]";
+		return "Task{" +
+				"assignedTo='" + assignedTo + '\'' +
+				", typeTask=" + typeTask +
+				", note='" + note + '\'' +
+				", shiftWork=" + shiftWork +
+				", tasks=" + tasks +
+				'}';
 	}
 
-	public Time getTiming() {
-		return timing;
+	public Task(String assignedTo, boolean typeTask, String note, shiftWorkKitchen shiftWork, ArrayList<Task> tasks) {
+		this.assignedTo = assignedTo;
+		this.typeTask = typeTask;
+		this.note = note;
+		this.shiftWork = shiftWork;
+		this.tasks = tasks;
 	}
 
-	public void setTiming(Time timing) {
-		this.timing = timing;
-	}
+	private String note;
+	private shiftWorkKitchen shiftWork;
+	private ArrayList<Task> tasks;
+
 
 	public void setTasks(ArrayList<Task> tasks) {
 		this.tasks = tasks;
 	}
-
-	public Task(String assignedTo, boolean typeTask, int difficulty, shiftWorkKitchen shiftWork, int priority,Time timing) {
-		this.assignedTo = assignedTo;
-		this.typeTask = typeTask;
-		this.difficulty = difficulty;
-		this.shiftWork = shiftWork;
-		this.priority = priority;
-		this.tasks = new ArrayList<>();
-		this.timing = timing;
+	public String getNote() {
+		return note;
 	}
+
+	public void setNote(String note) {
+		this.note = note;
+	}
+
 
 	// Getters and setters
 	public String getAssignedTo() {
@@ -64,14 +66,6 @@ public class Task {
 		this.typeTask = typeTask;
 	}
 
-	public int getDifficulty() {
-		return difficulty;
-	}
-
-	public void setDifficulty(int difficulty) {
-		this.difficulty = difficulty;
-	}
-
 	public shiftWorkKitchen getShiftWork() {
 		return shiftWork;
 	}
@@ -80,13 +74,7 @@ public class Task {
 		this.shiftWork = shiftWork;
 	}
 
-	public int getPriority() {
-		return priority;
-	}
 
-	public void setPriority(int priority) {
-		this.priority = priority;
-	}
 
 	public static ArrayList<Task> assignTask(boolean typeTask, Employer name, Employer surname, shiftWorkKitchen shiftWork, Task task) {
 		ArrayList<Task> tasks = new ArrayList<>();

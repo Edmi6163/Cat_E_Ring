@@ -11,17 +11,25 @@ public class SummaryDocumentPersistance implements SummaryDocumentReceiver {
     @Override
     public  void   updateSummaryDocumentCreated(SummaryDocument sd)
     {
+        sd.saveSummaryDocument(sd);
         updateSummaryDocumentCreated(sd);
     }
     @Override
     public  void updateSummaryDocumentDeleted(SummaryDocument sd)
     {
+        sd.deleteSummaryDocument(sd);
         updateSummaryDocumentDeleted(sd);
     }
     @Override
     public  void updateSummaryDocumentModifie(SummaryDocument sd)
     {
+
         updateSummaryDocumentModifie(sd);
+    }
+    public void updateSummaryDocumentTitle(SummaryDocument sd)
+    {
+        sd.saveTitleModifie(sd);
+        updateSummaryDocumentTitle(sd);
     }
     @Override
     public  void updateTask(SummaryDocument sd, Task task){

@@ -54,22 +54,10 @@ public class TestCatERingTasks {
             System.out.println("\nTEST ADD TASK");
             ArrayList<shiftWorkKitchen> shiftWorks = new ArrayList<>();
             shiftWorks.add(new shiftWorkKitchen("Cucina", true, false, true, "2021-12-31", "Note"));
-            Task compito = new Task("Filippo Rossi", true, 1, shiftWorks.get(0), 1, Time.valueOf(LocalTime.of(1, 0)));
+            Task compito = new Task("Lidia", true, "Note",shiftWorks.get(0), listTask);
             CatERing.getInstance().getTaskManager().addTask(compito);
             System.out.println("Task Added: " + compito);
 
-            System.out.println("\nTEST ORDER TASKS BY DIFFICULTY");
-            ArrayList<Task> listTaskToOrder = CatERing.getInstance().getTaskManager().getTask();
-            ArrayList<Task> orderedByDifficulty = CatERing.getInstance().getTaskManager().orderTaskByDifficulty(listTaskToOrder);
-            System.out.println("Tasks Ordered by Difficulty: " + orderedByDifficulty);
-
-            System.out.println("\nTEST ORDER TASKS BY PRIORITY");
-            ArrayList<Task> orderedByPriority = CatERing.getInstance().getTaskManager().orderTaskByPriority(listTaskToOrder);
-            System.out.println("Tasks Ordered by Priority: " + orderedByPriority);
-
-            System.out.println("\nTEST ORDER TASKS BY TIMING");
-            ArrayList<Task> orderedByTiming = CatERing.getInstance().getTaskManager().orderTaskByTiming(listTaskToOrder);
-            System.out.println("Tasks Ordered by Timing: " + orderedByTiming);
 
         } catch (UseCaseLogicException e) {
             System.out.println("Errore di logica nello use case: " + e.getMessage());

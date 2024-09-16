@@ -4,6 +4,7 @@ import catering.businesslogic.billBoard.BillBoard;
 import catering.businesslogic.event.EventManager;
 import catering.businesslogic.menu.MenuManager;
 import catering.businesslogic.recipe.RecipeManager;
+import catering.businesslogic.shiftWorkKitchen.ShiftWorkManager;
 import catering.businesslogic.summaryDocument.SummaryDocumentManager;
 import catering.businesslogic.task.TaskManager;
 import catering.businesslogic.user.UserManager;
@@ -27,6 +28,7 @@ public class CatERing {
     private MenuPersistence menuPersistence;
     private SummaryDocumentManager summaryDocumentManager;
     private BillBoard billBoardManager;
+    private ShiftWorkManager shiftWorkManager;
     private CatERing() {
         menuMgr = new MenuManager();
         recipeMgr = new RecipeManager();
@@ -37,8 +39,12 @@ public class CatERing {
         summaryDocumentManager = new SummaryDocumentManager();
         taskManager = TaskManager.getTaskManager();  // Properly initializing TaskManager
         billBoardManager = getBillBoardManager().getInstance();
+        shiftWorkManager = getShiftWorkManager();
     }
 
+    public ShiftWorkManager getShiftWorkManager() {
+        return shiftWorkManager;
+    }
     public MenuManager getMenuManager() {
         return menuMgr;
     }

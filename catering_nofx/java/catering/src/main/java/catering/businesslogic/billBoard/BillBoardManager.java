@@ -50,32 +50,7 @@ public class BillBoardManager {
         return new ArrayList<>(billBoards);
     }
 
-    private void taskSortedByDifficulty(ArrayList<Task> taskList) throws UseCaseLogicException {
-        User user = CatERing.getInstance().getUserManager().getCurrentUser();
-        if (!user.isChef()) {
-            throw new UseCaseLogicException();
-        }
-        taskList.sort(Comparator.comparingInt(Task::getDifficulty));
-    }
 
-    public ArrayList<Task> orderTaskByPriority(ArrayList<Task> taskList) throws UseCaseLogicException{
-        User user = CatERing.getInstance().getUserManager().getCurrentUser();
-        if (!user.isChef()) {
-            throw new UseCaseLogicException();
-        }
-        taskList.sort(Comparator.comparingInt(Task::getPriority));
-        return taskList;
-    }
-
-    public ArrayList<Task> orderTaskByTiming(ArrayList<Task> taskList) throws UseCaseLogicException{
-
-        User user = CatERing.getInstance().getUserManager().getCurrentUser();
-        if (!user.isChef()) {
-            throw new UseCaseLogicException();
-        }
-        taskList.sort(Comparator.comparing(Task::getTiming));
-        return taskList;
-    }
     private void notifyUpdateTask(SummaryDocument sd, Task task) {
         eventReceivers.forEach(receiver -> receiver.updateTask(task)); // Corrected method call
     }

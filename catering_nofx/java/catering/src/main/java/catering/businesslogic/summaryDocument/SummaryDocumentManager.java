@@ -60,6 +60,7 @@ public class SummaryDocumentManager {
             throw new UseCaseLogicException();
         }
         SummaryDocument sd = new  SummaryDocument(title,null,null, null,null);
+
         this.setCurrentSummaryDocument(sd);
         this.notifySummaryDocumentCreated(sd);
         return sd;

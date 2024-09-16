@@ -13,6 +13,7 @@ import java.sql.Date;
 import java.sql.Time;
 
 public class ShiftWorkManager {
+  private ShiftWorkManager istance;
   private Date startingDate;
   private Date endingDate;
   private String location;
@@ -32,7 +33,6 @@ public class ShiftWorkManager {
     this.emergency = emergency;
     this.shiftWork = shiftWork;
   }
-
 
   public Date getStartingDate() {
     return startingDate;
@@ -107,11 +107,17 @@ public class ShiftWorkManager {
     return tasks;
   }
 
-  public ArrayList<Task> assignTasks(Employer name, Employer surname, ArrayList<shiftWorkKitchen> shiftWorks, Task task) {
+  public ArrayList<Task> assignTasks(Employer name, ArrayList<shiftWorkKitchen> shiftWorks, Task task) {
     BillBoard bb =BillBoard.getInstance();
     task.addTask(task);
-    bb.addTaskAssogmed(task, name,surname);
+    bb.addTaskAssogmed(task, name,"");
     return task.getTasks();
   }
 
+  public ShiftWorkManager getShiftWorkManager() {
+    if (istance == null) {
+      istance = new ShiftWorkManager(startingDate, endingDate, location, lowerBoundInitShift, upperBoundInitShift, emergency, shiftWork);
+    }
+    return istance;
+  }
 }
