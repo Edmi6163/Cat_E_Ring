@@ -1,6 +1,7 @@
 package catering.businesslogic.summaryDocument;
 
 import catering.businesslogic.CatERing;
+import catering.businesslogic.SummaryDocumentException;
 import catering.businesslogic.menu.Menu;
 import catering.businesslogic.preparation.Preparation;
 import catering.businesslogic.preparation.PreparationManager;
@@ -157,6 +158,11 @@ public class SummaryDocument {
     String insertSummaryDocument = "INSERT INTO SummaryDocument (title, shiftWork, menu, recipe, advancedPreparation, quantityForAdvancedPreparation, listTasks) VALUES ('" + summaryDocument.getTitle() + "', '" + summaryDocument.getShiftWork() + "', '" + summaryDocument.getMenu() + "', '" + summaryDocument.getRecipe() + "')";
     PersistenceManager.executeUpdate(insertSummaryDocument);
   }
+  public void removeExtraPreparation(Preparation extraPrep) {
+    if(preparationsList.contains(extraPrep)) {
+      preparationsList.remove(extraPrep);
+    }
+  }
 
 public  static void saveSummaryDocuemntNewTitle(SummaryDocument summaryDocument) {
     String updateTitle = "UPDATE SummaryDocument SET title = '" + summaryDocument.getTitle() + "' WHERE title = '" + summaryDocument.getTitle() + "'";
@@ -190,7 +196,7 @@ public  static void saveSummaryDocuemntNewTitle(SummaryDocument summaryDocument)
 
   }
 
-  public SummaryDocument moreSummaryDocument(SummaryDocument summaryDocument) {
+  public SummaryDocument moreSummaryDocument(SummaryDocument summaryDocument){
     if (summaryDocument != null) {
       if (summaryDocument.title != null) {
         this.title = summaryDocument.title;
@@ -202,14 +208,14 @@ public  static void saveSummaryDocuemntNewTitle(SummaryDocument summaryDocument)
     }
     return this;
   }
-public SummaryDocument removeSummaryDocument(SummaryDocument summaryDocument) {
+public SummaryDocument removeSummaryDocument(SummaryDocument summaryDocument)  {
     if (summaryDocument != null) {
       listSummaryDocument.remove(summaryDocument);
     }
     return this;
   }
 
-  public SummaryDocument deleteNote(String note) {
+  public SummaryDocument deleteNote(String note)  {
     if (note != null) {
       this.note.replace(note, "");
     }
@@ -223,11 +229,11 @@ public SummaryDocument removeSummaryDocument(SummaryDocument summaryDocument) {
 
 
 
-  public void add(SummaryDocument summaryDocument) {
+  public void add(SummaryDocument summaryDocument) throws SummaryDocumentException {
     listSummaryDocument.add(summaryDocument);
   }
 
-  public void remove(SummaryDocument summaryDocument) {
+  public void remove(SummaryDocument summaryDocument)throws SummaryDocumentException {
     listSummaryDocument.remove(summaryDocument);
   }
 
@@ -264,6 +270,7 @@ public SummaryDocument removeSummaryDocument(SummaryDocument summaryDocument) {
    if(preparationsList.contains(extraPrep)) {
      preparationsList.remove(extraPrep);
    }
+
   }
   public void deleteExtraMenu(Menu extraMenu) {
     if(menuList.contains(extraMenu)) {

@@ -20,8 +20,7 @@ public class TestCatERing3c {
             menuToRemove.add(menu);
             SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("Menu");
             sd.setMenu(menuToRemove);
-            sd.deleteExtraMenu(menu);
-
+            CatERing.getInstance().getSummaryDocumentManager().removeSummaryDocumentMenu(menu);
             System.out.println("Menu removed: " + sd.getMenu());
 
 

@@ -13,7 +13,9 @@ import java.sql.Date;
 import java.sql.Time;
 
 public class ShiftWorkManager {
-  private ShiftWorkManager istance;
+  private static ShiftWorkManager istance;
+  private ShiftWorkManager shiftWorkManager;
+
   private Date startingDate;
   private Date endingDate;
   private String location;
@@ -44,6 +46,10 @@ public class ShiftWorkManager {
 
   public Date getEndingDate() {
     return endingDate;
+  }
+
+  public shiftWorkKitchen getShiftWork() {
+    return shiftWork;
   }
 
   public void setEndingDate(Date endingDate) {
@@ -82,8 +88,18 @@ public class ShiftWorkManager {
     this.emergency = emergency;
   }
 
-  public shiftWorkKitchen getShiftWork() {
-    return shiftWork;
+  public ShiftWorkManager getShiftWorkmanager() {
+    if (shiftWorkManager== null) {
+     shiftWorkManager= ShiftWorkManager.getInstance(); // Usa il metodo Singleton per l'istanza
+    }
+    return shiftWorkManager;
+  }
+  public static ShiftWorkManager getInstance() {
+    if (istance == null) {
+      // Inizializzare qui con valori di default o richiamare un altro metodo di inizializzazione
+      istance = new ShiftWorkManager(null, null, null, null, null, null, null);
+    }
+    return istance;
   }
 
   public void setShiftWork(shiftWorkKitchen shiftWork) {

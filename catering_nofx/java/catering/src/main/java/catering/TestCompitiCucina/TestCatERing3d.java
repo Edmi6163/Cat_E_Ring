@@ -16,7 +16,7 @@ public class TestCatERing3d {
 
             SummaryDocument sd = CatERing.getInstance().getSummaryDocumentManager().createSummaryDocument("Menu");
             System.out.println("Summary Document Created: " + sd);
-            sd.deleteNote("Note to remove");
+            CatERing.getInstance().getSummaryDocumentManager().deleteNote("Note to remove");
             System.out.println("Note removed: " + sd);
             System.out.println("DELETED NOTE IN SUMMARY DOCUMENT: ");
 

@@ -61,6 +61,7 @@ public class CatERing {
         return eventMgr;
     }
 
+
     public SummaryDocumentManager getSummaryDocumentManager() {
         return summaryDocumentManager;
     }

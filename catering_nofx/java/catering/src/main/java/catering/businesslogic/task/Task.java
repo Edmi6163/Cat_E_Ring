@@ -15,14 +15,32 @@ public class Task {
 
 	@Override
 	public String toString() {
-		return "Task{" +
-				"assignedTo='" + assignedTo + '\'' +
-				", typeTask=" + typeTask +
-				", note='" + note + '\'' +
-				", shiftWork=" + shiftWork +
-				", tasks=" + tasks +
-				'}';
+		StringBuilder sb = new StringBuilder();
+		sb.append("Task{")
+				.append("assignedTo='").append(assignedTo).append('\'')
+				.append(", typeTask=").append(typeTask)
+				.append(", note='").append(note).append('\'')
+				.append(", shiftWork=").append(shiftWork)
+				.append(", tasks=");
+
+		if (tasks != null) {
+			sb.append("[");
+			for (int i = 0; i < tasks.size() && i < 10; i++) {  // Limita il numero di task visualizzati
+				sb.append(tasks.get(i).getAssignedTo());
+				if (i < tasks.size() - 1) sb.append(", ");
+			}
+			if (tasks.size() > 3) {
+				sb.append("...");
+			}
+			sb.append("]");
+		} else {
+			sb.append("null");
+		}
+
+		sb.append('}');
+		return sb.toString();
 	}
+
 
 	public Task(String assignedTo, boolean typeTask, String note, shiftWorkKitchen shiftWork, ArrayList<Task> tasks) {
 		this.assignedTo = assignedTo;

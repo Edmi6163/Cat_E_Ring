@@ -70,8 +70,9 @@ public class TestCatRingUc_SuccesSequence{
             System.out.println(bb.toString());
             /* STEP 7 */
             System.out.println("\nTEST ASSIGN TASK");
+            Task newTask = new Task("Riccardo Oro", true, "Spegnere la luce", null, null);
             ArrayList<Task>listTask = CatERing.getInstance().getTaskManager().getTask();
-            shiftWorkKitchen shiftWorks = CatERing.getInstance().getShiftWorkManager().getShiftWork();
+            shiftWorkKitchen shiftWorks = new shiftWorkKitchen("Cucina",false,false,false,"2024-12-04"," ");
             Task task = new Task("Riccardo Oro ", true, null, shiftWorks, listTask);
             Task task2 = new Task("Francesco Mauro", true, "Spegnere la luce ", shiftWorks, listTask);
             ArrayList<Task>taskArrayList =CatERing.getInstance().getTaskManager().getTask();
@@ -91,11 +92,7 @@ public class TestCatRingUc_SuccesSequence{
 
         } catch (UseCaseLogicException e) {
             System.out.println("Errore di logica nello use case: " + e.getMessage());
-            /*
-        } catch (SummaryDocumentException e) {
-            System.out.println("Errore nel documento di riepilogo: " + e.getMessage());
-            *./
-             */
+
         } catch (Exception e) {
 
             e.printStackTrace();

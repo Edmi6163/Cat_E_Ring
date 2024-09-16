@@ -74,6 +74,9 @@ public class shiftWorkKitchen {
   public void setNote(String note) {
     this.note = note;
   }
+  public shiftWorkKitchen getShiftWork() {
+    return this;
+  }
 
  }
 

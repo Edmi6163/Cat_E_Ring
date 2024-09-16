@@ -102,6 +102,7 @@ public class SummaryDocumentManager {
         this.currentSummaryDocument.deleteExtraRecepi(extraRi);
         notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
+
     public void deleteNote( String note) {
         this.currentSummaryDocument.deleteNote(note);
         notifySummaryDocumentModifie(this.currentSummaryDocument);
