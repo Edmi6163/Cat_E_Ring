@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="last commit">
-      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3d.java" afterDir="false" />
+    <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="adding Estensione 3d">
+      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3c.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
@@ -231,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726392641165</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding Estensione 3d">
+      <option name="closed" value="true" />
+      <created>1726502224363</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726502224363</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +251,7 @@
     <MESSAGE value="corrected java configuration" />
     <MESSAGE value="sticking to dcd" />
     <MESSAGE value="last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
+    <MESSAGE value="adding Estensione 3d" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Estensione 3d" />
   </component>
 </project>
