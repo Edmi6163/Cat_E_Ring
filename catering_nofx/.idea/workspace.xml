@@ -5,55 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="last commit">
+      <change afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3d.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3_4_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing7.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing8.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERingTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERingTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatRingUC_CompitiCucina.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatRingUC_CompitiCucina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatRingUc_SuccesSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatRingUc_SuccesSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/CatERing.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/CatERing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/billBoard/BillBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/billBoard/BillBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/billBoard/BillBoardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/billBoard/BillBoardManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/TaskManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/SummaryDocumentPersistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/SummaryDocumentPersistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing10.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1a.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1c.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1c.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1d.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing2.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing3_4_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing6.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing7.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing8.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERingTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERingTasks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatEring1b.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatEring1b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatRingUC_CompitiCucina.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatRingUC_CompitiCucina.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatRingUc_SuccesSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatRingUc_SuccesSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/CatERing.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/CatERing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoardManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocumentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocumentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/TaskManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/TaskManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/SummaryDocumentPersistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/SummaryDocumentPersistance.class" afterDir="false" />
     </list>
-    <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="">
-      <change beforePath="$PROJECT_DIR$/database/catering_init_03.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/catering_init_03.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing2.java" afterDir="false" />
-    </list>
+    <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,15 +41,6 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing2.java">
-      <ranges>
-        <range start1="22" end1="23" start2="22" end2="23" changelist="49be8a0c-0250-4a7f-950f-cef280fe7580" />
-        <range start1="25" end1="26" start2="25" end2="26" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-        <range start1="29" end1="30" start2="29" end2="30" changelist="8c3098dc-8291-4e6d-aaa0-a93c121db078" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -103,47 +49,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Test1a.executor": "Run",
-    "Application.TestCatERing.executor": "Run",
-    "Application.TestCatERing1.executor": "Run",
-    "Application.TestCatERing10.executor": "Run",
-    "Application.TestCatERing1a.executor": "Run",
-    "Application.TestCatERing1b.executor": "Run",
-    "Application.TestCatERing1c.executor": "Run",
-    "Application.TestCatERing1d.executor": "Run",
-    "Application.TestCatERing2.executor": "Run",
-    "Application.TestCatERing3.executor": "Run",
-    "Application.TestCatERing3_4_5.executor": "Run",
-    "Application.TestCatERing5.executor": "Run",
-    "Application.TestCatERing7.executor": "Run",
-    "Application.TestCatERing8.executor": "Run",
-    "Application.TestCatERing9.executor": "Run",
-    "Application.TestCatERingTasks.executor": "Run",
-    "Application.TestCatEring1b.executor": "Run",
-    "Application.TestCatRingUC_CompitiCucina.executor": "Run",
-    "Application.TestCatRingUc_SuccesSequence.executor": "Run",
-    "Application.catering.TestCompitiCucina.TestCatRingUc_SuccesSequence.executor": "Run",
-    "Application.catering.persistence.TestCatERingTasks.executor": "Run",
-    "Docker.database.adminer: Compose Deployment.executor": "Run",
-    "Docker.database.db: Compose Deployment.executor": "Run",
-    "Docker.database: Compose Deployment.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/francesco/Documents/Università/3_Anno/SAS/lab_progetto_Sas/catering_nofx",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Test1a.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing1a.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing1b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing1c.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing1d.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing3_4_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERing9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatERingTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatEring1b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatRingUC_CompitiCucina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatRingUc_SuccesSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.catering.TestCompitiCucina.TestCatRingUc_SuccesSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.catering.persistence.TestCatERingTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.database.adminer: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.database.db: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.database: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/francesco/Documents/Università/3_Anno/SAS/lab_progetto_Sas/catering_nofx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.TestCatERing1a">
     <configuration name="TestCatERing1a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="catering.TestCompitiCucina.TestCatERing1a" />
       <module name="catering" />
