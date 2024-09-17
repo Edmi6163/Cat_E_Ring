@@ -94,7 +94,6 @@ public class TestCatRingUc_SuccesSequence{
             System.out.println("Errore di logica nello use case: " + e.getMessage());
 
         } catch (Exception e) {
-
             e.printStackTrace();
         }
     }

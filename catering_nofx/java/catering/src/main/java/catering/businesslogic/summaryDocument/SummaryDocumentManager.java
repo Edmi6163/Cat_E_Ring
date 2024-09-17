@@ -107,7 +107,7 @@ public class SummaryDocumentManager {
         this.currentSummaryDocument.deleteNote(note);
         notifySummaryDocumentModifie(this.currentSummaryDocument);
     }
-    public void deleteExtraPreparation( Preparation extraPrep) {
+    public void deleteExtraPreparation( Preparation extraPrep){
         this.currentSummaryDocument.deleteExtraPreparation(extraPrep);
         notifySummaryDocumentModifie(this.currentSummaryDocument);
     }

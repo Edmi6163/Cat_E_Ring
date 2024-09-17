@@ -17,7 +17,6 @@ public class TestCatEring1b {
      CatERing.getInstance().getSummaryDocumentManager().updateTitle( "Foglio1_Scarabocchio");
             System.out.println("Summary Document Title Modified: " + sd.getTitle());
 
-
   } catch (Exception e) {
     System.out.println("Logic error in use case: " + e.getMessage());
   }

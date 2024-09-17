@@ -4,100 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="adding Estensione 3d">
+    <list default="true" id="8c3098dc-8291-4e6d-aaa0-a93c121db078" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_compiti_cucina.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../Dcd/Dcd_gestire_i_compiti_cucina.uxf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3b.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3b.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3c.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3c.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatERing3d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatEring1b.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatEring1b.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatRingUc_SuccesSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCompitiCucina/TestCatRingUc_SuccesSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/CatERing.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/CatERing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocument.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/summaryDocument/SummaryDocumentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/task/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing1b.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing1b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing1c.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing1c.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing2a.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing2a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing2b.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing2b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing2c.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing2c.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing2d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing2ef.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing2ef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing4a.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing4a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing4b.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing4b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing4c.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCatERing4c.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing10.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1a.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1c.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1c.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1d.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing1d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing2.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing6.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing7.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing8.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERing8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERingTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatERingTasks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatEring1b.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatEring1b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatRingUC_CompitiCucina.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatRingUC_CompitiCucina.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatRingUc_SuccesSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/TestCompitiCucina/TestCatRingUc_SuccesSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/CatERing.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/CatERing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/SummaryDocumentException.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/SummaryDocumentException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/UseCaseLogicException.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/UseCaseLogicException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/billBoard/BillBoardManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/employer/Employer.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/employer/Employer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/employer/EmployerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/employer/EmployerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventInfo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventRecurrent.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventRecurrent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/EventStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/SecondState.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/SecondState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/ServiceInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/ServiceInfo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/ServiceInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/event/ServiceInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/MenuException.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/MenuException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/MenuItem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/MenuItem$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/MenuItem$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/MenuItem$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/MenuItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/MenuManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/MenuManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Section$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Section$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Section$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Section$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Section$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Section$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Section.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/menu/Section.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/recipe/Recipe$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/recipe/Recipe$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/recipe/Recipe$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/recipe/Recipe$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/recipe/Recipe$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/recipe/Recipe$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/recipe/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/recipe/Recipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/recipe/RecipeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/recipe/RecipeManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/ShiftWorkManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/shiftWorkKitchen/shiftWorkKitchen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocument.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocumentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/summaryDocument/SummaryDocumentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/TaskManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/task/TaskManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User$Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User$Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/businesslogic/user/UserManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/MenuPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/MenuPersistence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/PersistenceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/PersistenceManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/SummaryDocumentPersistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/catering/persistence/SummaryDocumentPersistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/target/classes/module-info.class" afterDir="false" />
     </list>
     <list id="49be8a0c-0250-4a7f-950f-cef280fe7580" name="Changes by francesco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -332,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726502224363</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1726521691712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726521691712</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +267,7 @@
     <MESSAGE value="sticking to dcd" />
     <MESSAGE value="last commit" />
     <MESSAGE value="adding Estensione 3d" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Estensione 3d" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package catering.TestCompitiCucina;
 
 import catering.businesslogic.CatERing;
+import catering.businesslogic.SummaryDocumentException;
 import catering.businesslogic.UseCaseLogicException;
 import catering.businesslogic.preparation.*;
 import catering.businesslogic.summaryDocument.SummaryDocument;
@@ -23,5 +24,6 @@ public class TestCatERing3b {
         } catch (UseCaseLogicException e) {
             e.printStackTrace();
         }
+
     }
 }
