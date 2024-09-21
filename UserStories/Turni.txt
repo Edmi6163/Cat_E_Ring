@@ -1,3 +1,0 @@
-Separare Servizio e Cucina 
-Possibilità di avere turni singoli e turni in blocchi 
-Possibilità di modificare turni singoli e turni in blocchi 
